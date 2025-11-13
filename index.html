@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Smooth SVG Zoom (camera transform)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    html, body { height:100%; margin:0; background:#ffffff; overflow:hidden; }
+    #svgObj { position:fixed; inset:0; width:100vw; height:100vh; background:#a0a0a0; }
+    .hint { position:fixed; left:12px; top:12px; color:#ddd; font:13px Segoe UI,sans-serif;
+            background:rgba(0,0,0,.35); padding:6px 10px; border-radius:6px; z-index:10; }
+  </style>
+</head>
+<body>
+  <div class="hint">
+    Click a hitbox to zoom (uses the region’s extent). Click outside or press Esc to reset.
+    Use the rotate button to rotate the background.
+  </div>
+
+  <!-- External SVG -->
+  <object id="svgObj" type="image/svg+xml" data="image.svg"></object>
+
+  <script>
+    const svgObj = document.getElementById('svgObj');
+
+    svgObj.addEventListener('load', () => {
+      const doc = svgObj.contentDocument;
+      if (!doc) return;
+
+      const svg = doc.documentElement;
+      const vb = svg.viewBox.baseVal;
+      const viewW = vb.width, viewH = vb.height;
+      const viewCX = vb.x + viewW/2, viewCY = vb.y + viewH/2;
+
+      // The group we will move/scale instead of changing viewBox
+      const camera = doc.getElementById('camera');
+      if (!camera) { console.error('camera group not found'); return; }
+
+      // Rotation target remains the background group
+      const imgBack = doc.getElementById('img_back');
+      const rotateHitBox = doc.querySelector('.HitBoxRotate');
+
+      let rotation = 0;
+      let rotAnimating = false;
+      let camAnimating = false;
+
+      // --- Helpers ---
+      const easeInOut = t => t<.5 ? 2*t*t : 1 - Math.pow(-2*t+2,2)/2;
+
+      function setCameraTransform(scale, tx, ty) {
+        // Use a single matrix for better perf
+        // matrix(a b c d e f) where a=d=scale, e=tx, f=ty (no rotation/shear)
+        camera.setAttribute('transform', `matrix(${scale} 0 0 ${scale} ${tx} ${ty})`);
+      }
+
+      function getCurrentCamera() {
+        const m = camera.transform.baseVal.consolidate();
+        if (!m) return { scale: 1, tx: 0, ty: 0 };
+        const a = m.matrix.a, d = m.matrix.d, e = m.matrix.e, f = m.matrix.f;
+        return { scale: a, tx: e, ty: f };
+      }
+
+      function fitBBoxToView(bbox) {
+        const scale = Math.min(viewW / bbox.width, viewH / bbox.height);
+        // After scaling around (0,0), translate so bbox center aligns with viewport center
+        const bboxCX = bbox.x + bbox.width/2;
+        const bboxCY = bbox.y + bbox.height/2;
+        // We want: scale*(bboxCX) + tx = viewCX  => tx = viewCX - scale*bboxCX
+        //         scale*(bboxCY) + ty = viewCY  => ty = viewCY - scale*bboxCY
+        const tx = viewCX - scale * bboxCX;
+        const ty = viewCY - scale * bboxCY;
+        return { scale, tx, ty };
+      }
+
+      function animateCameraTo(target, duration=450, cb) {
+        if (camAnimating) return;
+        camAnimating = true;
+        const start = getCurrentCamera();
+        const startTime = performance.now();
+
+        function lerp(a,b,t){ return a + (b-a)*t; }
+
+        function step(now) {
+          const t = Math.min((now - startTime) / duration, 1);
+          const k = easeInOut(t);
+          const s = lerp(start.scale, target.scale, k);
+          const tx = lerp(start.tx, target.tx, k);
+          const ty = lerp(start.ty, target.ty, k);
+          setCameraTransform(s, tx, ty);
+          if (t < 1) requestAnimationFrame(step);
+          else {
+            camAnimating = false;
+            cb && cb();
+          }
+        }
+        requestAnimationFrame(step);
+      }
+
+      // --- Rotation (unchanged, but faster since we don’t reflow viewBox) ---
+      function setRotation(deg) {
+        const existing = imgBack.getAttribute('transform') || '';
+        const withoutRotate = existing.replace(/rotate\([^)]*\)\s*/g, '');
+        imgBack.setAttribute('transform', `${withoutRotate} rotate(${deg},800,450)`);
+      }
+
+      function animateRotation(targetDeg) {
+        if (!imgBack || rotAnimating) return;
+        rotAnimating = true;
+        const start = rotation, end = targetDeg, duration = 350;
+        const startTime = performance.now();
+        function step(now) {
+          const t = Math.min((now - startTime) / duration, 1);
+          const k = easeInOut(t);
+          const deg = start + (end - start) * k;
+          setRotation(deg);
+          if (t < 1) requestAnimationFrame(step);
+          else { rotation = ((end % 360) + 360) % 360; rotAnimating = false; }
+        }
+        requestAnimationFrame(step);
+      }
+
+      if (rotateHitBox && imgBack) {
+        rotateHitBox.style.cursor = 'pointer';
+        rotateHitBox.addEventListener('click', (e) => {
+          e.stopPropagation();
+          animateRotation(rotation + 90);
+        });
+      }
+
+      // --- Zoom via camera transform ---
+      let current = null;
+
+      function zoomToBBox(bbox) {
+        // add a little padding
+        const px = bbox.width * 0.04, py = bbox.height * 0.04;
+        const padded = { x: bbox.x - px, y: bbox.y - py, width: bbox.width + 2*px, height: bbox.height + 2*py };
+        const target = fitBBoxToView(padded);
+        animateCameraTo(target, 450);
+      }
+
+      function resetZoom() {
+        animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => current = null);
+      }
+
+      const groups = Array.from(doc.querySelectorAll('g.region-group'));
+      groups.forEach(group => {
+        const hit = group.querySelector('.HitBox');
+        const region = group.querySelector('.region');
+        if (!hit || !region) return;
+        hit.style.cursor = 'pointer';
+        hit.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          const name = group.getAttribute('data-name') ||
+                       hit.getAttribute('data-region') ||
+                       region.getAttribute('data-region');
+          if (current === name) { resetZoom(); return; }
+          current = name;
+          const bbox = region.getBBox();
+          zoomToBBox(bbox);
+        });
+      });
+
+      svg.addEventListener('click', e => {
+        const isRegionHit = e.target.closest && e.target.closest('g.region-group .HitBox');
+        const isRotateHit = e.target.closest && e.target.closest('.HitBoxRotate');
+        if (!isRegionHit && !isRotateHit) resetZoom();
+      }, { capture: true });
+
+      window.addEventListener('keydown', e => { if (e.key === 'Escape') resetZoom(); });
+    });
+  </script>
+</body>
+</html>
