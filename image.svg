@@ -1,9 +1,69 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns3="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg" viewBox="0 0 1600 900" aria-labelledby="title desc" role="img" version="1.1" width="1600" height="900">
-  <defs id="defs1" />
-  <style id="style1">
-    .region { opacity: 0.1; pointer-events: none; }
-    .HitBox { opacity: 0.2; }
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   viewBox="0 0 1600 900"
+   aria-labelledby="title desc"
+   role="img"
+   version="1.1"
+   width="1600"
+   height="900"
+   sodipodi:docname="image.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.7477654"
+     inkscape:cx="645.25585"
+     inkscape:cy="646.59317"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg"
+     showguides="true">
+    <sodipodi:guide
+       position="51.486736,373.09678"
+       orientation="1,0"
+       id="guide447"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="37.444899,716.78746"
+       orientation="1,0"
+       id="guide448"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1242.5532,935.93381"
+       orientation="1,0"
+       id="guide450"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="1255.4071,944.63298"
+       orientation="1,0"
+       id="guide451"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <style
+     id="style1">
+    .region { opacity: 0; pointer-events: none; }
+    .HitBox { opacity: 0; }
     .HitBoxRotate { opacity: 0; cursor: pointer; transition: opacity 0; }
     .HitBoxRotate.disabled { opacity: 0; pointer-events: none; }
 .rubrik {
@@ -23,439 +83,3145 @@
     }
   
   </style>
-  <title id="title">Four quadrant zoom demo</title>
-  <desc id="desc">Click any quadrant to zoom into it. Click outside to zoom out.</desc>
-  <g id="camera" style="display:inline">
-    <g id="Text-objects" style="display:inline">
-      <g id="Text-forstudie" style="display:none">
-        <g id="fs-forst" style="display:inline" class="forst">
-          <path style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 19.815201,85.00441 H 388.24625" id="path2" />
-          <path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 18.207215,343.50338 H 386.63827" id="path2-3" />
-          <text x="19.018326" y="48.392433" class="rubrik" id="text1" style="display:inline">
-            <tspan id="tspan1" x="19.018326" y="48.392433">Inventering i</tspan>
-            <tspan x="19.018326" y="78.392433" id="tspan3">förstudie/detaljplansskedet</tspan>
-          </text>
-          <text x="18.020508" y="107.58895" class="underrubrik" id="text1-7" style="display:inline">
-            <tspan id="tspan2-5" x="18.020508" y="107.58895">Värdera platsens möjligheter. Vad kan/bör bevaras</tspan>
-            <tspan x="18.020508" y="125.08894" id="tspan6">och vad kan fungera för återanvändning?</tspan>
-            <tspan x="18.020508" y="142.58894" id="tspan7" />
-          </text>
-          <text x="16.924328" y="152.41183" class="loptext" id="text1-7-1" style="display:inline">
-            <tspan x="16.924328" y="152.41183" id="tspan13">”Vad finns att utgå ifrån?”</tspan>
-          </text>
-          <text x="29.089855" y="156.11069" class="loptext" id="text1-7-1-8">
-            <tspan x="29.089855" y="181.11069" id="tspan27-4">När man inleder en cirkulärinventering (återbruksinventering) i ett förstudie-/</tspan>
-            <tspan x="29.089855" y="193.61069" id="tspan33-5">detaljplaneskede handlar det i första hand om att etablera vad som kan bevaras,</tspan>
-            <tspan x="29.089855" y="206.11069" id="tspan34-5">vad som ska skyddas och vad man kan återanvända vid förändring av platsen.</tspan>
-            <tspan x="29.089855" y="218.61069" id="tspan28-1" />
-            <tspan x="29.089855" y="231.11069" id="tspan29-7">Delar av byggnader som är inte möjliga att bevara i sin helhet kan man dra nytta av.</tspan>
-            <tspan x="29.089855" y="243.61072" id="tspan35-1">Exempelvis gamla lanterniner, som kan bli del av ett nytt fasadsystem.</tspan>
-            <tspan x="29.089855" y="256.11072" id="tspan30-1" />
-            <tspan x="29.089855" y="268.61069" id="tspan31-5">Redan i detta skede är det viktigt att identifiera miljöaspekter och bestämmelser</tspan>
-            <tspan x="29.089855" y="281.11069" id="tspan36-2">som man behöver ta hänsyn till.</tspan>
-          </text>
-          <text x="17.410339" y="334.61685" class="rubrik" id="text1-1">
-            <tspan id="tspan1-8" x="17.410339" y="334.61685">Hur gör man?</tspan>
-          </text>
-          <text x="16.412521" y="362.08792" class="underrubrik" id="text1-7-2" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan12" x="16.412521" y="362.08792">FOJAB inventerar bef. förutsättningar för ny plan.</tspan>
-            <tspan id="tspan14" x="16.412521" y="379.58792">Tekniskt skick och historik utvärderas.</tspan>
-            <tspan x="16.412521" y="397.08792" id="tspan15" />
-          </text>
+  <title
+     id="title">Four quadrant zoom demo</title>
+  <desc
+     id="desc">Click any quadrant to zoom into it. Click outside to zoom out.</desc>
+  <g
+     id="camera"
+     style="display:inline">
+    <g
+       id="Text-objects"
+       style="display:inline">
+      <g
+         id="Text-forstudie"
+         style="display:none"
+         sodipodi:insensitive="true">
+        <g
+           id="fs-forst"
+           inkscape:label="fs-forst"
+           style="display:inline"
+           class="forst">
+          <path
+             style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815201,85.00441 H 388.24625"
+             id="path2" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207215,343.50338 H 386.63827"
+             id="path2-3" />
+          <text
+             x="19.018326"
+             y="48.392433"
+             class="rubrik"
+             id="text1"
+             style="display:inline"><tspan
+               id="tspan1"
+               x="19.018326"
+               y="48.392433">Inventering i</tspan><tspan
+               x="19.018326"
+               y="78.392433"
+               id="tspan3">förstudie/detaljplansskedet</tspan></text>
+          <text
+             x="18.020508"
+             y="107.58895"
+             class="underrubrik"
+             id="text1-7"
+             style="display:inline"><tspan
+               id="tspan2-5"
+               x="18.020508"
+               y="107.58895">Värdera platsens möjligheter. Vad kan/bör bevaras</tspan><tspan
+               x="18.020508"
+               y="125.08894"
+               id="tspan6">och vad kan fungera för återanvändning?</tspan><tspan
+               x="18.020508"
+               y="142.58894"
+               id="tspan7" /></text>
+          <text
+             x="16.924328"
+             y="152.41183"
+             class="loptext"
+             id="text1-7-1"
+             style="display:inline"><tspan
+               x="16.924328"
+               y="152.41183"
+               id="tspan13">”Vad finns att utgå ifrån?”</tspan></text>
+          <text
+             x="51.089855"
+             y="156.11069"
+             class="loptext"
+             id="text1-7-1-8"><tspan
+               x="51.089855"
+               y="181.11069"
+               id="tspan27-4">När man inleder en cirkulärinventering (återbruksinventering) i ett förstudie-/</tspan><tspan
+               x="51.089855"
+               y="193.61069"
+               id="tspan33-5">detaljplaneskede handlar det i första hand om att etablera vad som kan bevaras,</tspan><tspan
+               x="51.089855"
+               y="206.11069"
+               id="tspan34-5">vad som ska skyddas och vad man kan återanvända vid förändring av platsen.</tspan><tspan
+               x="51.089855"
+               y="218.61069"
+               id="tspan28-1" /><tspan
+               x="51.089855"
+               y="231.11069"
+               id="tspan29-7">Delar av byggnader som är inte möjliga att bevara i sin helhet kan man dra nytta av.</tspan><tspan
+               x="51.089855"
+               y="243.61072"
+               id="tspan35-1">Exempelvis gamla lanterniner, som kan bli del av ett nytt fasadsystem.</tspan><tspan
+               x="51.089855"
+               y="256.11072"
+               id="tspan30-1" /><tspan
+               x="51.089855"
+               y="268.61069"
+               id="tspan31-5">Redan i detta skede är det viktigt att identifiera miljöaspekter och bestämmelser</tspan><tspan
+               x="51.089855"
+               y="281.11069"
+               id="tspan36-2">som man behöver ta hänsyn till.</tspan></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2"
+             cx="37.444901"
+             cy="177.35461"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-1"
+             cx="37.444901"
+             cy="227.35461"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-5"
+             cx="37.444901"
+             cy="265.35461"
+             r="2"
+             style="display:inline" />
+          <text
+             x="17.410339"
+             y="334.61685"
+             class="rubrik"
+             id="text1-1"><tspan
+               id="tspan1-8"
+               x="17.410339"
+               y="334.61685">Hur gör man?</tspan></text>
+          <text
+             x="16.412521"
+             y="362.08792"
+             class="underrubrik"
+             id="text1-7-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan12"
+               x="16.412521"
+               y="362.08792">FOJAB inventerar bef. förutsättningar för ny plan.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan14"
+               x="16.412521"
+               y="379.58792">Tekniskt skick och historik utvärderas.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="397.08792"
+               id="tspan15" /></text>
         </g>
-        <g id="g185" style="display:inline" class="efter">
-          <text x="1221.0559" y="470.88693" class="rubrik" id="text5-7" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan5-5" x="1221.0559" y="470.88693">Materialjakt i</tspan>
-            <tspan x="1221.0559" y="500.88693" id="tspan66">förstudie/detaljplansskedet</tspan>
-            <tspan x="1221.0559" y="530.88696" id="tspan65" />
-          </text>
-          <text x="1220.0581" y="530.0835" class="underrubrik" id="text31-9" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1220.0581" y="530.0835" id="tspan31-1">Identifiera aktörer som tar processen framåt. Hur ska</tspan>
-            <tspan x="1220.0581" y="547.5835" id="tspan69">projektets klimatpåverkan hanteras? Definiera nivå av</tspan>
-            <tspan x="1220.0581" y="565.0835" id="tspan70">bevarande och hållbarhetsambitioner.</tspan>
-            <tspan x="1220.0581" y="582.5835" id="tspan68" />
-          </text>
-          <text x="1218.9619" y="584.90637" class="loptext" id="text34-8" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan34-6" x="1218.9619" y="584.90637">”Vad behövs utöver det som redan identifierats?”</tspan>
-            <tspan x="1218.9619" y="597.40637" id="tspan71" />
-          </text>
-          <text x="1230.1818" y="611.99048" class="loptext" id="text45-0" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1818" y="611.99048" id="tspan45-0">Nätverkande är viktigt redan i detaljplane-/förstudieskedet.</tspan>
-            <tspan x="1230.1818" y="624.49048" id="tspan74">Andra projekt inom era organisationer kan komma att frigöra</tspan>
-            <tspan x="1230.1818" y="636.99048" id="tspan75">material som kan användas i ert aktuella projekt.</tspan>
-            <tspan x="1230.1818" y="649.49048" id="tspan73" />
-          </text>
-          <text x="1230.1818" y="658.54639" class="loptext" id="text52-1" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1818" y="658.54639" id="tspan52-8">Tänk på att det kan finnas lämpliga materialströmmar även utanför</tspan>
-            <tspan x="1230.1818" y="671.04639" id="tspan82">de traditionella byggleden.</tspan>
-            <tspan x="1230.1818" y="683.54639" id="tspan81" />
-          </text>
-          <text x="1230.1919" y="692.61804" class="loptext" id="text59-3" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1919" y="692.61804" id="tspan59-4">En fingervisning för användande av icke-jungfruliga byggdelar är att</tspan>
-            <tspan x="1230.1919" y="705.11804" id="tspan89">stor yta i förhållande till vikt är positivt. Även potential för lagring i ”bulk”.</tspan>
-            <tspan x="1230.1919" y="717.61804" id="tspan88" />
-          </text>
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1221.8527,507.49891 h 368.431" id="path59-0" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1220.2447,754.99637 h 368.4311" id="path60-6" />
-          <text x="1219.4478" y="746.10986" class="rubrik" id="text60-1" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan60-8" x="1219.4478" y="746.10986">Hur gör man?</tspan>
-          </text>
-          <text x="1218.45" y="773.58093" class="underrubrik" id="text63-9" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1218.45" y="773.58093" id="tspan63-1">FOJAB nyttjar sitt nätverk för att hitta lämpliga</tspan>
-            <tspan x="1218.45" y="791.08093" id="tspan92">material- eller byggdelar som passar projektets</tspan>
-            <tspan x="1218.45" y="808.58093" id="tspan93">ambitioner och som behöver preciseras tidigt.</tspan>
-            <tspan x="1218.45" y="826.08093" id="tspan91" />
-          </text>
+        <g
+           id="g185"
+           inkscape:label="fs-efter"
+           style="display:inline"
+           class="efter">
+          <text
+             x="1221.0559"
+             y="470.88693"
+             class="rubrik"
+             id="text5-7"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan5-5"
+               x="1221.0559"
+               y="470.88693">Materialjakt i</tspan><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="500.88693"
+               id="tspan66">förstudie/detaljplansskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="530.88696"
+               id="tspan65" /></text>
+          <text
+             x="1220.0581"
+             y="530.0835"
+             class="underrubrik"
+             id="text31-9"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="530.0835"
+               id="tspan31-1">Identifiera aktörer som tar processen framåt. Hur ska</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="547.5835"
+               id="tspan69">projektets klimatpåverkan hanteras? Definiera nivå av</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="565.0835"
+               id="tspan70">bevarande och hållbarhetsambitioner.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="582.5835"
+               id="tspan68" /></text>
+          <text
+             x="1218.9619"
+             y="584.90637"
+             class="loptext"
+             id="text34-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan34-6"
+               x="1218.9619"
+               y="584.90637">”Vad behövs utöver det som redan identifierats?”</tspan><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="597.40637"
+               id="tspan71" /></text>
+          <text
+             x="1256.1818"
+             y="611.99048"
+             class="loptext"
+             id="text45-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="611.99048"
+               id="tspan45-0">Nätverkande är viktigt redan i detaljplane-/förstudieskedet.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="624.49048"
+               id="tspan74">Andra projekt inom era organisationer kan komma att frigöra</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="636.99048"
+               id="tspan75">material som kan användas i ert aktuella projekt.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="649.49048"
+               id="tspan73" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3-81"
+             cx="1242.5532"
+             cy="608.16785"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3-81-4"
+             cx="1242.5532"
+             cy="656.16785"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3-81-7"
+             cx="1242.5532"
+             cy="688.16785"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1256.1818"
+             y="658.54639"
+             class="loptext"
+             id="text52-1"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="658.54639"
+               id="tspan52-8">Tänk på att det kan finnas lämpliga materialströmmar även utanför</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="671.04639"
+               id="tspan82">de traditionella byggleden.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="683.54639"
+               id="tspan81" /></text>
+          <text
+             x="1256.1919"
+             y="692.61804"
+             class="loptext"
+             id="text59-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1919"
+               y="692.61804"
+               id="tspan59-4">En fingervisning för användande av icke-jungfruliga byggdelar är att</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1919"
+               y="705.11804"
+               id="tspan89">stor yta i förhållande till vikt är positivt. Även potential för lagring i ”bulk”.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1919"
+               y="717.61804"
+               id="tspan88" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1221.8527,507.49891 h 368.431"
+             id="path59-0" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1220.2447,754.99637 h 368.4311"
+             id="path60-6" />
+          <text
+             x="1219.4478"
+             y="746.10986"
+             class="rubrik"
+             id="text60-1"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"
+             inkscape:label="text1-1-6"><tspan
+               id="tspan60-8"
+               x="1219.4478"
+               y="746.10986">Hur gör man?</tspan></text>
+          <text
+             x="1218.45"
+             y="773.58093"
+             class="underrubrik"
+             id="text63-9"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="773.58093"
+               id="tspan63-1">FOJAB nyttjar sitt nätverk för att hitta lämpliga</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="791.08093"
+               id="tspan92">material- eller byggdelar som passar projektets</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="808.58093"
+               id="tspan93">ambitioner och som behöver preciseras tidigt.</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="826.08093"
+               id="tspan91" /></text>
         </g>
-        <g id="fs-hela" style="display:inline" class="hela">
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 19.815186,494.5644 H 388.24629" id="path2-8" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 18.207206,811.06342 H 386.63829" id="path2-3-8" />
-          <text x="19.018322" y="457.95242" class="rubrik" id="text1-0" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan94" x="19.018322" y="457.95242">Processledning i</tspan>
-            <tspan x="19.018322" y="487.95242" id="tspan96">förstudie/detaljplansskedet</tspan>
-            <tspan id="tspan95" x="19.018322" y="517.95239" />
-          </text>
-          <text x="18.020519" y="517.14893" class="underrubrik" id="text1-7-8" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan97" x="18.020519" y="517.14893">Samverkan är avgörande för gott resultat.</tspan>
-            <tspan id="tspan98" x="18.020519" y="534.64893">Säkerställ en flexibel gestaltningsprocess genom att</tspan>
-            <tspan x="18.020519" y="552.14893" id="tspan100">etablera tidig dialog med sakkunniga.</tspan>
-            <tspan x="18.020519" y="569.64893" id="tspan99" />
-          </text>
-          <text x="16.924328" y="571.9718" class="loptext" id="text1-7-1-7" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan101" x="16.924328" y="571.9718">
-              <tspan x="16.924328" y="571.9718" id="tspan13-1">”Hur skapas förutsättningar för att kunna vara flexibel senare i processen?”</tspan>
-            </tspan>
-            <tspan id="tspan102" x="16.924328" y="584.4718" />
-          </text>
-          <text x="29.089855" y="581.67078" class="loptext" id="text1-7-1-8-0" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan103" x="29.089855" y="581.67078" />
-            <tspan id="tspan104" x="29.089855" y="594.17078">Omställning från linjära till cirkulära processer kräver dialog med</tspan>
-            <tspan x="29.089855" y="606.67078" id="tspan106">vissa parter tidigare:</tspan>
-            <tspan x="29.089855" y="619.17078" id="tspan105" />
-          </text>
-          <text x="51.089855" y="633.73077" class="loptext" id="text1-7-1-8-0-2" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.089855" y="633.73077" id="tspan105-3">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan112">Stadsbyggnadskontoret</tspan> – Förutsättningar för platsen behöver</tspan>
-            <tspan x="51.089855" y="646.23077" id="tspan110">definieras tidigt. Detaljplanen kommer behöva bestämmelser</tspan>
-            <tspan x="51.089855" y="658.73077" id="tspan111">som möjliggör en flexibel gestaltning inför bygglov.</tspan>
-            <tspan x="51.089855" y="671.23077" id="tspan109" />
-          </text>
-          <text x="51.089855" y="678.09076" class="loptext" id="text1-7-1-8-0-2-3" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.089855" y="678.09076" id="tspan109-0">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan118">Miljöförvaltningen</tspan> – Vid återbruk av befintliga byggnadsdelar</tspan>
-            <tspan x="51.089855" y="690.59076" id="tspan116">behöver frågor gällande materialskick och eventuella föroreningar</tspan>
-            <tspan x="51.089855" y="703.09076" id="tspan117">lyftas tidigt. Miljöprocesser är ofta långsamma och kan bli kostsamma.</tspan>
-            <tspan x="51.089855" y="715.59076" id="tspan115" />
-          </text>
-          <text x="51.889854" y="725.14075" class="loptext" id="text1-7-1-8-0-2-3-9" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.889854" y="725.14075" id="tspan115-2">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan125">Försäkringsbolag &amp; Banken</tspan> – Kravställning på projektet för</tspan>
-            <tspan x="51.889854" y="737.64075" id="tspan122">finansieringslösningar som möjliggör cirkulära lösningar är viktigt att</tspan>
-            <tspan x="51.889854" y="750.14075" id="tspan123">etablera tidigt. Även försäkringsbolagets inställning till lösningar som</tspan>
-            <tspan x="51.889854" y="762.64075" id="tspan124">inte alltid är helt enligt standard.</tspan>
-            <tspan x="51.889854" y="775.14075" id="tspan121" />
-          </text>
-          <text x="17.410351" y="802.17688" class="rubrik" id="text1-1-9" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan1-8-6" x="17.410351" y="802.17688">Hur gör man?</tspan>
-          </text>
-          <text x="16.412487" y="829.64795" class="underrubrik" id="text1-7-2-8" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan12-3" x="16.412487" y="829.64795">FOJAB inventerar bef. förutsättningar för ny plan.</tspan>
-            <tspan id="tspan14-4" x="16.412487" y="847.14795">Tekniskt skick och historik utvärderas.</tspan>
-            <tspan x="16.412487" y="864.64795" id="tspan15-8" />
-          </text>
+        <g
+           id="fs-hela"
+           inkscape:label="fs-hela"
+           style="display:inline"
+           class="hela">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815186,494.5644 H 388.24629"
+             id="path2-8" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207206,811.06342 H 386.63829"
+             id="path2-3-8" />
+          <text
+             x="19.018322"
+             y="457.95242"
+             class="rubrik"
+             id="text1-0"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan94"
+               x="19.018322"
+               y="457.95242">Processledning i</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="487.95242"
+               id="tspan96">förstudie/detaljplansskedet</tspan><tspan
+               sodipodi:role="line"
+               id="tspan95"
+               x="19.018322"
+               y="517.95239" /></text>
+          <text
+             x="18.020519"
+             y="517.14893"
+             class="underrubrik"
+             id="text1-7-8"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan97"
+               x="18.020519"
+               y="517.14893">Samverkan är avgörande för gott resultat.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan98"
+               x="18.020519"
+               y="534.64893">Säkerställ en flexibel gestaltningsprocess genom att</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="552.14893"
+               id="tspan100">etablera tidig dialog med sakkunniga.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="569.64893"
+               id="tspan99" /></text>
+          <text
+             x="16.924328"
+             y="571.9718"
+             class="loptext"
+             id="text1-7-1-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan101"
+               x="16.924328"
+               y="571.9718"><tspan
+                 x="16.924328"
+                 y="571.9718"
+                 id="tspan13-1">”Hur skapas förutsättningar för att kunna vara flexibel senare i processen?”</tspan></tspan><tspan
+               sodipodi:role="line"
+               id="tspan102"
+               x="16.924328"
+               y="584.4718" /></text>
+          <text
+             x="29.089855"
+             y="581.67078"
+             class="loptext"
+             id="text1-7-1-8-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan103"
+               x="29.089855"
+               y="581.67078"></tspan><tspan
+               sodipodi:role="line"
+               id="tspan104"
+               x="29.089855"
+               y="594.17078">Omställning från linjära till cirkulära processer kräver dialog med</tspan><tspan
+               sodipodi:role="line"
+               x="29.089855"
+               y="606.67078"
+               id="tspan106">vissa parter tidigare:</tspan><tspan
+               sodipodi:role="line"
+               x="29.089855"
+               y="619.17078"
+               id="tspan105" /></text>
+          <text
+             x="51.089855"
+             y="633.73077"
+             class="loptext"
+             id="text1-7-1-8-0-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="633.73077"
+               id="tspan105-3"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '"
+   id="tspan112">Stadsbyggnadskontoret</tspan> – Förutsättningar för platsen behöver</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="646.23077"
+               id="tspan110">definieras tidigt. Detaljplanen kommer behöva bestämmelser</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="658.73077"
+               id="tspan111">som möjliggör en flexibel gestaltning inför bygglov.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="671.23077"
+               id="tspan109" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3"
+             cx="37.444901"
+             cy="630.47046"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-1"
+             cx="37.444901"
+             cy="674.47046"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-6"
+             cx="37.444901"
+             cy="722.47046"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="678.09076"
+             class="loptext"
+             id="text1-7-1-8-0-2-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="678.09076"
+               id="tspan109-0"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '"
+   id="tspan118">Miljöförvaltningen</tspan> – Vid återbruk av befintliga byggnadsdelar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="690.59076"
+               id="tspan116">behöver frågor gällande materialskick och eventuella föroreningar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="703.09076"
+               id="tspan117">lyftas tidigt. Miljöprocesser är ofta långsamma och kan bli kostsamma.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="715.59076"
+               id="tspan115" /></text>
+          <text
+             x="51.889854"
+             y="725.14075"
+             class="loptext"
+             id="text1-7-1-8-0-2-3-9"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.889854"
+               y="725.14075"
+               id="tspan115-2"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '"
+   id="tspan125">Försäkringsbolag &amp; Banken</tspan> – Kravställning på projektet för</tspan><tspan
+               sodipodi:role="line"
+               x="51.889854"
+               y="737.64075"
+               id="tspan122">finansieringslösningar som möjliggör cirkulära lösningar är viktigt att</tspan><tspan
+               sodipodi:role="line"
+               x="51.889854"
+               y="750.14075"
+               id="tspan123">etablera tidigt. Även försäkringsbolagets inställning till lösningar som</tspan><tspan
+               sodipodi:role="line"
+               x="51.889854"
+               y="762.64075"
+               id="tspan124">inte alltid är helt enligt standard.</tspan><tspan
+               sodipodi:role="line"
+               x="51.889854"
+               y="775.14075"
+               id="tspan121" /></text>
+          <text
+             x="17.410351"
+             y="802.17688"
+             class="rubrik"
+             id="text1-1-9"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               id="tspan1-8-6"
+               x="17.410351"
+               y="802.17688">Hur gör man?</tspan></text>
+          <text
+             x="16.412487"
+             y="829.64795"
+             class="underrubrik"
+             id="text1-7-2-8"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan12-3"
+               x="16.412487"
+               y="829.64795">FOJAB inventerar bef. förutsättningar för ny plan.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan14-4"
+               x="16.412487"
+               y="847.14795">Tekniskt skick och historik utvärderas.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="864.64795"
+               id="tspan15-8" /></text>
         </g>
-        <g id="g63" style="display:inline" class="sen">
-          <text x="1222.6641" y="19.664001" class="rubrik" id="text5" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan2" x="1222.6641" y="19.664001">Bedömning i</tspan>
-            <tspan x="1222.6641" y="49.664001" id="tspan4">förstudie/detaljplansskedet</tspan>
-            <tspan id="tspan5" x="1222.6641" y="79.664001" />
-          </text>
-          <text x="1221.6663" y="78.860519" class="underrubrik" id="text31" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan23" x="1221.6663" y="78.860519">Värdera befintligt, var finns kvaliteterna.</tspan>
-            <tspan id="tspan30" x="1221.6663" y="96.360519">Fundera kringa vilka planbestämmelser som behövs.</tspan>
-            <tspan x="1221.6663" y="113.86052" id="tspan31" />
-          </text>
-          <text x="1220.5701" y="123.6834" class="loptext" id="text34" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan33" x="1220.5701" y="123.6834">
-              <tspan x="1220.5701" y="123.6834" id="tspan32">”I vilket skick är det som inventerats?”</tspan>
-            </tspan>
-            <tspan id="tspan34" x="1220.5701" y="136.18341" />
-          </text>
-          <text x="1231.7899" y="146.76759" class="loptext" id="text45" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan41" x="1231.7899" y="146.76759">För att skapa goda förutsättningar för framtida cirkulära processer och</tspan>
-            <tspan x="1231.7899" y="159.26759" id="tspan44">möjliggöra återbruk behöver man redan i tidigt skede bedöma vilka</tspan>
-            <tspan x="1231.7899" y="171.76759" id="tspan45">byggdelar som lämpar sig för ett cirkulärt arbetssätt.</tspan>
-          </text>
-          <text x="1231.7899" y="197.32352" class="loptext" id="text52" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.7899" y="197.32352" id="tspan46">Om man ska använda sig av bevarade byggdelar är det viktigt att tidigt</tspan>
-            <tspan x="1231.7899" y="209.82352" id="tspan47">bilda sig en uppfattning om vilka delar av den befintliga byggnader som</tspan>
-            <tspan x="1231.7899" y="222.32352" id="tspan48">kommer beröras och behöver utredas i senare skede. I projekt med</tspan>
-            <tspan x="1231.7899" y="234.82352" id="tspan49">komplicerade förutsättningar kan specilaistkompetenser vara aktuella</tspan>
-            <tspan x="1231.7899" y="247.32352" id="tspan50">tidigt; miljökonsult, konstruktör, byggmaterialspecialister och</tspan>
-            <tspan x="1231.7899" y="259.82352" id="tspan51">demonteringsentreprenör m.fl.</tspan>
-            <tspan x="1231.7899" y="272.32352" id="tspan52" />
-          </text>
-          <text x="1231.8" y="285.39508" class="loptext" id="text59" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.8" y="285.39508" id="tspan53">Byggåret kan ge en tidig uppfattning om möjligheterna för återbruk.</tspan>
-            <tspan x="1231.8" y="297.89508" id="tspan54">Är byggnaden från 1960-talet eller tidigare finns det goda</tspan>
-            <tspan x="1231.8" y="310.39508" id="tspan55">förutsättningar att återanvända delar. Är den byggd 1970–2000 är</tspan>
-            <tspan x="1231.8" y="322.89508" id="tspan56">återbruket sannolikt mer begränsat. Yngre byggnader har fortfarande</tspan>
-            <tspan x="1231.8" y="335.39508" id="tspan57">tid kvar på sin tekniska livslängd. Fundera kring hur man möjliggör</tspan>
-            <tspan x="1231.8" y="347.89508" id="tspan58">framtida återbruk.</tspan>
-            <tspan x="1231.8" y="360.39508" id="tspan59" />
-          </text>
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1223.4609,56.27598 h 368.431" id="path59" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 1221.8529,393.77344 H 1590.284" id="path60" />
-          <text x="1221.0559" y="384.88693" class="rubrik" id="text60">
-            <tspan id="tspan60" x="1221.0559" y="384.88693">Hur gör man?</tspan>
-          </text>
-          <text x="1220.0581" y="412.358" class="underrubrik" id="text63" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1220.0581" y="412.358" id="tspan61">FOJAB utvärderar objekt som kan bevaras och</tspan>
-            <tspan x="1220.0581" y="429.858" id="tspan62">prioriteras. Behov av planbestämmelser identifieras.</tspan>
-            <tspan x="1220.0581" y="447.358" id="tspan63" />
-          </text>
+        <g
+           id="g63"
+           inkscape:label="fs-sen"
+           style="display:inline"
+           class="sen">
+          <text
+             x="1222.6641"
+             y="19.664001"
+             class="rubrik"
+             id="text5"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan2"
+               x="1222.6641"
+               y="19.664001">Bedömning i</tspan><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="49.664001"
+               id="tspan4">förstudie/detaljplansskedet</tspan><tspan
+               sodipodi:role="line"
+               id="tspan5"
+               x="1222.6641"
+               y="79.664001" /></text>
+          <text
+             x="1221.6663"
+             y="78.860519"
+             class="underrubrik"
+             id="text31"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan23"
+               x="1221.6663"
+               y="78.860519">Värdera befintligt, var finns kvaliteterna.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan30"
+               x="1221.6663"
+               y="96.360519">Fundera kringa vilka planbestämmelser som behövs.</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="113.86052"
+               id="tspan31" /></text>
+          <text
+             x="1220.5701"
+             y="123.6834"
+             class="loptext"
+             id="text34"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan33"
+               x="1220.5701"
+               y="123.6834"><tspan
+                 x="1220.5701"
+                 y="123.6834"
+                 id="tspan32">”I vilket skick är det som inventerats?”</tspan></tspan><tspan
+               sodipodi:role="line"
+               id="tspan34"
+               x="1220.5701"
+               y="136.18341" /></text>
+          <text
+             x="1255.7899"
+             y="146.76759"
+             class="loptext"
+             id="text45"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan41"
+               x="1255.7899"
+               y="146.76759">För att skapa goda förutsättningar för framtida cirkulära processer och</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="159.26759"
+               id="tspan44">möjliggöra återbruk behöver man redan i tidigt skede bedöma vilka</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="171.76759"
+               id="tspan45">byggdelar som lämpar sig för ett cirkulärt arbetssätt.</tspan></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3"
+             cx="1242.5532"
+             cy="143.16312"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3-8"
+             cx="1242.5532"
+             cy="193.16312"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1255.7899"
+             y="197.32352"
+             class="loptext"
+             id="text52"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="197.32352"
+               id="tspan46">Om man ska använda sig av bevarade byggdelar är det viktigt att tidigt</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="209.82352"
+               id="tspan47">bilda sig en uppfattning om vilka delar av den befintliga byggnader som</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="222.32352"
+               id="tspan48">kommer beröras och behöver utredas i senare skede. I projekt med</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="234.82352"
+               id="tspan49">komplicerade förutsättningar kan specilaistkompetenser vara aktuella</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="247.32352"
+               id="tspan50">tidigt; miljökonsult, konstruktör, byggmaterialspecialister och</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="259.82352"
+               id="tspan51">demonteringsentreprenör m.fl.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="272.32352"
+               id="tspan52" /></text>
+          <text
+             x="1255.8"
+             y="285.39508"
+             class="loptext"
+             id="text59"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="285.39508"
+               id="tspan53">Byggåret kan ge en tidig uppfattning om möjligheterna för återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="297.89508"
+               id="tspan54">Är byggnaden från 1960-talet eller tidigare finns det goda</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="310.39508"
+               id="tspan55">förutsättningar att återanvända delar. Är den byggd 1970–2000 är</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="322.89508"
+               id="tspan56">återbruket sannolikt mer begränsat. Yngre byggnader har fortfarande</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="335.39508"
+               id="tspan57">tid kvar på sin tekniska livslängd. Fundera kring hur man möjliggör</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="347.89508"
+               id="tspan58">framtida återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="360.39508"
+               id="tspan59" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1223.4609,56.27598 h 368.431"
+             id="path59" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1221.8529,393.77344 H 1590.284"
+             id="path60" />
+          <text
+             x="1221.0559"
+             y="384.88693"
+             class="rubrik"
+             id="text60"
+             inkscape:label="text1-1-6"><tspan
+               id="tspan60"
+               x="1221.0559"
+               y="384.88693">Hur gör man?</tspan></text>
+          <text
+             x="1220.0581"
+             y="412.358"
+             class="underrubrik"
+             id="text63"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="412.358"
+               id="tspan61">FOJAB utvärderar objekt som kan bevaras och</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="429.858"
+               id="tspan62">prioriteras. Behov av planbestämmelser identifieras.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="447.358"
+               id="tspan63" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-2-3-3-3"
+             cx="1242.5532"
+             cy="283.16312"
+             r="2"
+             style="display:inline" />
         </g>
       </g>
-      <g id="Text-forvaltning" style="display:none">
-        <g id="fs-forst-7" style="display:inline" class="forst">
-          <path style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 19.815201,59.00441 H 388.24625" id="path2-7" />
-          <path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 18.207215,343.50338 H 386.63827" id="path2-3-87" />
-          <text x="19.018326" y="48.392433" class="rubrik" id="text1-3" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan126" x="19.018326" y="48.392433">Inventering i förvaltningsskedet</tspan>
-            <tspan id="tspan127" x="19.018326" y="78.392433" />
-          </text>
-          <text x="18.020508" y="79.588951" class="underrubrik" id="text1-7-82" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan128" x="18.020508" y="79.588951">Inventera för att få överblick av materiella tillgångar.</tspan>
-            <tspan x="18.020508" y="97.088951" id="tspan130">Vad kan/bör bevaras och vad kan återanvändas?</tspan>
-            <tspan id="tspan129" x="18.020508" y="114.58895" />
-          </text>
-          <text x="16.924328" y="120.41183" class="loptext" id="text1-7-1-3" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan131" x="16.924328" y="120.41183">
-              <tspan x="16.924328" y="120.41183" id="tspan13-7">”Vad finns redan nu i befintligt bestånd?”</tspan>
-            </tspan>
-            <tspan id="tspan132" x="16.924328" y="132.91183" />
-          </text>
-          <text x="29.089855" y="142.11069" class="loptext" id="text1-7-1-8-2" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;fill:#000000">
-            <tspan id="tspan133" x="29.089855" y="142.11069">Identifiera återbrukbara produkter och byggdelar redan i förvaltningsskedet.</tspan>
-            <tspan x="29.089855" y="154.61069" id="tspan135">Ta hjälp av digitala verktyg för att göra en överskådlig databas över fysiska</tspan>
-            <tspan x="29.089855" y="167.11069" id="tspan136">tillgångar. Använd programvara som tillåter hantering av stora kvantiteter av</tspan>
-            <tspan x="29.089855" y="179.61069" id="tspan137">objekt. (Excellistor är inte alltid den mest optimala lösningen.)</tspan>
-            <tspan id="tspan134" x="29.089855" y="192.11069" />
-          </text>
-          <text x="29.089855" y="199.17068" class="loptext" id="text1-7-1-8-2-6" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Circular Std Book', Fallback, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">
-            <tspan id="tspan134-7" x="29.089855" y="199.17068">En visuellt tydlig databas underlättar vid om- och nybyggnadsprojekt, så att</tspan>
-            <tspan x="29.089855" y="211.67068" id="tspan142">man kostnadseffektivt kan hushålla med sina resurser och använda dem optimalt.</tspan>
-            <tspan x="29.089855" y="224.17068" id="tspan141" />
-          </text>
-          <text x="29.089855" y="235.17068" class="loptext" id="text1-7-1-8-2-6-5" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="29.089855" y="235.17068" id="tspan141-9">En inventering av befintligt bestånd kan göras i flera nivåer, exempelvis:</tspan>
-            <tspan x="29.089855" y="247.67068" id="tspan144" />
-          </text>
-          <text x="53.2799" y="255.16672" class="loptext" id="text1-7-1-8-2-6-5-2" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="53.2799" y="255.16672" id="tspan144-5">- I samband med framtagning/uppdatering av underhållsplan.</tspan>
-            <tspan x="53.2799" y="267.66672" id="tspan145" />
-          </text>
-          <text x="53.2799" y="276.72672" class="loptext" id="text1-7-1-8-2-6-5-2-4" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="53.2799" y="276.72672" id="tspan145-2">- Vid 3D-scanning av bestånd för att skapa digitala tvillingar.</tspan>
-            <tspan x="53.2799" y="289.22672" id="tspan146" />
-          </text>
-          <text x="53.2799" y="298.28671" class="loptext" id="text1-7-1-8-2-6-5-2-4-3" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="53.2799" y="298.28671" id="tspan146-3">-I samband med ombyggnation/utveckling av fastigheter.</tspan>
-          </text>
-          <text x="17.410339" y="334.61685" class="rubrik" id="text1-1-3" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000">
-            <tspan id="tspan1-8-2" x="17.410339" y="334.61685">Hur gör man?</tspan>
-          </text>
-          <text x="16.412521" y="362.08792" class="underrubrik" id="text1-7-2-5" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="16.412521" y="362.08792" id="tspan15-2">FOJAB inventerar i dialog med förvaltare.</tspan>
-            <tspan x="16.412521" y="379.58792" id="tspan148">Resultat utgör grund för underhållsplaner.</tspan>
-            <tspan x="16.412521" y="397.08792" id="tspan149" />
-          </text>
+      <g
+         id="Text-forvaltning"
+         style="display:none"
+         sodipodi:insensitive="true">
+        <!-- Add content for Förvaltning here -->
+        <g
+           id="fs-forst-7"
+           inkscape:label="fv-forst"
+           style="display:inline"
+           class="forst">
+          <path
+             style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815201,59.00441 H 388.24625"
+             id="path2-7" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207215,343.50338 H 386.63827"
+             id="path2-3-87" />
+          <text
+             x="19.018326"
+             y="48.392433"
+             class="rubrik"
+             id="text1-3"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan126"
+               x="19.018326"
+               y="48.392433">Inventering i förvaltningsskedet</tspan><tspan
+               sodipodi:role="line"
+               id="tspan127"
+               x="19.018326"
+               y="78.392433" /></text>
+          <text
+             x="18.020508"
+             y="79.588951"
+             class="underrubrik"
+             id="text1-7-82"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan128"
+               x="18.020508"
+               y="79.588951">Inventera för att få överblick av materiella tillgångar.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="97.088951"
+               id="tspan130">Vad kan/bör bevaras och vad kan återanvändas?</tspan><tspan
+               sodipodi:role="line"
+               id="tspan129"
+               x="18.020508"
+               y="114.58895" /></text>
+          <text
+             x="16.924328"
+             y="120.41183"
+             class="loptext"
+             id="text1-7-1-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan131"
+               x="16.924328"
+               y="120.41183"><tspan
+                 x="16.924328"
+                 y="120.41183"
+                 id="tspan13-7">”Vad finns redan nu i befintligt bestånd?”</tspan></tspan><tspan
+               sodipodi:role="line"
+               id="tspan132"
+               x="16.924328"
+               y="132.91183" /></text>
+          <text
+             x="51.089855"
+             y="142.11069"
+             class="loptext"
+             id="text1-7-1-8-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan133"
+               x="51.089855"
+               y="142.11069">Identifiera återbrukbara produkter och byggdelar redan i förvaltningsskedet.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="154.61069"
+               id="tspan135">Ta hjälp av digitala verktyg för att göra en överskådlig databas över fysiska</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="167.11069"
+               id="tspan136">tillgångar. Använd programvara som tillåter hantering av stora kvantiteter av</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="179.61069"
+               id="tspan137">objekt. (Excellistor är inte alltid den mest optimala lösningen.)</tspan><tspan
+               sodipodi:role="line"
+               id="tspan134"
+               x="51.089855"
+               y="192.11069" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21"
+             cx="37.444901"
+             cy="139.16075"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-9"
+             cx="37.444901"
+             cy="195.16075"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-0"
+             cx="37.444901"
+             cy="233.16077"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="199.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Circular Std Book', Fallback, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
+               sodipodi:role="line"
+               id="tspan134-7"
+               x="51.089855"
+               y="199.17068">En visuellt tydlig databas underlättar vid om- och nybyggnadsprojekt, så att</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="211.67068"
+               id="tspan142">man kostnadseffektivt kan hushålla med sina resurser och använda dem optimalt.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="224.17068"
+               id="tspan141" /></text>
+          <text
+             x="51.089855"
+             y="235.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="235.17068"
+               id="tspan141-9">En inventering av befintligt bestånd kan göras i flera nivåer, exempelvis:</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="247.67068"
+               id="tspan144" /></text>
+          <text
+             x="75.2799"
+             y="255.16672"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="75.2799"
+               y="255.16672"
+               id="tspan144-5">- I samband med framtagning/uppdatering av underhållsplan.</tspan><tspan
+               sodipodi:role="line"
+               x="75.2799"
+               y="267.66672"
+               id="tspan145" /></text>
+          <text
+             x="75.2799"
+             y="276.72672"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-2-4"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="75.2799"
+               y="276.72672"
+               id="tspan145-2">- Vid 3D-scanning av bestånd för att skapa digitala tvillingar.</tspan><tspan
+               sodipodi:role="line"
+               x="75.2799"
+               y="289.22672"
+               id="tspan146" /></text>
+          <text
+             x="75.2799"
+             y="298.28671"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-2-4-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="75.2799"
+               y="298.28671"
+               id="tspan146-3">-I samband med ombyggnation/utveckling av fastigheter.</tspan></text>
+          <text
+             x="17.410339"
+             y="334.61685"
+             class="rubrik"
+             id="text1-1-3"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan1-8-2"
+               x="17.410339"
+               y="334.61685">Hur gör man?</tspan></text>
+          <text
+             x="16.412521"
+             y="362.08792"
+             class="underrubrik"
+             id="text1-7-2-5"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="362.08792"
+               id="tspan15-2">FOJAB inventerar i dialog med förvaltare.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="379.58792"
+               id="tspan148">Resultat utgör grund för underhållsplaner.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="397.08792"
+               id="tspan149" /></text>
         </g>
-        <g id="fv-efter" style="display:inline" class="efter">
-          <text x="1221.0559" y="470.88693" class="rubrik" id="text5-7-2" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan5-5-6" x="1221.0559" y="470.88693">Materialjakt i</tspan>
-            <tspan x="1221.0559" y="500.88693" id="tspan66-4">förstudie/detaljplansskedet</tspan>
-            <tspan x="1221.0559" y="530.88696" id="tspan65-0" />
-          </text>
-          <text x="1220.0581" y="530.0835" class="underrubrik" id="text31-9-7" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1220.0581" y="530.0835" id="tspan31-1-0">Identifiera aktörer som tar processen framåt. Hur ska</tspan>
-            <tspan x="1220.0581" y="547.5835" id="tspan69-3">projektets klimatpåverkan hanteras? Definiera nivå av</tspan>
-            <tspan x="1220.0581" y="565.0835" id="tspan70-4">bevarande och hållbarhetsambitioner.</tspan>
-            <tspan x="1220.0581" y="582.5835" id="tspan68-0" />
-          </text>
-          <text x="1218.9619" y="584.90637" class="loptext" id="text34-8-0" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan34-6-5" x="1218.9619" y="584.90637">”Vad behövs utöver det som redan identifierats?”</tspan>
-            <tspan x="1218.9619" y="597.40637" id="tspan71-3" />
-          </text>
-          <text x="1230.1818" y="611.99048" class="loptext" id="text45-0-1" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1818" y="611.99048" id="tspan45-0-0">Nätverkande är viktigt redan i detaljplane-/förstudieskedet.</tspan>
-            <tspan x="1230.1818" y="624.49048" id="tspan74-6">Andra projekt inom era organisationer kan komma att frigöra</tspan>
-            <tspan x="1230.1818" y="636.99048" id="tspan75-7">material som kan användas i ert aktuella projekt.</tspan>
-            <tspan x="1230.1818" y="649.49048" id="tspan73-5" />
-          </text>
-          <text x="1230.1818" y="658.54639" class="loptext" id="text52-1-0" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1818" y="658.54639" id="tspan52-8-0">Tänk på att det kan finnas lämpliga materialströmmar även utanför</tspan>
-            <tspan x="1230.1818" y="671.04639" id="tspan82-4">de traditionella byggleden.</tspan>
-            <tspan x="1230.1818" y="683.54639" id="tspan81-5" />
-          </text>
-          <text x="1230.1919" y="692.61804" class="loptext" id="text59-3-4" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1230.1919" y="692.61804" id="tspan59-4-9">En fingervisning för användande av icke-jungfruliga byggdelar är att</tspan>
-            <tspan x="1230.1919" y="705.11804" id="tspan89-5">stor yta i förhållande till vikt är positivt. Även potential för lagring i ”bulk”.</tspan>
-            <tspan x="1230.1919" y="717.61804" id="tspan88-6" />
-          </text>
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1221.8527,507.49891 h 368.431" id="path59-0-4" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1220.2447,754.99637 h 368.4311" id="path60-6-8" />
-          <text x="1219.4478" y="746.10986" class="rubrik" id="text60-1-2" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan60-8-1" x="1219.4478" y="746.10986">Hur gör man?</tspan>
-          </text>
-          <text x="1218.45" y="773.58093" class="underrubrik" id="text63-9-6" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1218.45" y="773.58093" id="tspan63-1-8">FOJAB nyttjar sitt nätverk för att hitta lämpliga</tspan>
-            <tspan x="1218.45" y="791.08093" id="tspan92-3">material- eller byggdelar som passar projektets</tspan>
-            <tspan x="1218.45" y="808.58093" id="tspan93-1">ambitioner och som behöver preciseras tidigt.</tspan>
-            <tspan x="1218.45" y="826.08093" id="tspan91-4" />
-          </text>
+        <g
+           id="fv-efter"
+           inkscape:label="fv-efter"
+           style="display:inline"
+           class="efter">
+          <text
+             x="1221.0559"
+             y="470.88693"
+             class="rubrik"
+             id="text5-7-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="470.88693"
+               id="tspan65-0">Materialjakt i förvaltningsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="500.88693"
+               id="tspan187" /></text>
+          <text
+             x="1220.0581"
+             y="504.0835"
+             class="underrubrik"
+             id="text31-9-7"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="504.0835"
+               id="tspan68-0">Använd egna nätverk för att hitta användbara</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="521.5835"
+               id="tspan191">materialströmmar. Beakta process för ev. avyttring</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="539.0835"
+               id="tspan192">och möjlighet att digitalisera fastigheten.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="556.5835"
+               id="tspan190" /></text>
+          <text
+             x="1218.9619"
+             y="564.90637"
+             class="loptext"
+             id="text34-8-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="564.90637"
+               id="tspan71-3">”Vad behövs utöver det som redan finns tillgängligt i befintligt bestånd?”</tspan><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="577.40637"
+               id="tspan193" /></text>
+          <text
+             x="1256.1818"
+             y="587.99048"
+             class="loptext"
+             id="text45-0-1"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="587.99048"
+               id="tspan73-5">Har ni en databas för befintligt bestånd på plats kan man börja</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="600.49048"
+               id="tspan197">fundera kring vad man har hög åtgång på i sina fastigheter och om</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="612.99048"
+               id="tspan198">det finns ett värde i att ha ett överskott i sitt system.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="625.49048"
+               id="tspan196" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1"
+             cx="1242.5532"
+             cy="583.74927"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-1-6"
+             cx="1242.5532"
+             cy="633.74927"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1256.1818"
+             y="636.54639"
+             class="loptext"
+             id="text52-1-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="636.54639"
+               id="tspan81-5">Lokala återbruksgrossister kan hjälpa till med att samla objekt av</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="649.04639"
+               id="tspan201">intresse. Undersök möjligheten att fördröja leveranstider så att det</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="661.54639"
+               id="tspan202">tar längre tid att få varor som ni vill ha.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="674.04639"
+               id="tspan200" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1221.8527,481.49891 h 368.431"
+             id="path59-0-4"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1220.2447,714.99637 h 368.4311"
+             id="path60-6-8" />
+          <text
+             x="1219.4478"
+             y="706.10986"
+             class="rubrik"
+             id="text60-1-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"
+             inkscape:label="text1-1-6"><tspan
+               id="tspan60-8-1"
+               x="1219.4478"
+               y="706.10986">Hur gör man?</tspan></text>
+          <text
+             x="1218.45"
+             y="733.58093"
+             class="underrubrik"
+             id="text63-9-6"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="733.58093"
+               id="tspan91-4">FOJAB assisterar för att hitta objekt och material</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="751.08093"
+               id="tspan206">som kan komplettera och möta verksamhetens behov.</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="768.58093"
+               id="tspan205" /></text>
         </g>
-        <g id="fs-hela-8" style="display:inline" class="hela">
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 19.815186,494.5644 H 388.24629" id="path2-8-4" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 18.207206,811.06342 H 386.63829" id="path2-3-8-9" />
-          <text x="19.018322" y="457.95242" class="rubrik" id="text1-0-2" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan94-0" x="19.018322" y="457.95242">Processledning i</tspan>
-            <tspan x="19.018322" y="487.95242" id="tspan96-7">förstudie/detaljplansskedet</tspan>
-            <tspan id="tspan95-0" x="19.018322" y="517.95239" />
-          </text>
-          <text x="18.020519" y="517.14893" class="underrubrik" id="text1-7-8-6" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan97-0" x="18.020519" y="517.14893">Samverkan är avgörande för gott resultat.</tspan>
-            <tspan id="tspan98-7" x="18.020519" y="534.64893">Säkerställ en flexibel gestaltningsprocess genom att</tspan>
-            <tspan x="18.020519" y="552.14893" id="tspan100-0">etablera tidig dialog med sakkunniga.</tspan>
-            <tspan x="18.020519" y="569.64893" id="tspan99-5" />
-          </text>
-          <text x="16.924328" y="571.9718" class="loptext" id="text1-7-1-7-6" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan101-7" x="16.924328" y="571.9718">
-              <tspan x="16.924328" y="571.9718" id="tspan13-1-3">”Hur skapas förutsättningar för att kunna vara flexibel senare i processen?”</tspan>
-            </tspan>
-            <tspan id="tspan102-8" x="16.924328" y="584.4718" />
-          </text>
-          <text x="29.089855" y="581.67078" class="loptext" id="text1-7-1-8-0-4" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan103-9" x="29.089855" y="581.67078" />
-            <tspan id="tspan104-2" x="29.089855" y="594.17078">Omställning från linjära till cirkulära processer kräver dialog med</tspan>
-            <tspan x="29.089855" y="606.67078" id="tspan106-6">vissa parter tidigare:</tspan>
-            <tspan x="29.089855" y="619.17078" id="tspan105-5" />
-          </text>
-          <text x="51.089855" y="633.73077" class="loptext" id="text1-7-1-8-0-2-7" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.089855" y="633.73077" id="tspan105-3-7">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan112-4">Stadsbyggnadskontoret</tspan> – Förutsättningar för platsen behöver</tspan>
-            <tspan x="51.089855" y="646.23077" id="tspan110-5">definieras tidigt. Detaljplanen kommer behöva bestämmelser</tspan>
-            <tspan x="51.089855" y="658.73077" id="tspan111-7">som möjliggör en flexibel gestaltning inför bygglov.</tspan>
-            <tspan x="51.089855" y="671.23077" id="tspan109-9" />
-          </text>
-          <text x="51.089855" y="678.09076" class="loptext" id="text1-7-1-8-0-2-3-8" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.089855" y="678.09076" id="tspan109-0-3">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan118-0">Miljöförvaltningen</tspan> – Vid återbruk av befintliga byggnadsdelar</tspan>
-            <tspan x="51.089855" y="690.59076" id="tspan116-2">behöver frågor gällande materialskick och eventuella föroreningar</tspan>
-            <tspan x="51.089855" y="703.09076" id="tspan117-2">lyftas tidigt. Miljöprocesser är ofta långsamma och kan bli kostsamma.</tspan>
-            <tspan x="51.089855" y="715.59076" id="tspan115-3" />
-          </text>
-          <text x="51.889854" y="725.14075" class="loptext" id="text1-7-1-8-0-2-3-9-6" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="51.889854" y="725.14075" id="tspan115-2-7">
-              <tspan style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Circular Std Bold';-inkscape-font-specification:'Circular Std Bold, '" id="tspan125-1">Försäkringsbolag &amp; Banken</tspan> – Kravställning på projektet för</tspan>
-            <tspan x="51.889854" y="737.64075" id="tspan122-5">finansieringslösningar som möjliggör cirkulära lösningar är viktigt att</tspan>
-            <tspan x="51.889854" y="750.14075" id="tspan123-5">etablera tidigt. Även försäkringsbolagets inställning till lösningar som</tspan>
-            <tspan x="51.889854" y="762.64075" id="tspan124-4">inte alltid är helt enligt standard.</tspan>
-            <tspan x="51.889854" y="775.14075" id="tspan121-0" />
-          </text>
-          <text x="17.410351" y="802.17688" class="rubrik" id="text1-1-9-2" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan1-8-6-6" x="17.410351" y="802.17688">Hur gör man?</tspan>
-          </text>
-          <text x="16.412487" y="829.64795" class="underrubrik" id="text1-7-2-8-0" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan12-3-6" x="16.412487" y="829.64795">FOJAB inventerar bef. förutsättningar för ny plan.</tspan>
-            <tspan id="tspan14-4-1" x="16.412487" y="847.14795">Tekniskt skick och historik utvärderas.</tspan>
-            <tspan x="16.412487" y="864.64795" id="tspan15-8-1" />
-          </text>
+        <g
+           id="fs-hela-8"
+           inkscape:label="fv-hela"
+           style="display:inline"
+           class="hela">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815186,494.5644 H 388.24629"
+             id="path2-8-4" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207206,775.06342 H 386.63829"
+             id="path2-3-8-9" />
+          <text
+             x="19.018322"
+             y="457.95242"
+             class="rubrik"
+             id="text1-0-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan95-0"
+               x="19.018322"
+               y="457.95242">Processledning i</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="487.95242"
+               id="tspan209">förvaltningsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="517.95239"
+               id="tspan208" /></text>
+          <text
+             x="18.020519"
+             y="517.14893"
+             class="underrubrik"
+             id="text1-7-8-6"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="517.14893"
+               id="tspan99-5">Förvaltningsåtgärder med cirkulära ambitioner</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="534.64893"
+               id="tspan213">behöver göras med framsyn. Planera för bevarande,</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="552.14893"
+               id="tspan214">underhåll och utbytbara delar.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="569.64893"
+               id="tspan212" /></text>
+          <text
+             x="16.924328"
+             y="571.9718"
+             class="loptext"
+             id="text1-7-1-7-6"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan101-7"
+               x="16.924328"
+               y="571.9718">”Hur planerar man för kommande kostnader och underhåll på ett sätt som</tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="584.4718"
+               id="tspan216">möjliggör för hushållning inom fastighetsbeståndet?”<tspan
+   x="16.924328"
+   y="571.9718"
+   id="tspan13-1-3" /></tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="596.9718"
+               id="tspan215" /><tspan
+               sodipodi:role="line"
+               id="tspan102-8"
+               x="16.924328"
+               y="609.4718" /></text>
+          <text
+             x="51.089855"
+             y="611.73077"
+             class="loptext"
+             id="text1-7-1-8-0-2-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="611.73077"
+               id="tspan109-9">Planera underhåll så att ingrepp och byten av delar innebär så lite</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="624.23077"
+               id="tspan220">påverkan på kringliggande byggnad som möjligt. För gärna en</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="636.73077"
+               id="tspan221">dialog med hyresgäster kring hur de ser på att ni använder</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="649.23077"
+               id="tspan222">återbruk i renoveringar av deras lokaler. Återbrukade varor ger</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="661.73077"
+               id="tspan223">ibland högre underhållsfrekvens men längre hållbarhet och</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="674.23077"
+               id="tspan224">påverkar modell för hyressättning.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="686.73077"
+               id="tspan219" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2"
+             cx="37.444901"
+             cy="607.99103"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-2"
+             cx="37.444901"
+             cy="691.99103"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="696.09076"
+             class="loptext"
+             id="text1-7-1-8-0-2-3-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="696.09076"
+               id="tspan115-3">En framtidssäkrad byggnad har en plan som möjliggör att delar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="708.59076"
+               id="tspan228">kan underhållas oberoende av varandra, utan större ingrepp i</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="721.09076"
+               id="tspan229">kringliggande strukturer.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="733.59076"
+               id="tspan227" /></text>
+          <text
+             x="17.410351"
+             y="766.17688"
+             class="rubrik"
+             id="text1-1-9-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               id="tspan1-8-6-6"
+               x="17.410351"
+               y="766.17688">Hur gör man?</tspan></text>
+          <text
+             x="16.412487"
+             y="793.64795"
+             class="underrubrik"
+             id="text1-7-2-8-0"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="793.64795"
+               id="tspan15-8-1">FOJAB bistår med underhålls- och åtgärdsplaner för aktuella fastigheter.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="811.14795"
+               id="tspan231" /></text>
         </g>
-        <g id="fv-sen" style="display:inline" class="sen">
-          <text x="1222.6641" y="29.664001" class="rubrik" id="text5-73" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan5-4" x="1222.6641" y="29.664001">Bedömning i förvaltningsskedet</tspan>
-            <tspan x="1222.6641" y="59.664001" id="tspan151" />
-          </text>
-          <text x="1221.6663" y="60.860519" class="underrubrik" id="text31-8" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1221.6663" y="60.860519" id="tspan31-12">Gör en bedömning av inventerade objekt.</tspan>
-            <tspan x="1221.6663" y="78.360519" id="tspan154">Vad är möjligt att förbereda för enkelt återbruk.</tspan>
-            <tspan x="1221.6663" y="95.860519" id="tspan153" />
-          </text>
-          <text x="1220.5701" y="101.6834" class="loptext" id="text34-9" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan id="tspan34-8" x="1220.5701" y="101.6834">”Hur är skicket på det som redan finns och fungerar det i sitt nuvarande läge?”</tspan>
-            <tspan x="1220.5701" y="114.1834" id="tspan155" />
-          </text>
-          <text x="1231.7899" y="122.76759" class="loptext" id="text45-8" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.7899" y="122.76759" id="tspan45-7">Efter en inventering finns det ett värde av att gå igenom resultatet inom</tspan>
-            <tspan x="1231.7899" y="135.26759" id="tspan158">organisationen för att se vilka resurser som kan vara disponibla för</tspan>
-            <tspan x="1231.7899" y="147.76759" id="tspan159">andra utvecklingsprojekt.</tspan>
-            <tspan x="1231.7899" y="160.26759" id="tspan157" />
-          </text>
-          <text x="1231.7899" y="169.32352" class="loptext" id="text52-0" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.7899" y="169.32352" id="tspan52-7">Produkter som ger störst klimatmässig effekt att</tspan>
-            <tspan x="1231.7899" y="181.82352" id="tspan166">använda/återbruka/återvinna är bl.a: märkta dörrar, glaspartier,</tspan>
-            <tspan x="1231.7899" y="194.32352" id="tspan167">sanitetsporslin, vitvaror, blandare, sakvaror i kök.</tspan>
-            <tspan x="1231.7899" y="206.82352" id="tspan165" />
-          </text>
-          <text x="1231.8" y="217.39508" class="loptext" id="text59-8" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.8" y="217.39508" id="tspan59-3">Byggdelar som ger störst klimatmässig effekt att</tspan>
-            <tspan x="1231.8" y="229.89508" id="tspan174">använda/återbruka/återvinna är bl.a: tegelstenar, kakel, marksten,</tspan>
-            <tspan x="1231.8" y="242.39508" id="tspan175">spirorör och ventilationsaggregat, apparatskåp för att nämna några</tspan>
-            <tspan x="1231.8" y="254.89508" id="tspan176">där det finns processer på plats.</tspan>
-            <tspan x="1231.8" y="267.39508" id="tspan173" />
-          </text>
-          <text x="1231.8" y="276.95178" class="loptext" id="text59-8-8" style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000">
-            <tspan x="1231.8" y="276.95178" id="tspan173-4">Undersök även möjligheter för omlokalisering av objekt inom den</tspan>
-            <tspan x="1231.8" y="289.45178" id="tspan181">aktuella fastigheten för att tillgodose behov och använda resurserna</tspan>
-            <tspan x="1231.8" y="301.95178" id="tspan182">på bästa tänkbara sätt.</tspan>
-            <tspan x="1231.8" y="314.45178" id="tspan180" />
-          </text>
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="m 1223.4609,40.27598 h 368.431" id="path59-4" />
-          <path style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 1221.8529,393.77344 H 1590.284" id="path60-5" />
-          <text x="1221.0559" y="384.88693" class="rubrik" id="text60-0" style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000">
-            <tspan id="tspan60-1" x="1221.0559" y="384.88693">Hur gör man?</tspan>
-          </text>
-          <text x="1220.0581" y="412.358" class="underrubrik" id="text63-4" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000">
-            <tspan x="1220.0581" y="412.358" id="tspan63-2">FOJAB värderar inventerade objekt i samråd med</tspan>
-            <tspan x="1220.0581" y="429.858" id="tspan185">förvaltare och konsulter. Behov av certifiering utreds.</tspan>
-            <tspan x="1220.0581" y="447.358" id="tspan184" />
-          </text>
+        <g
+           id="fv-sen"
+           inkscape:label="fv-sen"
+           style="display:inline"
+           class="sen">
+          <text
+             x="1222.6641"
+             y="29.664001"
+             class="rubrik"
+             id="text5-73"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan5-4"
+               x="1222.6641"
+               y="29.664001">Bedömning i förvaltningsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="59.664001"
+               id="tspan151" /></text>
+          <text
+             x="1221.6663"
+             y="60.860519"
+             class="underrubrik"
+             id="text31-8"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="60.860519"
+               id="tspan31-12">Gör en bedömning av inventerade objekt.</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="78.360519"
+               id="tspan154">Vad är möjligt att förbereda för enkelt återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="95.860519"
+               id="tspan153" /></text>
+          <text
+             x="1220.5701"
+             y="101.6834"
+             class="loptext"
+             id="text34-9"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan34-8"
+               x="1220.5701"
+               y="101.6834">”Hur är skicket på det som redan finns och fungerar det i sitt nuvarande läge?”</tspan><tspan
+               sodipodi:role="line"
+               x="1220.5701"
+               y="114.1834"
+               id="tspan155" /></text>
+          <text
+             x="1255.7899"
+             y="122.76759"
+             class="loptext"
+             id="text45-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="122.76759"
+               id="tspan45-7">Efter en inventering finns det ett värde av att gå igenom resultatet inom</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="135.26759"
+               id="tspan158">organisationen för att se vilka resurser som kan vara disponibla för</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="147.76759"
+               id="tspan159">andra utvecklingsprojekt.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="160.26759"
+               id="tspan157" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4"
+             cx="1242.5532"
+             cy="119.71339"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-8"
+             cx="1242.5532"
+             cy="167.71338"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-0"
+             cx="1242.5532"
+             cy="215.71338"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-21-2-4-2"
+             cx="1242.5532"
+             cy="273.71338"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1255.7899"
+             y="169.32352"
+             class="loptext"
+             id="text52-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="169.32352"
+               id="tspan52-7">Produkter som ger störst klimatmässig effekt att</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="181.82352"
+               id="tspan166">använda/återbruka/återvinna är bl.a: märkta dörrar, glaspartier,</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="194.32352"
+               id="tspan167">sanitetsporslin, vitvaror, blandare, sakvaror i kök.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="206.82352"
+               id="tspan165" /></text>
+          <text
+             x="1255.8"
+             y="217.39508"
+             class="loptext"
+             id="text59-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="217.39508"
+               id="tspan59-3">Byggdelar som ger störst klimatmässig effekt att</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="229.89508"
+               id="tspan174">använda/återbruka/återvinna är bl.a: tegelstenar, kakel, marksten,</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="242.39508"
+               id="tspan175">spirorör och ventilationsaggregat, apparatskåp för att nämna några</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="254.89508"
+               id="tspan176">där det finns processer på plats.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="267.39508"
+               id="tspan173" /></text>
+          <text
+             x="1255.8"
+             y="276.95178"
+             class="loptext"
+             id="text59-8-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="276.95178"
+               id="tspan173-4">Undersök även möjligheter för omlokalisering av objekt inom den</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="289.45178"
+               id="tspan181">aktuella fastigheten för att tillgodose behov och använda resurserna</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="301.95178"
+               id="tspan182">på bästa tänkbara sätt.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.8"
+               y="314.45178"
+               id="tspan180" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1223.4609,40.27598 h 368.431"
+             id="path59-4" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1221.8529,393.77344 H 1590.284"
+             id="path60-5" />
+          <text
+             x="1221.0559"
+             y="384.88693"
+             class="rubrik"
+             id="text60-0"
+             inkscape:label="text1-1-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan60-1"
+               x="1221.0559"
+               y="384.88693">Hur gör man?</tspan></text>
+          <text
+             x="1220.0581"
+             y="412.358"
+             class="underrubrik"
+             id="text63-4"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="412.358"
+               id="tspan63-2">FOJAB värderar inventerade objekt i samråd med</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="429.858"
+               id="tspan185">förvaltare och konsulter. Behov av certifiering utreds.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="447.358"
+               id="tspan184" /></text>
         </g>
       </g>
-      <g id="Text-projektering">
+      <g
+         id="Text-projektering"
+         sodipodi:insensitive="true"
+         style="display:none">
+        <!-- Add content for Projektering here -->
+        <g
+           id="pr-forst"
+           inkscape:label="pr-forst"
+           style="display:inline"
+           class="forst">
+          <path
+             style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815201,59.00441 H 388.24625"
+             id="path2-7-7-8" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207215,313.50338 H 386.63827"
+             id="path2-3-87-0-7" />
+          <text
+             x="19.018326"
+             y="48.392433"
+             class="rubrik"
+             id="text1-3-3-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="19.018326"
+               y="48.392433"
+               id="tspan232-9">Inventering i projekteringsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="19.018326"
+               y="78.392433"
+               id="tspan341" /></text>
+          <text
+             x="18.020508"
+             y="79.588951"
+             class="underrubrik"
+             id="text1-7-82-3-3"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="79.588951"
+               id="tspan235-0">Identifiera byggnadsdelar som kan behöva certifieras</tspan><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="97.088951"
+               id="tspan344">och digitalisera objekt vid behov.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="114.58895"
+               id="tspan343" /></text>
+          <text
+             x="16.924328"
+             y="120.41183"
+             class="loptext"
+             id="text1-7-1-3-5-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan131-5-3"
+               x="16.924328"
+               y="120.41183">”Vad finns att utgå ifrån?”<tspan
+   x="16.924328"
+   y="120.41183"
+   id="tspan13-7-8-8" /></tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="132.91183"
+               id="tspan236-4" /><tspan
+               sodipodi:role="line"
+               id="tspan132-3-8"
+               x="16.924328"
+               y="145.41183" /></text>
+          <circle
+             id="path447-1-5"
+             cx="37.444901"
+             cy="138.73758"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-7"
+             cx="37.444901"
+             cy="174.73758"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-4"
+             cx="37.444901"
+             cy="208.73758"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="142.11069"
+             class="loptext"
+             id="text1-7-1-8-2-7-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="142.11069"
+               id="tspan240-3">Gå igenom eventuella val som gjorts i detaljplane- och bygglovsskedet och</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="154.61069"
+               id="tspan349">verifiera genomförbarhet i produktionsskedet.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="167.11069"
+               id="tspan348" /></text>
+          <text
+             x="51.089855"
+             y="177.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6-9-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Circular Std Book', Fallback, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="177.17068"
+               id="tspan245-5">Identifiera valda lösningar som låser processen framåt och var det finns</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="189.67068"
+               id="tspan353">fortsatt flexibilitet.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="202.17068"
+               id="tspan352" /></text>
+          <text
+             x="51.089855"
+             y="211.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-8-6"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="211.17068"
+               id="tspan144-1-3">I detta läge behöver hela projektgruppen lyfta blicken. Finns det projekt i</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="223.67068"
+               id="tspan358">närheten med materialtillgångar som vi kan ha nytta av. Kan vi köpa loss</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="236.17068"
+               id="tspan359">överblivet material eller byggdelar som av olika anledningar inte kan</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="248.67068"
+               id="tspan360">användas på ursprungsplatsen underlättar detta logistik och ger mer luft i</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="261.17068"
+               id="tspan361">logistiken förenad med användandet av återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="273.67068"
+               id="tspan357" /></text>
+          <text
+             x="17.410339"
+             y="304.61685"
+             class="rubrik"
+             id="text1-1-3-0-8"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan1-8-2-8-9"
+               x="17.410339"
+               y="304.61685">Hur gör man?</tspan></text>
+          <text
+             x="16.412521"
+             y="332.08792"
+             class="underrubrik"
+             id="text1-7-2-5-7-4"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="332.08792"
+               id="tspan259-6">FOJAB inventerar i dialog med relevanta experter</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="349.58792"
+               id="tspan364">för att lösa projektets behov.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="367.08792"
+               id="tspan363" /></text>
+        </g>
+        <g
+           id="pr-efter"
+           inkscape:label="pr-efter"
+           style="display:inline"
+           class="efter">
+          <text
+             x="1221.0559"
+             y="470.88693"
+             class="rubrik"
+             id="text5-7-2-5-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="470.88693"
+               id="tspan187-3-7">Materialjakt i projekteringsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="500.88693"
+               id="tspan397" /></text>
+          <text
+             x="1220.0581"
+             y="504.0835"
+             class="underrubrik"
+             id="text31-9-7-9-1"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="504.0835"
+               id="tspan292-1">Gör en bedömning av om/hur projektet kan stärka</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="521.5835"
+               id="tspan401">CSRD-redovisning. Samverka med lokala aktörer för</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="539.0835"
+               id="tspan402">att hitta möjliga materialströmmar.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="556.5835"
+               id="tspan400" /></text>
+          <text
+             x="1218.9619"
+             y="564.90637"
+             class="loptext"
+             id="text34-8-0-7-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="564.90637"
+               id="tspan193-4-9">”Vilka frågor behöver hanteras utöver de som redan identifierats?”</tspan><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="577.40637"
+               id="tspan404" /></text>
+          <text
+             x="1256.1818"
+             y="587.99048"
+             class="loptext"
+             id="text45-0-1-5-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="587.99048"
+               id="tspan298-4">Marknaden utvecklas fort och utmaningar igår kan ha lösningar idag.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="600.49048"
+               id="tspan407">Ställ frågan ige om det kvarstår frågor som inte kunnat lösas i tidigare</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="612.99048"
+               id="tspan408">skede. Finns aktörer i våra grannländer som kan tillhandahålla kompetens?</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="625.49048"
+               id="tspan406" /></text>
+          <circle
+             id="path447-1-5-5-2"
+             cx="1242.5532"
+             cy="584.33563"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-6"
+             cx="1242.5532"
+             cy="632.33563"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1256.1818"
+             y="634.54639"
+             class="loptext"
+             id="text52-1-0-5-1"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="634.54639"
+               id="tspan302-3">Lokala nätverk såsom LFM30, Handslaget och Klimatarena Stockholm</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="647.04639"
+               id="tspan411">sitter på mycket kunskap om vilka man kan vända sig till. Även privata</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="659.54639"
+               id="tspan412">aktörer såsom CC Build och Palats kan vara intressanta.</tspan><tspan
+               sodipodi:role="line"
+               x="1256.1818"
+               y="672.04639"
+               id="tspan410" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1221.8527,481.49891 h 368.431"
+             id="path59-0-4-5-2"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1220.2447,714.99637 h 368.4311"
+             id="path60-6-8-4-7" />
+          <text
+             x="1219.4478"
+             y="706.10986"
+             class="rubrik"
+             id="text60-1-2-2-7"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"
+             inkscape:label="text1-1-6"><tspan
+               id="tspan60-8-1-5-1"
+               x="1219.4478"
+               y="706.10986">Hur gör man?</tspan></text>
+          <text
+             x="1218.45"
+             y="733.58093"
+             class="underrubrik"
+             id="text63-9-6-3-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="733.58093"
+               id="tspan308-9">FOJAB för dialog med aktörer som knutits till</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="751.08093"
+               id="tspan416">projektet för att främja cirkulära lösningar och</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="768.58093"
+               id="tspan417">stämmer av mot projektets hållbarhetsambitioner.</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="786.08093"
+               id="tspan415" /></text>
+        </g>
+        <g
+           id="pr-hela"
+           inkscape:label="pr-hela"
+           style="display:inline"
+           class="hela">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815186,488.5644 H 388.24629"
+             id="path2-8-4-6-6" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207206,795.06342 H 386.63829"
+             id="path2-3-8-9-6-0" />
+          <text
+             x="19.018322"
+             y="445.95242"
+             class="rubrik"
+             id="text1-0-2-3-3"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="445.95242"
+               id="tspan208-5-6">Processledning i</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="475.95242"
+               id="tspan419">projekteringsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="505.95242"
+               id="tspan418" /><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="535.95245"
+               id="tspan312-2" /></text>
+          <text
+             x="18.020519"
+             y="509.14893"
+             class="underrubrik"
+             id="text1-7-8-6-6-4"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="509.14893"
+               id="tspan315-1">Maximera möjligheterna för återbruk. Identifiera</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="526.64893"
+               id="tspan423">kritiska punkter i gestaltningen som ger flexibilitet</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="544.14893"
+               id="tspan424">vid inköp/produktion.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="561.64893"
+               id="tspan422" /></text>
+          <text
+             x="16.924328"
+             y="565.9718"
+             class="loptext"
+             id="text1-7-1-7-6-6-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan102-8-6-1"
+               x="16.924328"
+               y="565.9718">”Var finns kritiska punkter för projektets genomförande som behöver</tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="578.4718"
+               id="tspan426">låsas tidigt och var kan valmöjligheter behållas till projektering färdigställts?”</tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="590.9718"
+               id="tspan425" /><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="603.4718"
+               id="tspan320-4" /></text>
+          <text
+             x="51.089855"
+             y="603.59076"
+             class="loptext"
+             id="text1-7-1-8-0-2-7-2-2-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="603.59076"
+               id="tspan329-8">Cirkulär gestaltning i projekteringsskedet kräver en tätare dialog</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="616.09076"
+               id="tspan430">mellan projektledare, arkitekter, entreprenörer och Inköpare. Man</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="628.59076"
+               id="tspan431">behöver gemensamt avgöra vilka delar av byggnaden som tidigt</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="641.09076"
+               id="tspan432">behöver definieras och beställas, och var man kan bibehålla</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="653.59076"
+               id="tspan433">öppenhet för förändringar längre. Leveranstider är kritiska för att inte</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="666.09076"
+               id="tspan434">projektkostnaderna ska öka i onödan.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="678.59076"
+               id="tspan429" /></text>
+          <text
+             x="51.089855"
+             y="690.09076"
+             class="loptext"
+             id="text1-7-1-8-0-2-3-8-1-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="690.09076"
+               id="tspan333-9">Lagerhållning under tak underlättar en flexibel process. Lokaler på</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="702.59076"
+               id="tspan438">plats är att föredra.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="715.09076"
+               id="tspan437" /></text>
+          <text
+             x="51.089855"
+             y="726.00073"
+             class="loptext"
+             id="text1-7-1-8-0-2-3-8-1-3-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="726.00073"
+               id="tspan437-5">Demonterbarhet av byggdelar ökar projektens tålighet och gagnar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="738.50073"
+               id="tspan441">projektet långsiktigt genom att man i nästa skede sparar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="751.00073"
+               id="tspan442">material och minskar miljöbelastningen.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="763.50073"
+               id="tspan440" /></text>
+          <text
+             x="17.410351"
+             y="786.17688"
+             class="rubrik"
+             id="text1-1-9-2-0-8"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               id="tspan1-8-6-6-0-6"
+               x="17.410351"
+               y="786.17688">Hur gör man?</tspan></text>
+          <text
+             x="16.412487"
+             y="813.64795"
+             class="underrubrik"
+             id="text1-7-2-8-0-2-6"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="813.64795"
+               id="tspan338-2">FOJAB möjliggör för utnyttjande av tilltänkta</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="831.14795"
+               id="tspan446">materialströmmar och återbruksobjekt genom</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="848.64795"
+               id="tspan447">samverkan och lyhörd, högkvalitativ gestaltning.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="866.14795"
+               id="tspan445" /></text>
+          <circle
+             id="path447"
+             cx="36.931873"
+             cy="600.5166"
+             r="2" />
+          <circle
+             id="path447-1"
+             cx="36.931873"
+             cy="686.5166"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-0"
+             cx="36.931873"
+             cy="722.5166"
+             r="2"
+             style="display:inline" />
+        </g>
+        <g
+           id="pr-sen"
+           inkscape:label="pr-sen"
+           style="display:inline"
+           class="sen">
+          <text
+             x="1222.6641"
+             y="29.664001"
+             class="rubrik"
+             id="text5-73-6-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="29.664001"
+               id="tspan151-8-7">Bedömning i projekteringsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="59.664001"
+               id="tspan366" /></text>
+          <text
+             x="1221.6663"
+             y="60.860519"
+             class="underrubrik"
+             id="text31-8-2-8"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="60.860519"
+               id="tspan262-0">Kunskap om material som ”låser” konstruktioner är</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="78.360519"
+               id="tspan370">viktigt. Välj konsulter och entreprenörer med omsorg.</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="95.860519"
+               id="tspan369" /></text>
+          <text
+             x="1220.5701"
+             y="101.6834"
+             class="loptext"
+             id="text34-9-4-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.5701"
+               y="101.6834"
+               id="tspan155-6-9">”Hur är skicket på det som inventerats och var passar det bäst?”</tspan><tspan
+               sodipodi:role="line"
+               x="1220.5701"
+               y="114.1834"
+               id="tspan372" /></text>
+          <text
+             x="1255.7899"
+             y="126.76759"
+             class="loptext"
+             id="text45-8-8-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="126.76759"
+               id="tspan268-2">Generellt för cirkulära projekt bör ambitionen vid projektering vara att</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="139.26759"
+               id="tspan378">möjliggöra för återbruk i framtiden, oaktat om man bygger med nytt</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="151.76759"
+               id="tspan379">eller återbruk. Gå igenom standardlösningar ni tänker använda och se</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="164.26759"
+               id="tspan380">var vi med enkla justeringar kan möjliggöra för demonterbarhet av</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="176.76759"
+               id="tspan381">byggdelar.</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="189.26759"
+               id="tspan377" /></text>
+          <circle
+             id="path447-1-5-5"
+             cx="1242.5532"
+             cy="123.98506"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-7"
+             cx="1242.5532"
+             cy="197.98506"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1257.7299"
+             y="200.76801"
+             class="loptext"
+             id="text45-8-8-3-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1257.7299"
+               y="200.76801"
+               id="tspan283-8">Exempel på möjliga förändringar av tidigare arbetssätt:</tspan><tspan
+               sodipodi:role="line"
+               x="1257.7299"
+               y="213.26801"
+               id="tspan383" /></text>
+          <text
+             x="1275.8599"
+             y="221.998"
+             class="loptext"
+             id="text59-8-0-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="221.998"
+               id="tspan173-6-81">- Montera tekniska installationer med infästningar som möjliggör</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="234.498"
+               id="tspan385">demontage utan åverkan på kringliggande delar.</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="246.998"
+               id="tspan384" /><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="259.49799"
+               id="tspan276-6" /></text>
+          <text
+             x="1275.8599"
+             y="255.37799"
+             class="loptext"
+             id="text59-8-0-3-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="255.37799"
+               id="tspan276-9-8">- Undvik ”blöta” infästningsmetoder såsom lim m.fl.</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="267.87799"
+               id="tspan387" /></text>
+          <text
+             x="1275.8599"
+             y="276.758"
+             class="loptext"
+             id="text59-8-0-0-9"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="276.758"
+               id="tspan173-6-1-0">- Minimering av plast i konstruktionen är fördelaktigt.</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="289.258"
+               id="tspan388" /><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="301.758"
+               id="tspan278-0" /><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="314.258"
+               id="tspan276-4-0" /></text>
+          <text
+             x="1275.8599"
+             y="298.11798"
+             class="loptext"
+             id="text59-8-0-0-9-9"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="298.11798"
+               id="tspan276-4-0-5">- Premiera mekaniska infästningslösningar.</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="310.61798"
+               id="tspan391" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1223.4609,40.27598 h 368.431"
+             id="path59-4-8-7" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1221.8529,349.77344 H 1590.284"
+             id="path60-5-2-2" />
+          <text
+             x="1221.0559"
+             y="340.88693"
+             class="rubrik"
+             id="text60-0-3-5"
+             inkscape:label="text1-1-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan60-1-4-5"
+               x="1221.0559"
+               y="340.88693">Hur gör man?</tspan></text>
+          <text
+             x="1220.0581"
+             y="368.358"
+             class="underrubrik"
+             id="text63-4-0-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="368.358"
+               id="tspan287-6">FOJAB utvärderar projektmål och prioriterar i</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="385.858"
+               id="tspan395">samråd med kund, konsulter och entreprenör.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="403.358"
+               id="tspan394" /></text>
+        </g>
       </g>
-      <g id="Text-bygglov">
-        
+      <g
+         id="Text-bygglov"
+         style="display:none"
+         sodipodi:insensitive="true">
+        <!-- Add content for Bygglov here -->
+        <g
+           id="bl-forst"
+           inkscape:label="bl-forst"
+           style="display:inline"
+           class="forst">
+          <path
+             style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815201,59.00441 H 388.24625"
+             id="path2-7-7" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207215,357.50338 H 386.63827"
+             id="path2-3-87-0" />
+          <text
+             x="19.018326"
+             y="48.392433"
+             class="rubrik"
+             id="text1-3-3"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan127-3"
+               x="19.018326"
+               y="48.392433">Inventering i bygglovsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="19.018326"
+               y="78.392433"
+               id="tspan232" /></text>
+          <text
+             x="18.020508"
+             y="79.588951"
+             class="underrubrik"
+             id="text1-7-82-3"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan129-9"
+               x="18.020508"
+               y="79.588951">Inventera befintliga byggnader.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="97.088951"
+               id="tspan234">Vad kan bevaras och vad bör återanvändas?</tspan><tspan
+               sodipodi:role="line"
+               x="18.020508"
+               y="114.58895"
+               id="tspan235" /></text>
+          <text
+             x="16.924328"
+             y="120.41183"
+             class="loptext"
+             id="text1-7-1-3-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan131-5"
+               x="16.924328"
+               y="120.41183">”Vad finns att utgå ifrån?”<tspan
+   x="16.924328"
+   y="120.41183"
+   id="tspan13-7-8" /></tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="132.91183"
+               id="tspan236" /><tspan
+               sodipodi:role="line"
+               id="tspan132-3"
+               x="16.924328"
+               y="145.41183" /></text>
+          <text
+             x="51.089855"
+             y="142.11069"
+             class="loptext"
+             id="text1-7-1-8-2-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan134-3"
+               x="51.089855"
+               y="142.11069">Inventering inför framtagning av ett bygglov handlar det till stor del om att</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="154.61069"
+               id="tspan241">fastslå vilka delar som är möjliga att bevara. Ett tätt samarbete med</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="167.11069"
+               id="tspan242">miljökonsult kan vara nödvändigt beroende på vilka förutsättningar som</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="179.61069"
+               id="tspan243">finns i projektet.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="192.11069"
+               id="tspan240" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0"
+             cx="37.444901"
+             cy="138.80893"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-0"
+             cx="37.444901"
+             cy="196.80893"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-5"
+             cx="37.444901"
+             cy="240.80893"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="199.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6-9"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:normal;font-family:'Circular Std Book', Fallback, sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;display:inline;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="199.17068"
+               id="tspan141-2">Är projektområdet från 1960-talet eller äldre finns goda förutsättningar för</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="211.67068"
+               id="tspan246">återanvändning. För yngre byggnader är det mer begränsat vad som går att</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="224.17068"
+               id="tspan247">återbruka/återanvända.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="236.67068"
+               id="tspan245" /></text>
+          <text
+             x="51.089855"
+             y="245.17068"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="245.17068"
+               id="tspan141-9-0">Fundera kring återvinning av material till nya produkter i projektet. Planglas</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="257.67068"
+               id="tspan249">kan exempelvis återvinnas och monteras i nya energifönster som kan</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="270.17068"
+               id="tspan250">återmonteras i ert projekt.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="282.67068"
+               id="tspan248" /><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="295.17068"
+               id="tspan144-1" /></text>
+          <text
+             x="51.589848"
+             y="290.22067"
+             class="loptext"
+             id="text1-7-1-8-2-6-5-8-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.589848"
+               y="290.22067"
+               id="tspan144-1-1">I detta skede ska projektägare gärna ha gjort en intern genomgång av</tspan><tspan
+               sodipodi:role="line"
+               x="51.589848"
+               y="302.72067"
+               id="tspan255">projektets hållbarhetsambitioner. Var kan vi använda återbruk och hur ska</tspan><tspan
+               sodipodi:role="line"
+               x="51.589848"
+               y="315.22067"
+               id="tspan256">vi arbeta med jungfruliga byggdelar i olika byggnadslager?</tspan><tspan
+               sodipodi:role="line"
+               x="51.589848"
+               y="327.72067"
+               id="tspan254" /></text>
+          <text
+             x="17.410339"
+             y="348.61685"
+             class="rubrik"
+             id="text1-1-3-0"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan1-8-2-8"
+               x="17.410339"
+               y="348.61685">Hur gör man?</tspan></text>
+          <text
+             x="16.412521"
+             y="376.08792"
+             class="underrubrik"
+             id="text1-7-2-5-7"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="376.08792"
+               id="tspan149-5">FOJAB inventerar i dialog med Miljösakkunniga.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="393.58792"
+               id="tspan258">Resultat blir grund för vidare arbete.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="411.08792"
+               id="tspan259" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9-0-2"
+             cx="37.444901"
+             cy="286.80893"
+             r="2"
+             style="display:inline" />
+        </g>
+        <g
+           id="bl-efter"
+           inkscape:label="bl-efter"
+           style="display:inline"
+           class="efter">
+          <text
+             x="1221.0559"
+             y="470.88693"
+             class="rubrik"
+             id="text5-7-2-5"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="470.88693"
+               id="tspan65-0-8">Materialjakt i bygglovsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="500.88693"
+               id="tspan289" /><tspan
+               sodipodi:role="line"
+               x="1221.0559"
+               y="530.88696"
+               id="tspan187-3" /></text>
+          <text
+             x="1220.0581"
+             y="504.0835"
+             class="underrubrik"
+             id="text31-9-7-9"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="504.0835"
+               id="tspan190-9">Säkerställ egenskaper, kvalitet, kvantitet och tillgång.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="521.5835"
+               id="tspan293">Går det att lagerhålla eller kan man samarbeta med</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="539.0835"
+               id="tspan294">annan aktör för detta?</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="556.5835"
+               id="tspan292" /></text>
+          <text
+             x="1218.9619"
+             y="564.90637"
+             class="loptext"
+             id="text34-8-0-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="564.90637"
+               id="tspan71-3-6">”Vad behövs utöver det som redan identifierats?”</tspan><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="577.40637"
+               id="tspan295" /><tspan
+               sodipodi:role="line"
+               x="1218.9619"
+               y="589.90637"
+               id="tspan193-4" /></text>
+          <text
+             x="1254.1818"
+             y="587.99048"
+             class="loptext"
+             id="text45-0-1-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="587.99048"
+               id="tspan196-5">Redan i bygglovsprocessen kan det vara aktuellt att kontakta</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="600.49048"
+               id="tspan299">specifika leverantörer för att leva upp till projektets ambitioner.</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="612.99048"
+               id="tspan298" /></text>
+          <circle
+             id="path447-1-5-5-2-9"
+             cx="1242.5532"
+             cy="584.09662"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-3"
+             cx="1242.5532"
+             cy="618.09662"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-9"
+             cx="1242.5532"
+             cy="654.09662"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1254.1818"
+             y="622.54639"
+             class="loptext"
+             id="text52-1-0-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="622.54639"
+               id="tspan200-4">Hela projektgruppen behöver utnyttja sina nätverk för att hitta</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="635.04639"
+               id="tspan303">vägar framåt som möjliggör tänkt gestaltning.</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="647.54639"
+               id="tspan302" /></text>
+          <text
+             x="1254.1818"
+             y="656.42639"
+             class="loptext"
+             id="text52-1-0-5-5"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="656.42639"
+               id="tspan302-0">Gör en bedömning av om/hur projektet kan stärka CSRD-redovisning.</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="668.92639"
+               id="tspan306">Fastställ parametrar ni behöver veta redan nu.</tspan><tspan
+               sodipodi:role="line"
+               x="1254.1818"
+               y="681.42639"
+               id="tspan305" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1221.8527,481.49891 h 368.431"
+             id="path59-0-4-5"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1220.2447,714.99637 h 368.4311"
+             id="path60-6-8-4" />
+          <text
+             x="1219.4478"
+             y="706.10986"
+             class="rubrik"
+             id="text60-1-2-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"
+             inkscape:label="text1-1-6"><tspan
+               id="tspan60-8-1-5"
+               x="1219.4478"
+               y="706.10986">Hur gör man?</tspan></text>
+          <text
+             x="1218.45"
+             y="733.58093"
+             class="underrubrik"
+             id="text63-9-6-3"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="733.58093"
+               id="tspan205-8">FOJAB assisterar i värdering och</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="751.08093"
+               id="tspan309">prioriteringsordning för återbruksobjekt och hjälper</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="768.58093"
+               id="tspan310">till att hittar möjliga leverantörer till projektet.</tspan><tspan
+               sodipodi:role="line"
+               x="1218.45"
+               y="786.08093"
+               id="tspan308" /></text>
+        </g>
+        <g
+           id="bl-hela"
+           inkscape:label="bl-hela"
+           style="display:inline"
+           class="hela">
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815186,466.5644 H 388.24629"
+             id="path2-8-4-6" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207206,717.06342 H 386.63829"
+             id="path2-3-8-9-6" />
+          <text
+             x="19.018322"
+             y="457.95242"
+             class="rubrik"
+             id="text1-0-2-3"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="457.95242"
+               id="tspan208-5">Processledning i bygglovsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="19.018322"
+               y="487.95242"
+               id="tspan312" /></text>
+          <text
+             x="18.020519"
+             y="489.14893"
+             class="underrubrik"
+             id="text1-7-8-6-6"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="489.14893"
+               id="tspan212-5">Ta fram en robust designidé som tål att förändras</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="506.64893"
+               id="tspan316">under arbetets gång. Beakta konsultval då dialog</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="524.14893"
+               id="tspan317">med stadsbyggnadskontoret är viktigt i detta skede.</tspan><tspan
+               sodipodi:role="line"
+               x="18.020519"
+               y="541.64893"
+               id="tspan315" /></text>
+          <text
+             x="16.924328"
+             y="545.9718"
+             class="loptext"
+             id="text1-7-1-7-6-6"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan102-8-6"
+               x="16.924328"
+               y="545.9718">”Hur skapas förutsättningar för att kunna behålla flexibilitet i produktionsskedet?”</tspan><tspan
+               sodipodi:role="line"
+               x="16.924328"
+               y="558.4718"
+               id="tspan320" /></text>
+          <text
+             x="51.089855"
+             y="571.73077"
+             class="loptext"
+             id="text1-7-1-8-0-2-7-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="571.73077"
+               id="tspan219-0">Cirkulär gestaltning handlar om att designa system som hanterar</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="584.23077"
+               id="tspan327">och minimerar risken med osäkerheter i projektet.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="596.73077"
+               id="tspan326" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6-9"
+             cx="37.444901"
+             cy="568.14325"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-9"
+             cx="37.444901"
+             cy="604.14325"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-9-8"
+             cx="37.444901"
+             cy="654.14325"
+             r="2"
+             style="display:inline" />
+          <text
+             x="51.089855"
+             y="607.59076"
+             class="loptext"
+             id="text1-7-1-8-0-2-7-2-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="607.59076"
+               id="tspan326-0">Smarta BIM-modeller och agila metoder gör att vi kan hantera</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="620.09076"
+               id="tspan330">förändringar avseende material och produkter sent i processen</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="632.59076"
+               id="tspan336">utan merkonstnad.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="645.09076"
+               id="tspan329" /></text>
+          <text
+             x="51.089855"
+             y="656.09076"
+             class="loptext"
+             id="text1-7-1-8-0-2-3-8-1"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="656.09076"
+               id="tspan227-6">Att etablera dialog med projektkritiska aktörer och bygga förtroende</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="668.59076"
+               id="tspan334">är en framgångsfaktor.</tspan><tspan
+               sodipodi:role="line"
+               x="51.089855"
+               y="681.09076"
+               id="tspan333" /></text>
+          <text
+             x="17.410351"
+             y="708.17688"
+             class="rubrik"
+             id="text1-1-9-2-0"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               id="tspan1-8-6-6-0"
+               x="17.410351"
+               y="708.17688">Hur gör man?</tspan></text>
+          <text
+             x="16.412487"
+             y="735.64795"
+             class="underrubrik"
+             id="text1-7-2-8-0-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="735.64795"
+               id="tspan231-3">FOJAB för dialog med stadsbyggnadskontoret kring</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="753.14795"
+               id="tspan339">hur återbruksprocessen påverkar gestaltning och</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="770.64795"
+               id="tspan340">hur bygglov bör utformas.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412487"
+               y="788.14795"
+               id="tspan338" /></text>
+        </g>
+        <g
+           id="bl-sen"
+           inkscape:label="bl-sen"
+           style="display:inline"
+           class="sen">
+          <text
+             x="1222.6641"
+             y="29.664001"
+             class="rubrik"
+             id="text5-73-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan5-4-2"
+               x="1222.6641"
+               y="29.664001">Bedömning i bygglovsskedet</tspan><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="59.664001"
+               id="tspan260" /><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="89.664001"
+               id="tspan151-8" /></text>
+          <text
+             x="1221.6663"
+             y="60.860519"
+             class="underrubrik"
+             id="text31-8-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="60.860519"
+               id="tspan153-3">Bevarandevärden, eventuella föroreningar och</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="78.360519"
+               id="tspan263">projektets ekonomi ger förutsättningar inför dialog</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="95.860519"
+               id="tspan264">med stadsbyggnadskontoret</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="113.36052"
+               id="tspan262" /></text>
+          <text
+             x="1220.5701"
+             y="123.6834"
+             class="loptext"
+             id="text34-9-4"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan34-8-3"
+               x="1220.5701"
+               y="123.6834">”Hur är skicket på det som inventerats?”</tspan><tspan
+               sodipodi:role="line"
+               x="1220.5701"
+               y="136.18341"
+               id="tspan265" /><tspan
+               sodipodi:role="line"
+               x="1220.5701"
+               y="148.68341"
+               id="tspan155-6" /></text>
+          <text
+             x="1255.7899"
+             y="144.76759"
+             class="loptext"
+             id="text45-8-8"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="144.76759"
+               id="tspan157-9">Om detaljplanen har ett cirkulärt förhållningssätt utgår man från de</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="157.26759"
+               id="tspan269">förutsättningar som ges. Ofta arbetar man dock med planer framtagna</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="169.76759"
+               id="tspan270">utan ett cirkulärt synsätt. Då behövs tidigt en dialog med</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="182.26759"
+               id="tspan271">stadsbyggnadskontoret kring vilka möjligheter det finns i planen för</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="194.76759"
+               id="tspan272">cirkularitet. Exempelvis:</tspan><tspan
+               sodipodi:role="line"
+               x="1255.7899"
+               y="207.26759"
+               id="tspan268" /></text>
+          <circle
+             id="path447-1-5-5-2-9-6"
+             cx="1242.5532"
+             cy="141.23404"
+             r="2"
+             style="display:inline" />
+          <circle
+             id="path447-1-5-5-2-9-6-4"
+             cx="1242.5532"
+             cy="301.23404"
+             r="2"
+             style="display:inline" />
+          <text
+             x="1257.7299"
+             y="304.76801"
+             class="loptext"
+             id="text45-8-8-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1257.7299"
+               y="304.76801"
+               id="tspan268-0">Om återbrukade byggdelar som är centrala för byggnadens funktion ska</tspan><tspan
+               sodipodi:role="line"
+               x="1257.7299"
+               y="317.26801"
+               id="tspan284">användas, kan de behöva testats och eventuellt CE-märkas.</tspan><tspan
+               sodipodi:role="line"
+               x="1257.7299"
+               y="329.76801"
+               id="tspan283" /></text>
+          <text
+             x="1275.8599"
+             y="217.998"
+             class="loptext"
+             id="text59-8-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="217.998"
+               id="tspan173-6">– Finns det möjlighet till viss flexibilitet kring var fasadlivet landar?</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="230.498"
+               id="tspan276" /></text>
+          <text
+             x="1275.8599"
+             y="247.37799"
+             class="loptext"
+             id="text59-8-0-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="247.37799"
+               id="tspan173-6-8">– Går det att vara flexibel kring den exakta kulören på fasaden?</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="259.87799"
+               id="tspan277" /><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="272.37799"
+               id="tspan276-9" /></text>
+          <text
+             x="1275.8599"
+             y="276.758"
+             class="loptext"
+             id="text59-8-0-0"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="276.758"
+               id="tspan173-6-1">– Behöver vi specificera fönsterstorlekar exakt på millimetern?</tspan><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="289.258"
+               id="tspan278" /><tspan
+               sodipodi:role="line"
+               x="1275.8599"
+               y="301.758"
+               id="tspan276-4" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1223.4609,40.27598 h 368.431"
+             id="path59-4-8" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1221.8529,369.77344 H 1590.284"
+             id="path60-5-2" />
+          <text
+             x="1221.0559"
+             y="360.88693"
+             class="rubrik"
+             id="text60-0-3"
+             inkscape:label="text1-1-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               id="tspan60-1-4"
+               x="1221.0559"
+               y="360.88693">Hur gör man?</tspan></text>
+          <text
+             x="1220.0581"
+             y="388.358"
+             class="underrubrik"
+             id="text63-4-0"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="388.358"
+               id="tspan184-1">FOJAB sätter ram för gestaltningens flexibilitetsgrad.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="405.858"
+               id="tspan286">Dialog mellan stadsbyggnadskontor &amp; byggherre är</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="423.358"
+               id="tspan288">centralt.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="440.858"
+               id="tspan287" /></text>
+        </g>
       </g>
     </g>
-    <g id="Graphics">
-      <image width="850" height="850" preserveAspectRatio="none" xlink:href="VAD%20insida.png" id="img_back" x="375" y="36" style="display:inline" />
-      <image width="800" height="754.40179" preserveAspectRatio="none" xlink:href="VAD%20framsida.png" id="img_front" x="400" y="96" style="display:inline" />
-      <circle class="HitBoxRotate" id="path1" cx="800" cy="450" r="400" />
+    <g
+       id="Graphics">
+      <image
+         width="850"
+         height="850"
+         preserveAspectRatio="none"
+         xlink:href="VAD%20insida.png"
+         id="img_back"
+         x="375"
+         y="36"
+         style="display:inline" />
+      <image
+         width="800"
+         height="754.40179"
+         preserveAspectRatio="none"
+         xlink:href="VAD%20framsida.png"
+         id="img_front"
+         x="400"
+         y="96"
+         style="display:inline" />
+      <circle
+         class="HitBoxRotate"
+         id="path1"
+         cx="800"
+         cy="450"
+         r="400" />
     </g>
-    <g class="region-group" data-name="forst" id="region-forst" style="display:inline">
-      <rect class="region" x="0" y="0" width="702.17767" height="411.52335" fill="#1abc9c" data-region="forst" id="rect1" />
-      <rect class="HitBox" x="484.55554" y="152.00946" width="215.82336" height="227.80736" fill="#1abc9c" data-region="forst" id="region-forst-hitbox" />
+    <g
+       class="region-group"
+       data-name="forst"
+       id="region-forst"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <rect
+         class="region"
+         x="0"
+         y="0"
+         width="702.17767"
+         height="411.52335"
+         fill="#1abc9c"
+         data-region="forst"
+         id="rect1" />
+      <rect
+         class="HitBox"
+         x="515.19672"
+         y="169.13155"
+         width="185.18216"
+         height="210.68527"
+         fill="#1abc9c"
+         data-region="forst"
+         id="region-forst-hitbox"
+         style="stroke-width:0.890807" />
     </g>
-    <g class="region-group" data-name="sen" id="region-sen" style="display:inline">
-      <rect class="region" x="781.48779" y="0" width="818.51227" height="429.51096" fill="#3498db" data-region="sen" id="rect2" />
-      <rect class="HitBox" x="788.85114" y="260.76852" width="147.05365" height="191.68427" fill="#3498db" data-region="sen" id="region-sen-hitbox" />
+    <g
+       class="region-group"
+       data-name="sen"
+       id="region-sen"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <rect
+         class="region"
+         x="781.48779"
+         y="0"
+         width="818.51227"
+         height="429.51096"
+         fill="#3498db"
+         data-region="sen"
+         id="rect2" />
+      <rect
+         class="HitBox"
+         x="788.85114"
+         y="260.76852"
+         width="147.05365"
+         height="191.68427"
+         fill="#3498db"
+         data-region="sen"
+         id="region-sen-hitbox"
+         inkscape:label="region-sen-hitbox" />
     </g>
-    <g class="region-group" data-name="hela" id="region-hela" style="display:inline">
-      <rect class="region" x="0" y="411.52335" width="702.17767" height="488.47665" fill="#e67e22" data-region="hela" id="rect3" />
-      <rect class="HitBox" x="481.51807" y="439.52335" width="220.65959" height="198.56165" fill="#e67e22" data-region="hela" id="region-hela-hitbox" />
+    <g
+       class="region-group"
+       data-name="hela"
+       id="region-hela"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <rect
+         class="region"
+         x="0"
+         y="411.52335"
+         width="702.17767"
+         height="488.47665"
+         fill="#e67e22"
+         data-region="hela"
+         id="rect3" />
+      <rect
+         class="HitBox"
+         x="481.51807"
+         y="439.52335"
+         width="220.65959"
+         height="198.56165"
+         fill="#e67e22"
+         data-region="hela"
+         id="region-hela-hitbox" />
     </g>
-    <g class="region-group" data-name="efter" id="region-efter" style="display:inline">
-      <rect class="region" x="932.80487" y="385.0665" width="667.19513" height="514.93347" fill="#9b59b6" data-region="efter" id="rect4" style="stroke-width:1.04617" />
-      <rect class="HitBox" x="934.16919" y="402.15137" width="189.71118" height="186.27007" fill="#9b59b6" data-region="efter" id="region-efter-hitbox" />
+    <g
+       class="region-group"
+       data-name="efter"
+       id="region-efter"
+       style="display:inline"
+       sodipodi:insensitive="true">
+      <rect
+         class="region"
+         x="932.80487"
+         y="385.0665"
+         width="667.19513"
+         height="514.93347"
+         fill="#9b59b6"
+         data-region="efter"
+         id="rect4"
+         style="stroke-width:1.04617" />
+      <rect
+         class="HitBox"
+         x="934.16919"
+         y="402.15137"
+         width="189.71118"
+         height="186.27007"
+         fill="#9b59b6"
+         data-region="efter"
+         id="region-efter-hitbox"
+         style="display:inline" />
     </g>
   </g>
-  <metadata id="metadata1">
+  <metadata
+     id="metadata1">
     <rdf:RDF>
-      <ns3:Work rdf:about="">
+      <cc:Work
+         rdf:about="">
         <dc:title>Four quadrant zoom demo</dc:title>
-      </ns3:Work>
+      </cc:Work>
     </rdf:RDF>
   </metadata>
 </svg>
