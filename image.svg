@@ -1,16 +1,47 @@
-<?xml version="1.0" ?>
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg" viewBox="0 0 1600 900" aria-labelledby="title desc" role="img" version="1.1" width="1600" height="900" sodipodi:docname="image.svg" inkscape:version="1.4.2 (f4327f4, 2025-05-13)">
-  
-  
-  <sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050" showgrid="false" inkscape:zoom="1.4955308" inkscape:cx="203.94096" inkscape:cy="138.74672" inkscape:window-width="2560" inkscape:window-height="1494" inkscape:window-x="-11" inkscape:window-y="-11" inkscape:window-maximized="1" inkscape:current-layer="camera"/>
-  
-  
-  <defs id="defs1"/>
-  
-  
-  <style id="style1">
-    .region { opacity: 0; pointer-events: none; }
-    .HitBox { opacity: 0; }
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   viewBox="0 0 1600 900"
+   aria-labelledby="title desc"
+   role="img"
+   version="1.1"
+   width="1600"
+   height="900"
+   sodipodi:docname="image.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.7477654"
+     inkscape:cx="637.23194"
+     inkscape:cy="601.12436"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="camera" />
+  <defs
+     id="defs1" />
+  <style
+     id="style1">
+    .region { opacity: 0.1; pointer-events: none; }
+    .HitBox { opacity: 0.2; }
     .HitBoxRotate { opacity: 0; cursor: pointer; transition: opacity 0; }
     .HitBoxRotate.disabled { opacity: 0; pointer-events: none; }
 .rubrik {
@@ -30,192 +61,462 @@
     }
   
   </style>
-  
-  
-  <title id="title">Four quadrant zoom demo</title>
-  
-  
-  <desc id="desc">Click any quadrant to zoom into it. Click outside to zoom out.</desc>
-  
-  
-  <g id="camera">
-    
-
-   
-    <g id="Text-objects" style="display:inline">
-      
-      
-      <g id="Text-forstudie">
-        
-             
-        <path style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 19.815201,85.00441 H 388.24625" id="path2"/>
-        
-       
-        <path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1" d="M 18.207215,351.50338 H 386.63827" id="path2-3"/>
-        
-
-          
-        <text x="19.018326" y="48.392433" class="rubrik" id="text1" style="display:inline">
-          <tspan id="tspan1" x="19.018326" y="48.392433">Inventering i</tspan>
-          <tspan x="19.018326" y="78.392433" id="tspan3">förstudie/detaljplansskedet</tspan>
-        </text>
-        
-           
-        <text x="18.020508" y="107.58895" class="underrubrik" id="text1-7" style="display:inline">
-          <tspan id="tspan2-5" x="18.020508" y="107.58895">Värdera platsens möjligheter. Vad kan/bör bevaras</tspan>
-          <tspan x="18.020508" y="125.08894" id="tspan6">och vad kan fungera för återanvändning?</tspan>
-          <tspan x="18.020508" y="142.58894" id="tspan7"/>
-        </text>
-        
-           
-        <text x="16.924328" y="152.41183" class="loptext" id="text1-7-1" style="display:inline">
-          <tspan x="16.924328" y="152.41183" id="tspan13">”Vad finns att utgå ifrån?”</tspan>
-        </text>
-        
-           
-        <text x="29.089855" y="156.11069" class="loptext" id="text1-7-1-8">
-          <tspan x="29.089855" y="181.11069" id="tspan27-4">När man inleder en cirkulärinventering (återbruksinventering) i ett förstudie-/</tspan>
-          <tspan x="29.089855" y="193.61069" id="tspan33-5">detaljplaneskede handlar det i första hand om att etablera vad som kan bevaras,</tspan>
-          <tspan x="29.089855" y="206.11069" id="tspan34-5">vad som ska skyddas och vad man kan återanvända vid förändring av platsen.</tspan>
-          <tspan x="29.089855" y="218.61069" id="tspan28-1"/>
-          <tspan x="29.089855" y="231.11069" id="tspan29-7">Delar av byggnader som är inte möjliga att bevara i sin helhet kan man dra nytta av.</tspan>
-          <tspan x="29.089855" y="243.61072" id="tspan35-1">Exempelvis gamla lanterniner, som kan bli del av ett nytt fasadsystem.</tspan>
-          <tspan x="29.089855" y="256.11072" id="tspan30-1"/>
-          <tspan x="29.089855" y="268.61069" id="tspan31-5">Redan i detta skede är det viktigt att identifiera miljöaspekter och bestämmelser</tspan>
-          <tspan x="29.089855" y="281.11069" id="tspan36-2">som man behöver ta hänsyn till.</tspan>
-        </text>
-        
-               
-        <text x="17.410339" y="334.61685" class="rubrik" id="text1-1">
-          <tspan id="tspan1-8" x="17.410339" y="334.61685">Hur gör man?</tspan>
-        </text>
-        
-         
-        <text x="16.412521" y="374.08792" class="underrubrik" id="text1-7-2" style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000">
-          <tspan sodipodi:role="line" id="tspan12" x="16.412521" y="374.08792">FOJAB inventerar bef. förutsättningar för ny plan.</tspan>
-          <tspan sodipodi:role="line" id="tspan14" x="16.412521" y="391.58792">Tekniskt skick och historik utvärderas.</tspan>
-          <tspan sodipodi:role="line" x="16.412521" y="409.08792" id="tspan15"/>
-        </text>
-        
-      
+  <title
+     id="title">Four quadrant zoom demo</title>
+  <desc
+     id="desc">Click any quadrant to zoom into it. Click outside to zoom out.</desc>
+  <g
+     id="camera">
+    <g
+       id="Text-objects"
+       style="display:inline">
+      <g
+         id="Text-forstudie">
+        <g
+           id="fs-forst"
+           inkscape:label="fs-forst"
+           style="display:inline"
+           class="forst">
+          <path
+             style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 19.815201,85.00441 H 388.24625"
+             id="path2" />
+          <path
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 18.207215,351.50338 H 386.63827"
+             id="path2-3" />
+          <text
+             x="19.018326"
+             y="48.392433"
+             class="rubrik"
+             id="text1"
+             style="display:inline"><tspan
+               id="tspan1"
+               x="19.018326"
+               y="48.392433">Inventering i</tspan><tspan
+               x="19.018326"
+               y="78.392433"
+               id="tspan3">förstudie/detaljplansskedet</tspan></text>
+          <text
+             x="18.020508"
+             y="107.58895"
+             class="underrubrik"
+             id="text1-7"
+             style="display:inline"><tspan
+               id="tspan2-5"
+               x="18.020508"
+               y="107.58895">Värdera platsens möjligheter. Vad kan/bör bevaras</tspan><tspan
+               x="18.020508"
+               y="125.08894"
+               id="tspan6">och vad kan fungera för återanvändning?</tspan><tspan
+               x="18.020508"
+               y="142.58894"
+               id="tspan7" /></text>
+          <text
+             x="16.924328"
+             y="152.41183"
+             class="loptext"
+             id="text1-7-1"
+             style="display:inline"><tspan
+               x="16.924328"
+               y="152.41183"
+               id="tspan13">”Vad finns att utgå ifrån?”</tspan></text>
+          <text
+             x="29.089855"
+             y="156.11069"
+             class="loptext"
+             id="text1-7-1-8"><tspan
+               x="29.089855"
+               y="181.11069"
+               id="tspan27-4">När man inleder en cirkulärinventering (återbruksinventering) i ett förstudie-/</tspan><tspan
+               x="29.089855"
+               y="193.61069"
+               id="tspan33-5">detaljplaneskede handlar det i första hand om att etablera vad som kan bevaras,</tspan><tspan
+               x="29.089855"
+               y="206.11069"
+               id="tspan34-5">vad som ska skyddas och vad man kan återanvända vid förändring av platsen.</tspan><tspan
+               x="29.089855"
+               y="218.61069"
+               id="tspan28-1" /><tspan
+               x="29.089855"
+               y="231.11069"
+               id="tspan29-7">Delar av byggnader som är inte möjliga att bevara i sin helhet kan man dra nytta av.</tspan><tspan
+               x="29.089855"
+               y="243.61072"
+               id="tspan35-1">Exempelvis gamla lanterniner, som kan bli del av ett nytt fasadsystem.</tspan><tspan
+               x="29.089855"
+               y="256.11072"
+               id="tspan30-1" /><tspan
+               x="29.089855"
+               y="268.61069"
+               id="tspan31-5">Redan i detta skede är det viktigt att identifiera miljöaspekter och bestämmelser</tspan><tspan
+               x="29.089855"
+               y="281.11069"
+               id="tspan36-2">som man behöver ta hänsyn till.</tspan></text>
+          <text
+             x="17.410339"
+             y="334.61685"
+             class="rubrik"
+             id="text1-1"><tspan
+               id="tspan1-8"
+               x="17.410339"
+               y="334.61685">Hur gör man?</tspan></text>
+          <text
+             x="16.412521"
+             y="374.08792"
+             class="underrubrik"
+             id="text1-7-2"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan12"
+               x="16.412521"
+               y="374.08792">FOJAB inventerar bef. förutsättningar för ny plan.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan14"
+               x="16.412521"
+               y="391.58792">Tekniskt skick och historik utvärderas.</tspan><tspan
+               sodipodi:role="line"
+               x="16.412521"
+               y="409.08792"
+               id="tspan15" /></text>
+        </g>
+        <g
+           id="fs-sen"
+           inkscape:label="fs-sen"
+           style="display:inline"
+           class="sen">
+          <text
+             x="1222.6641"
+             y="19.664001"
+             class="rubrik"
+             id="text1-2"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan8"
+               x="1222.6641"
+               y="19.664001">Bedömning i</tspan><tspan
+               sodipodi:role="line"
+               x="1222.6641"
+               y="49.664001"
+               id="tspan10">förstudie/detaljplansskedet</tspan><tspan
+               sodipodi:role="line"
+               id="tspan9"
+               x="1222.6641"
+               y="79.664001" /></text>
+          <text
+             x="1221.6663"
+             y="78.860519"
+             class="underrubrik"
+             id="text1-7-5"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan11"
+               x="1221.6663"
+               y="78.860519">Värdera befintligt, var finns kvaliteterna.</tspan><tspan
+               sodipodi:role="line"
+               id="tspan16"
+               x="1221.6663"
+               y="96.360519">Fundera kringa vilka planbestämmelser som behövs.</tspan><tspan
+               sodipodi:role="line"
+               x="1221.6663"
+               y="113.86052"
+               id="tspan17" /></text>
+          <text
+             x="1220.5701"
+             y="123.6834"
+             class="loptext"
+             id="text1-7-1-1"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan18"
+               x="1220.5701"
+               y="123.6834"><tspan
+                 x="1220.5701"
+                 y="123.6834"
+                 id="tspan13-5">”I vilket skick är det som inventerats?”</tspan></tspan><tspan
+               sodipodi:role="line"
+               id="tspan19"
+               x="1220.5701"
+               y="136.18341" /></text>
+          <text
+             x="1231.7899"
+             y="146.76759"
+             class="loptext"
+             id="text1-7-1-8-2"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               id="tspan20"
+               x="1231.7899"
+               y="146.76759">För att skapa goda förutsättningar för framtida cirkulära processer och</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="159.26759"
+               id="tspan21">möjliggöra återbruk behöver man redan i tidigt skede bedöma vilka</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="171.76759"
+               id="tspan22">byggdelar som lämpar sig för ett cirkulärt arbetssätt.</tspan></text>
+          <text
+             x="1231.7899"
+             y="197.32352"
+             class="loptext"
+             id="text1-7-1-8-2-7"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="197.32352"
+               id="tspan22-4">Om man ska använda sig av bevarade byggdelar är det viktigt att tidigt</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="209.82352"
+               id="tspan25">bilda sig en uppfattning om vilka delar av den befintliga byggnader som</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="222.32352"
+               id="tspan26">kommer beröras och behöver utredas i senare skede. I projekt med</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="234.82352"
+               id="tspan27">komplicerade förutsättningar kan specilaistkompetenser vara aktuella</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="247.32352"
+               id="tspan28">tidigt; miljökonsult, konstruktör, byggmaterialspecialister och</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="259.82352"
+               id="tspan29">demonteringsentreprenör m.fl.</tspan><tspan
+               sodipodi:role="line"
+               x="1231.7899"
+               y="272.32352"
+               id="tspan24" /></text>
+          <text
+             x="1231.8"
+             y="285.39508"
+             class="loptext"
+             id="text1-7-1-8-2-7-3"
+             style="font-size:10px;font-family:'Circular Std Book', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="285.39508"
+               id="tspan24-7">Byggåret kan ge en tidig uppfattning om möjligheterna för återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="297.89508"
+               id="tspan36">Är byggnaden från 1960-talet eller tidigare finns det goda</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="310.39508"
+               id="tspan37">förutsättningar att återanvända delar. Är den byggd 1970–2000 är</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="322.89508"
+               id="tspan38">återbruket sannolikt mer begränsat. Yngre byggnader har fortfarande</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="335.39508"
+               id="tspan39">tid kvar på sin tekniska livslängd. Fundera kring hur man möjliggör</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="347.89508"
+               id="tspan40">framtida återbruk.</tspan><tspan
+               sodipodi:role="line"
+               x="1231.8"
+               y="360.39508"
+               id="tspan35" /></text>
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1223.4609,56.27598 h 368.431"
+             id="path2-8" />
+          <path
+             style="display:inline;fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+             d="M 1221.8529,395.77344 H 1590.284"
+             id="path2-3-8" />
+          <text
+             x="1221.0559"
+             y="378.88693"
+             class="rubrik"
+             id="text1-1-6"
+             style="font-size:24px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               id="tspan1-8-8"
+               x="1221.0559"
+               y="378.88693">Hur gör man?</tspan></text>
+          <text
+             x="1220.0581"
+             y="418.358"
+             class="underrubrik"
+             id="text1-7-2-5"
+             style="font-size:14px;font-family:'Circular Std Bold', Fallback, sans-serif;display:inline;fill:#000000"><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="418.358"
+               id="tspan15-1">FOJAB utvärderar objekt som kan bevaras och</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="435.858"
+               id="tspan43">prioriteras. Behov av planbestämmelser identifieras.</tspan><tspan
+               sodipodi:role="line"
+               x="1220.0581"
+               y="453.358"
+               id="tspan42" /></text>
+        </g>
+         <g
+           id="fs-efter"
+           inkscape:label="fs-efter"
+           style="display:inline"
+           class="efter">
+        </g>
+         <g
+           id="fs-hela"
+           inkscape:label="fs-hela"
+           style="display:inline"
+           class="hela">
+        </g>
       </g>
-      
-      
-      <g id="tl-text-forvaltning">
-        
-        
+      <g
+         id="Text-forvaltning">
         <!-- Add content for Förvaltning here -->
-        
-      
       </g>
-      
-      
-      <g id="tl-text-projektering">
-        
-        
+      <g
+         id="Text-projektering">
         <!-- Add content for Projektering here -->
-        
-      
       </g>
-      
-      
-      <g id="tl-text-bygglov">
-        
-        
+      <g
+         id="Text-bygglov">
         <!-- Add content for Bygglov here -->
-        
-      
       </g>
-      
-   
     </g>
-    
-    
-    <g id="Graphics">
-      
-      
-      <image width="850" height="850" preserveAspectRatio="none" xlink:href="VAD insida.png" id="img_back" x="375" y="36" style="display:inline"/>
-      
-      
-      <image width="800" height="754.40179" preserveAspectRatio="none" xlink:href="VAD framsida.png" id="img_front" x="400" y="96" style="display:inline"/>
-      
-      
-      <circle class="HitBoxRotate" id="path1" cx="800" cy="450" r="400"/>
-      
-    
+    <g
+       id="Graphics">
+      <image
+         width="850"
+         height="850"
+         preserveAspectRatio="none"
+         xlink:href="VAD%20insida.png"
+         id="img_back"
+         x="375"
+         y="36"
+         style="display:inline" />
+      <image
+         width="800"
+         height="754.40179"
+         preserveAspectRatio="none"
+         xlink:href="VAD%20framsida.png"
+         id="img_front"
+         x="400"
+         y="96"
+         style="display:inline" />
+      <circle
+         class="HitBoxRotate"
+         id="path1"
+         cx="800"
+         cy="450"
+         r="400" />
     </g>
-    
-    
-    <g class="region-group" data-name="tl" id="g1" style="display:inline">
-      
-      
-      <rect class="region" x="0" y="0" width="702.17767" height="411.52335" fill="#1abc9c" data-region="tl" id="rect1"/>
-      
-      
-      <rect class="HitBox" x="484.55554" y="124.00946" width="215.82336" height="227.80736" fill="#1abc9c" data-region="tl" id="rect1-5"/>
-      
-    
+    <g
+       class="region-group"
+       data-name="forst"
+       id="region-forst"
+       style="display:inline">
+      <rect
+         class="region"
+         x="0"
+         y="0"
+         width="702.17767"
+         height="411.52335"
+         fill="#1abc9c"
+         data-region="forst"
+         id="rect1" />
+      <rect
+         class="HitBox"
+         x="484.55554"
+         y="124.00946"
+         width="215.82336"
+         height="227.80736"
+         fill="#1abc9c"
+         data-region="forst"
+         id="region-forst-hitbox" />
     </g>
-    
-    
-    <g class="region-group" data-name="tr" id="g2" style="display:inline">
-      
-      
-      <rect class="region" x="781.48779" y="0" width="818.51227" height="429.51096" fill="#3498db" data-region="tr" id="rect2"/>
-      
-      
-      <rect class="HitBox" x="788.85114" y="228.76852" width="147.05365" height="191.68427" fill="#3498db" data-region="tr" id="rect2-4"/>
-      
-    
+    <g
+       class="region-group"
+       data-name="sen"
+       id="region-sen"
+       style="display:inline">
+      <rect
+         class="region"
+         x="781.48779"
+         y="0"
+         width="818.51227"
+         height="429.51096"
+         fill="#3498db"
+         data-region="sen"
+         id="rect2" />
+      <rect
+         class="HitBox"
+         x="788.85114"
+         y="228.76852"
+         width="147.05365"
+         height="191.68427"
+         fill="#3498db"
+         data-region="sen"
+         id="region-sen-hitbox" />
     </g>
-    
-    
-    <g class="region-group" data-name="bl" id="g3" style="display:inline">
-      
-      
-      <rect class="region" x="0" y="411.52335" width="702.17767" height="488.47665" fill="#e67e22" data-region="bl" id="rect3"/>
-      
-      
-      <rect class="HitBox" x="481.51807" y="411.52335" width="220.65959" height="198.56165" fill="#e67e22" data-region="bl" id="rect3-2"/>
-      
-    
+    <g
+       class="region-group"
+       data-name="hela"
+       id="region-hela"
+       style="display:inline">
+      <rect
+         class="region"
+         x="0"
+         y="411.52335"
+         width="702.17767"
+         height="488.47665"
+         fill="#e67e22"
+         data-region="hela"
+         id="rect3" />
+      <rect
+         class="HitBox"
+         x="481.51807"
+         y="411.52335"
+         width="220.65959"
+         height="198.56165"
+         fill="#e67e22"
+         data-region="hela"
+         id="region-hela-hitbox" />
     </g>
-    
-    
-    <g class="region-group" data-name="br" id="g4" style="display:inline">
-      
-      
-      <rect class="region" x="932.80487" y="429.51096" width="667.19513" height="470.48904" fill="#9b59b6" data-region="br" id="rect4"/>
-      
-      
-      <rect class="HitBox" x="934.16919" y="362.15137" width="189.71118" height="186.27007" fill="#9b59b6" data-region="br" id="rect4-7"/>
-      
-    
+    <g
+       class="region-group"
+       data-name="efter"
+       id="region-efter"
+       style="display:inline">
+      <rect
+         class="region"
+         x="932.80487"
+         y="429.51096"
+         width="667.19513"
+         height="470.48904"
+         fill="#9b59b6"
+         data-region="efter"
+         id="rect4" />
+      <rect
+         class="HitBox"
+         x="934.16919"
+         y="362.15137"
+         width="189.71118"
+         height="186.27007"
+         fill="#9b59b6"
+         data-region="efter"
+         id="region-efter-hitbox" />
     </g>
-    
-  
   </g>
-  
-  
-  <metadata id="metadata1">
-    
-    
+  <metadata
+     id="metadata1">
     <rdf:RDF>
-      
-      
-      <cc:Work rdf:about="">
-        
-        
+      <cc:Work
+         rdf:about="">
         <dc:title>Four quadrant zoom demo</dc:title>
-        
-      
       </cc:Work>
-      
-    
     </rdf:RDF>
-    
-  
   </metadata>
-  
-
 </svg>

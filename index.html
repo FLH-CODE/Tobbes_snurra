@@ -82,10 +82,24 @@
 
       // --- Text objects and state groups ---
       const textObjects = doc.getElementById('Text-objects');
+      // Individual region text groups by class
+      const regionTextGroups = {
+        forst: doc.querySelector('.forst'),
+        sen: doc.querySelector('.sen'),
+        hela: doc.querySelector('.hela'),
+        efter: doc.querySelector('.efter')
+      };
       const Forstudie = doc.getElementById('Text-forstudie');
       const Forvaltning = doc.getElementById('Text-forvaltning');
       const Projektering = doc.getElementById('Text-projektering');
       const Bygglov = doc.getElementById('Text-bygglov');
+
+      // Show/hide all region text groups
+      function setRegionTextVisible(regionName) {
+        Object.entries(regionTextGroups).forEach(([key, el]) => {
+          if (el) el.style.display = (key === regionName) ? 'inline' : 'none';
+        });
+      }
 
       // Show/hide text objects with fade effect
       function setTextObjectsVisible(visible) {
@@ -97,12 +111,14 @@
         }
       }
 
-      // Show only the correct tl-text group for current state
+      // Show only the correct tl-text group for current state (rotation)
       function setStateText(state) {
         if (Forstudie) Forstudie.style.display = (state === 'Forstudie') ? 'inline' : 'none';
         if (Forvaltning) Forvaltning.style.display = (state === 'Forvaltning') ? 'inline' : 'none';
         if (Projektering) Projektering.style.display = (state === 'Projektering') ? 'inline' : 'none';
         if (Bygglov) Bygglov.style.display = (state === 'Bygglov') ? 'inline' : 'none';
+        // Hide all region text groups when in rotation state
+        setRegionTextVisible(null);
       }
 
       // --- State tracking ---
@@ -216,7 +232,7 @@
       // --- Zoom logic ---
       let current = null;
 
-      function zoomToBBox(bbox) {
+      function zoomToBBox(bbox, regionName) {
         const px = bbox.width * 0.04, py = bbox.height * 0.04;
         const padded = {
           x: bbox.x - px,
@@ -228,19 +244,22 @@
         animateCameraTo(target, 450, () => {
           zoomedIn = true;
           setTextObjectsVisible(true);
+          setRegionTextVisible(regionName); // Show only the region's text group
         });
       }
 
       function resetZoom() {
         setTextObjectsVisible(false); // fade out
+        setRegionTextVisible(null); // Hide all region text groups
         animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => {
           zoomedIn = false;
           current = null;
         });
       }
 
-      // Hide text objects initially
+      // Hide text objects and all region text groups initially
       setTextObjectsVisible(false);
+      setRegionTextVisible(null);
 
       // --- Region hitboxes setup ---
       const groups = Array.from(doc.querySelectorAll('g.region-group'));
@@ -260,7 +279,7 @@
           }
           current = name;
           const bbox = region.getBBox();
-          zoomToBBox(bbox);
+          zoomToBBox(bbox, name); // Pass region name for text visibility
         });
       });
 
