@@ -400,7 +400,7 @@
       function animateRotation(targetDeg) {
         if (!imgBack || rotAnimating) return;
         rotAnimating = true;
-        const start = rotation, end = targetDeg, duration = 350;
+        const start = rotation, end = targetDeg, duration = 1000;
         const startTime = performance.now();
         function step(now) {
           const t = Math.min((now - startTime) / duration, 1);

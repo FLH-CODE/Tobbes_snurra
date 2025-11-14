@@ -28,8 +28,8 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="1.0575"
-     inkscape:cx="953.19152"
-     inkscape:cy="472.34044"
+     inkscape:cx="807.56503"
+     inkscape:cy="602.8369"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -3114,7 +3114,8 @@
          id="highlights"
          inkscape:label="highlights"
          class="highlights-group"
-         style="display:inline;stroke-width:0.890807;fill:black;fill-opacity:1">
+         style="display:inline;fill:#000000;fill-opacity:1;stroke-width:0.890807"
+         sodipodi:insensitive="true">
         <rect
            class="highlight"
            x="509"
@@ -3170,13 +3171,23 @@
          id="img_front"
          x="400"
          y="96"
-         style="display:inline" />
+         style="display:inline"
+         sodipodi:insensitive="true" />
       <circle
          class="HitBoxRotate"
          id="path1"
          cx="800"
          cy="450"
-         r="400" />
+         r="400"
+         sodipodi:insensitive="true" />
+      <image
+         width="43.783203"
+         height="43.709126"
+         preserveAspectRatio="none"
+         xlink:href="Rivet.png"
+         id="image1"
+         x="778.92206"
+         y="429.51096" />
     </g>
     <g
        class="region-group"
