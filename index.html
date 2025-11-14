@@ -5,10 +5,32 @@
   <title>Smooth SVG Zoom (camera transform)</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <style>
-    html, body { height:100%; margin:0; background:#ffffff; overflow:hidden; }
-    #svgObj { position:fixed; inset:0; width:100vw; height:100vh; background:#a0a0a0; }
-    .hint { position:fixed; left:12px; top:12px; color:#ddd; font:13px Segoe UI,sans-serif;
-            background:rgba(0,0,0,.35); padding:6px 10px; border-radius:6px; z-index:10; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: #ffffff;
+      overflow: hidden;
+    }
+    #svgObj {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      background: #a0a0a0;
+    }
+    .hint {
+      position: fixed;
+      left: 12px;
+      top: 12px;
+      color: #ddd;
+      font: 13px Segoe UI, sans-serif;
+      background: rgba(0,0,0,.35);
+      padding: 6px 10px;
+      border-radius: 6px;
+      z-index: 10;
+    }
+    /* Optionally, hide by default */
+    [data-hide] { display: none !important; }
   </style>
 </head>
 <body>
@@ -21,35 +43,86 @@
   <object id="svgObj" type="image/svg+xml" data="image.svg"></object>
 
   <script>
+    // --- Main SVG interaction logic ---
     const svgObj = document.getElementById('svgObj');
 
     svgObj.addEventListener('load', () => {
       const doc = svgObj.contentDocument;
       if (!doc) return;
 
+      // Inject fade CSS into SVG for smooth transitions
+      const svgStyle = doc.createElementNS("http://www.w3.org/2000/svg", "style");
+      svgStyle.textContent = `
+        #Text-objects {
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.35s;
+        }
+        #Text-objects.show {
+          opacity: 1 !important;
+          pointer-events: auto;
+        }
+      `;
+      doc.documentElement.appendChild(svgStyle);
+
+      // --- SVG and camera setup ---
       const svg = doc.documentElement;
       const vb = svg.viewBox.baseVal;
       const viewW = vb.width, viewH = vb.height;
-      const viewCX = vb.x + viewW/2, viewCY = vb.y + viewH/2;
+      const viewCX = vb.x + viewW / 2, viewCY = vb.y + viewH / 2;
 
-      // The group we will move/scale instead of changing viewBox
       const camera = doc.getElementById('camera');
-      if (!camera) { console.error('camera group not found'); return; }
+      if (!camera) {
+        console.error('camera group not found');
+        return;
+      }
 
-      // Rotation target remains the background group
       const imgBack = doc.getElementById('img_back');
       const rotateHitBox = doc.querySelector('.HitBoxRotate');
 
-      let rotation = 0;
+      // --- Text objects and state groups ---
+      const textObjects = doc.getElementById('Text-objects');
+      const Forstudie = doc.getElementById('Text-forstudie');
+      const Forvaltning = doc.getElementById('Text-forvaltning');
+      const Projektering = doc.getElementById('Text-projektering');
+      const Bygglov = doc.getElementById('Text-bygglov');
+
+      // Show/hide text objects with fade effect
+      function setTextObjectsVisible(visible) {
+        if (!textObjects) return;
+        if (visible) {
+          textObjects.classList.add('show');
+        } else {
+          textObjects.classList.remove('show');
+        }
+      }
+
+      // Show only the correct tl-text group for current state
+      function setStateText(state) {
+        if (Forstudie) Forstudie.style.display = (state === 'Forstudie') ? 'inline' : 'none';
+        if (Forvaltning) Forvaltning.style.display = (state === 'Forvaltning') ? 'inline' : 'none';
+        if (Projektering) Projektering.style.display = (state === 'Projektering') ? 'inline' : 'none';
+        if (Bygglov) Bygglov.style.display = (state === 'Bygglov') ? 'inline' : 'none';
+      }
+
+      // --- State tracking ---
+      const states = ['Forstudie', 'Forvaltning', 'Projektering', 'Bygglov'];
+      let rotation = 0; // 0, 90, 180, 270
+      let currentState = states[0];
       let rotAnimating = false;
       let camAnimating = false;
+      let zoomedIn = false;
 
-      // --- Helpers ---
-      const easeInOut = t => t<.5 ? 2*t*t : 1 - Math.pow(-2*t+2,2)/2;
+      // Get state name from rotation angle
+      function getStateFromRotation(deg) {
+        const idx = Math.round(((deg % 360) + 360) % 360 / 90) % 4;
+        return states[idx];
+      }
+
+      // --- Animation helpers ---
+      const easeInOut = t => t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
 
       function setCameraTransform(scale, tx, ty) {
-        // Use a single matrix for better perf
-        // matrix(a b c d e f) where a=d=scale, e=tx, f=ty (no rotation/shear)
         camera.setAttribute('transform', `matrix(${scale} 0 0 ${scale} ${tx} ${ty})`);
       }
 
@@ -62,23 +135,21 @@
 
       function fitBBoxToView(bbox) {
         const scale = Math.min(viewW / bbox.width, viewH / bbox.height);
-        // After scaling around (0,0), translate so bbox center aligns with viewport center
-        const bboxCX = bbox.x + bbox.width/2;
-        const bboxCY = bbox.y + bbox.height/2;
-        // We want: scale*(bboxCX) + tx = viewCX  => tx = viewCX - scale*bboxCX
-        //         scale*(bboxCY) + ty = viewCY  => ty = viewCY - scale*bboxCY
+        const bboxCX = bbox.x + bbox.width / 2;
+        const bboxCY = bbox.y + bbox.height / 2;
         const tx = viewCX - scale * bboxCX;
         const ty = viewCY - scale * bboxCY;
         return { scale, tx, ty };
       }
 
-      function animateCameraTo(target, duration=450, cb) {
+      // Animate camera transform (zoom in/out)
+      function animateCameraTo(target, duration = 450, cb) {
         if (camAnimating) return;
         camAnimating = true;
         const start = getCurrentCamera();
         const startTime = performance.now();
 
-        function lerp(a,b,t){ return a + (b-a)*t; }
+        function lerp(a, b, t) { return a + (b - a) * t; }
 
         function step(now) {
           const t = Math.min((now - startTime) / duration, 1);
@@ -87,20 +158,25 @@
           const tx = lerp(start.tx, target.tx, k);
           const ty = lerp(start.ty, target.ty, k);
           setCameraTransform(s, tx, ty);
-          if (t < 1) requestAnimationFrame(step);
-          else {
+          if (t < 1) {
+            requestAnimationFrame(step);
+          } else {
             camAnimating = false;
-            cb && cb();
+            if (cb) cb();
           }
         }
         requestAnimationFrame(step);
       }
 
-      // --- Rotation (unchanged, but faster since we don’t reflow viewBox) ---
+      // Animate rotation and update state
       function setRotation(deg) {
-        const existing = imgBack.getAttribute('transform') || '';
+        const existing = imgBack?.getAttribute('transform') || '';
         const withoutRotate = existing.replace(/rotate\([^)]*\)\s*/g, '');
-        imgBack.setAttribute('transform', `${withoutRotate} rotate(${deg},800,450)`);
+        if (imgBack) {
+          imgBack.setAttribute('transform', `${withoutRotate} rotate(${deg},800,450)`);
+        }
+        currentState = getStateFromRotation(deg);
+        setStateText(currentState);
       }
 
       function animateRotation(targetDeg) {
@@ -113,12 +189,22 @@
           const k = easeInOut(t);
           const deg = start + (end - start) * k;
           setRotation(deg);
-          if (t < 1) requestAnimationFrame(step);
-          else { rotation = ((end % 360) + 360) % 360; rotAnimating = false; }
+          if (t < 1) {
+            requestAnimationFrame(step);
+          } else {
+            rotation = ((end % 360) + 360) % 360;
+            rotAnimating = false;
+            currentState = getStateFromRotation(rotation);
+            setStateText(currentState);
+          }
         }
         requestAnimationFrame(step);
       }
 
+      // Set initial state text
+      setStateText(currentState);
+
+      // --- Rotate button handler ---
       if (rotateHitBox && imgBack) {
         rotateHitBox.style.cursor = 'pointer';
         rotateHitBox.addEventListener('click', (e) => {
@@ -127,21 +213,36 @@
         });
       }
 
-      // --- Zoom via camera transform ---
+      // --- Zoom logic ---
       let current = null;
 
       function zoomToBBox(bbox) {
-        // add a little padding
         const px = bbox.width * 0.04, py = bbox.height * 0.04;
-        const padded = { x: bbox.x - px, y: bbox.y - py, width: bbox.width + 2*px, height: bbox.height + 2*py };
+        const padded = {
+          x: bbox.x - px,
+          y: bbox.y - py,
+          width: bbox.width + 2 * px,
+          height: bbox.height + 2 * py
+        };
         const target = fitBBoxToView(padded);
-        animateCameraTo(target, 450);
+        animateCameraTo(target, 450, () => {
+          zoomedIn = true;
+          setTextObjectsVisible(true);
+        });
       }
 
       function resetZoom() {
-        animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => current = null);
+        setTextObjectsVisible(false); // fade out
+        animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => {
+          zoomedIn = false;
+          current = null;
+        });
       }
 
+      // Hide text objects initially
+      setTextObjectsVisible(false);
+
+      // --- Region hitboxes setup ---
       const groups = Array.from(doc.querySelectorAll('g.region-group'));
       groups.forEach(group => {
         const hit = group.querySelector('.HitBox');
@@ -151,22 +252,29 @@
         hit.addEventListener('click', (ev) => {
           ev.stopPropagation();
           const name = group.getAttribute('data-name') ||
-                       hit.getAttribute('data-region') ||
-                       region.getAttribute('data-region');
-          if (current === name) { resetZoom(); return; }
+            hit.getAttribute('data-region') ||
+            region.getAttribute('data-region');
+          if (current === name) {
+            resetZoom();
+            return;
+          }
           current = name;
           const bbox = region.getBBox();
           zoomToBBox(bbox);
         });
       });
 
+      // --- Click outside to reset zoom ---
       svg.addEventListener('click', e => {
         const isRegionHit = e.target.closest && e.target.closest('g.region-group .HitBox');
         const isRotateHit = e.target.closest && e.target.closest('.HitBoxRotate');
         if (!isRegionHit && !isRotateHit) resetZoom();
       }, { capture: true });
 
-      window.addEventListener('keydown', e => { if (e.key === 'Escape') resetZoom(); });
+      // --- Escape key to reset zoom ---
+      window.addEventListener('keydown', e => {
+        if (e.key === 'Escape') resetZoom();
+      });
     });
   </script>
 </body>
