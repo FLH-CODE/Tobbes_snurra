@@ -10,36 +10,227 @@
       margin: 0;
       background: #ffffff;
       overflow: hidden;
-      /* Use small viewport height for mobile fullscreen */
       height: 100svh;
     }
+
     #svgObj {
       position: fixed;
       inset: 0;
       width: 100vw;
       height: 100svh;
       background: #a0a0a0;
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
     }
-    /* Optionally, hide by default */
-    [data-hide] { display: none !important; }
+
+    /* Fullscreen toggle button */
+    #fsToggle {
+      position: fixed;
+      top: 0.75rem;
+      right: 0.75rem;
+      z-index: 9999;
+      padding: 0.4rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid rgba(0,0,0,0.15);
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(6px);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      user-select: none;
+      opacity: 1;
+      transition: opacity 0.25s ease;
+      -webkit-tap-highlight-color: transparent;
+      outline: none;
+    }
+
+    #fsToggle:hover {
+      background: rgba(255,255,255,0.95);
+    }
+
+    /* Auto-hide in fullscreen */
+    #fsToggle.fs-hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    /* Fallback “fake fullscreen” for older iOS that lacks Fullscreen API */
+    body.ios-faux-fullscreen {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      touch-action: none;
+    }
   </style>
 </head>
 <body>
+  <!-- Fullscreen toggle button -->
+  <button id="fsToggle" type="button" aria-label="Toggle fullscreen">
+    ⛶ Fullscreen
+  </button>
+
   <!-- External SVG -->
-  <object id="svgObj" type="image/svg+xml" data="image.svg"></object>
+  <object id="svgObj" type="image/svg+xml" data="image.svg" tabindex="-1"></object>
 
   <script>
-    // Request fullscreen on first user interaction (mobile browsers)
-    function requestFullscreenIfPossible() {
-      const el = document.documentElement;
-      if (el.requestFullscreen) el.requestFullscreen();
-      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-      else if (el.msRequestFullscreen) el.msRequestFullscreen();
-    }
-    window.addEventListener('touchstart', requestFullscreenIfPossible, { once: true });
-    window.addEventListener('click', requestFullscreenIfPossible, { once: true });
+    // --- Platform detection ---
+    const isIOS = (() => {
+      const ua = navigator.userAgent || navigator.vendor || window.opera;
+      const iOSDevice = /iPad|iPhone|iPod/.test(ua);
+      const iPadOS13Plus = (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      return iOSDevice || iPadOS13Plus;
+    })();
 
-    // --- Main SVG interaction logic ---
+    function supportsNativeFullscreen() {
+      const el = document.documentElement;
+      return !!(el.requestFullscreen || el.webkitRequestFullscreen || el.msRequestFullscreen);
+    }
+
+    // --- Fullscreen handling ---
+
+    function getFullscreenElement() {
+      return document.fullscreenElement ||
+             document.webkitFullscreenElement ||
+             document.msFullscreenElement ||
+             null;
+    }
+
+    function isFullScreen() {
+      // For native fullscreen
+      if (getFullscreenElement()) return true;
+      // For our iOS faux fullscreen mode
+      if (isIOS && document.body.classList.contains('ios-faux-fullscreen')) return true;
+      return false;
+    }
+
+    function enterFullscreen() {
+      const el = document.documentElement;
+
+      // iOS fallback: no Fullscreen API -> fake fullscreen
+      if (isIOS && !supportsNativeFullscreen()) {
+        window.scrollTo(0, 1);
+        document.body.classList.add('ios-faux-fullscreen');
+        return Promise.resolve();
+      }
+
+      if (el.requestFullscreen) {
+        return el.requestFullscreen();
+      } else if (el.webkitRequestFullscreen) {
+        return el.webkitRequestFullscreen();
+      } else if (el.msRequestFullscreen) {
+        return el.msRequestFullscreen();
+      }
+
+      return Promise.resolve();
+    }
+
+    function exitFullscreen() {
+      // iOS fallback exit
+      if (isIOS && !supportsNativeFullscreen()) {
+        document.body.classList.remove('ios-faux-fullscreen');
+        return Promise.resolve();
+      }
+
+      if (document.exitFullscreen) {
+        return document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        return document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) {
+        return document.msExitFullscreen();
+      }
+
+      return Promise.resolve();
+    }
+
+    let fsHideTimeout = null;
+
+    function scheduleHideFsButton() {
+      clearTimeout(fsHideTimeout);
+      if (!isFullScreen()) return;
+      fsHideTimeout = setTimeout(() => {
+        const btn = document.getElementById('fsToggle');
+        if (btn) btn.classList.add('fs-hidden');
+      }, 2000); // hide after 2s of fullscreen
+    }
+
+    function showFsButtonTemporarily() {
+      const btn = document.getElementById('fsToggle');
+      if (!btn) return;
+      btn.classList.remove('fs-hidden');
+      scheduleHideFsButton();
+    }
+
+    function updateFsButton() {
+      const btn = document.getElementById('fsToggle');
+      if (!btn) return;
+
+      if (isFullScreen()) {
+        btn.textContent = '✕ Exit fullscreen';
+        showFsButtonTemporarily();
+      } else {
+        btn.textContent = '⛶ Fullscreen';
+        btn.classList.remove('fs-hidden');
+        clearTimeout(fsHideTimeout);
+      }
+    }
+
+    function toggleFullscreen() {
+      if (isFullScreen()) {
+        exitFullscreen().catch(() => {});
+      } else {
+        enterFullscreen()
+          .catch(() => {})
+          .finally(() => {
+            // Some Android browsers might take a moment; we update when events fire too
+            updateFsButton();
+          });
+      }
+    }
+
+    const fsBtn = document.getElementById('fsToggle');
+    if (fsBtn) {
+      fsBtn.addEventListener('click', function (e) {
+        e.stopPropagation(); // don't interfere with SVG click handlers
+        toggleFullscreen();
+      });
+    }
+
+    // User activity in fullscreen -> show the button briefly
+    ['mousemove', 'pointermove', 'touchstart'].forEach(evt => {
+      document.addEventListener(evt, () => {
+        if (!isFullScreen()) return;
+        showFsButtonTemporarily();
+      }, { passive: true });
+    });
+
+    // Native fullscreen events
+    function onFsChange() {
+      updateFsButton();
+    }
+
+    function onFsError() {
+      console.warn('Fullscreen request failed');
+      // If it failed, make sure we don't think we're in fullscreen
+      updateFsButton();
+    }
+
+    document.addEventListener('fullscreenchange', onFsChange);
+    document.addEventListener('webkitfullscreenchange', onFsChange);
+    document.addEventListener('msfullscreenchange', onFsChange);
+    document.addEventListener('fullscreenerror', onFsError);
+    document.addEventListener('webkitfullscreenerror', onFsError);
+    document.addEventListener('msfullscreenerror', onFsError);
+
+    // Initialize label correctly on load
+    updateFsButton();
+
+    // --- Main SVG interaction logic (unchanged from before) ---
     const svgObj = document.getElementById('svgObj');
 
     svgObj.addEventListener('load', () => {
@@ -83,7 +274,6 @@
       const Projektering = doc.getElementById('Text-projektering');
       const Bygglov = doc.getElementById('Text-bygglov');
 
-      // Show/hide all region text groups for the CURRENT state only
       function setRegionTextVisible(regionName) {
         const stateIdMap = {
           Forstudie: 'Text-forstudie',
@@ -98,7 +288,6 @@
 
         const classes = ['forst', 'sen', 'hela', 'efter'];
 
-        // If regionName is null -> hide all region texts for this state
         if (!regionName) {
           classes.forEach(cls => {
             stateGroup.querySelectorAll('.' + cls).forEach(el => {
@@ -108,7 +297,6 @@
           return;
         }
 
-        // Show only the requested region's texts in this state
         classes.forEach(cls => {
           stateGroup.querySelectorAll('.' + cls).forEach(el => {
             el.style.display = (cls === regionName) ? 'inline' : 'none';
@@ -116,7 +304,6 @@
         });
       }
 
-      // Show/hide text objects with fade effect
       function setTextObjectsVisible(visible) {
         if (!textObjects) return;
         if (visible) {
@@ -126,31 +313,26 @@
         }
       }
 
-      // Show only the correct tl-text group for current state (rotation)
       function setStateText(state) {
         if (Forstudie) Forstudie.style.display = (state === 'Forstudie') ? 'inline' : 'none';
         if (Forvaltning) Forvaltning.style.display = (state === 'Forvaltning') ? 'inline' : 'none';
         if (Projektering) Projektering.style.display = (state === 'Projektering') ? 'inline' : 'none';
         if (Bygglov) Bygglov.style.display = (state === 'Bygglov') ? 'inline' : 'none';
-        // Hide all region text groups when in rotation state
         setRegionTextVisible(null);
       }
 
-      // --- State tracking ---
       const states = ['Forstudie', 'Forvaltning', 'Projektering', 'Bygglov'];
-      let rotation = 0; // 0, 90, 180, 270
+      let rotation = 0;
       let currentState = states[0];
       let rotAnimating = false;
       let camAnimating = false;
       let zoomedIn = false;
 
-      // Get state name from rotation angle
       function getStateFromRotation(deg) {
         const idx = Math.round(((deg % 360) + 360) % 360 / 90) % 4;
         return states[idx];
       }
 
-      // --- Animation helpers ---
       const easeInOut = t => t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
 
       function setCameraTransform(scale, tx, ty) {
@@ -173,7 +355,6 @@
         return { scale, tx, ty };
       }
 
-      // Animate camera transform (zoom in/out)
       function animateCameraTo(target, duration = 450, cb) {
         if (camAnimating) return;
         camAnimating = true;
@@ -199,7 +380,6 @@
         requestAnimationFrame(step);
       }
 
-      // Animate rotation and update state
       function setRotation(deg) {
         const existing = imgBack?.getAttribute('transform') || '';
         const withoutRotate = existing.replace(/rotate\([^)]*\)\s*/g, '');
@@ -232,20 +412,17 @@
         requestAnimationFrame(step);
       }
 
-      // Set initial state text
       setStateText(currentState);
 
-      // --- Rotate button handler ---
       if (rotateHitBox && imgBack) {
         rotateHitBox.style.cursor = 'pointer';
         rotateHitBox.addEventListener('click', (e) => {
           e.stopPropagation();
-          if (zoomedIn) return; // Disable rotation when zoomed in
+          if (zoomedIn) return;
           animateRotation(rotation + 90);
         });
       }
 
-      // --- Zoom logic ---
       let current = null;
 
       function zoomToBBox(bbox, regionName) {
@@ -260,24 +437,22 @@
         animateCameraTo(target, 450, () => {
           zoomedIn = true;
           setTextObjectsVisible(true);
-          setRegionTextVisible(regionName); // Show only the region's text group
+          setRegionTextVisible(regionName);
         });
       }
 
       function resetZoom() {
-        setTextObjectsVisible(false); // fade out
-        setRegionTextVisible(null); // Hide all region text groups
+        setTextObjectsVisible(false);
+        setRegionTextVisible(null);
         animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => {
           zoomedIn = false;
           current = null;
         });
       }
 
-      // Hide text objects and all region text groups initially
       setTextObjectsVisible(false);
       setRegionTextVisible(null);
 
-      // --- Region hitboxes setup ---
       const groups = Array.from(doc.querySelectorAll('g.region-group'));
       groups.forEach(group => {
         const hit = group.querySelector('.HitBox');
@@ -295,11 +470,10 @@
           }
           current = name;
           const bbox = region.getBBox();
-          zoomToBBox(bbox, name); // Pass region name for text visibility
+          zoomToBBox(bbox, name);
         });
       });
 
-      // Highlight hover effect for region HitBoxes
       const highlightRects = Array.from(doc.querySelectorAll('.highlight'));
       groups.forEach(group => {
         const hit = group.querySelector('.HitBox');
@@ -308,7 +482,7 @@
           const region = hit.getAttribute('data-region');
           highlightRects.forEach(rect => {
             if (rect.getAttribute('data-region') === region) {
-              rect.style.opacity = '0.2'; // or your desired hover opacity
+              rect.style.opacity = '0.2';
             }
           });
         });
@@ -316,20 +490,18 @@
           const region = hit.getAttribute('data-region');
           highlightRects.forEach(rect => {
             if (rect.getAttribute('data-region') === region) {
-              rect.style.opacity = ''; // reset to CSS default
+              rect.style.opacity = '';
             }
           });
         });
       });
 
-      // --- Click outside to reset zoom ---
       svg.addEventListener('click', e => {
         const isRegionHit = e.target.closest && e.target.closest('g.region-group .HitBox');
         const isRotateHit = e.target.closest && e.target.closest('.HitBoxRotate');
         if (!isRegionHit && !isRotateHit) resetZoom();
       }, { capture: true });
 
-      // --- Escape key to reset zoom ---
       window.addEventListener('keydown', e => {
         if (e.key === 'Escape') resetZoom();
       });
