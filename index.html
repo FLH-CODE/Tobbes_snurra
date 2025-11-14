@@ -3,46 +3,42 @@
 <head>
   <meta charset="utf-8" />
   <title>Smooth SVG Zoom (camera transform)</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <style>
     html, body {
       height: 100%;
       margin: 0;
       background: #ffffff;
       overflow: hidden;
+      /* Use small viewport height for mobile fullscreen */
+      height: 100svh;
     }
     #svgObj {
       position: fixed;
       inset: 0;
       width: 100vw;
-      height: 100vh;
+      height: 100svh;
       background: #a0a0a0;
-    }
-    .hint {
-      position: fixed;
-      left: 12px;
-      top: 12px;
-      color: #ddd;
-      font: 13px Segoe UI, sans-serif;
-      background: rgba(0,0,0,.35);
-      padding: 6px 10px;
-      border-radius: 6px;
-      z-index: 10;
     }
     /* Optionally, hide by default */
     [data-hide] { display: none !important; }
   </style>
 </head>
 <body>
-  <div class="hint">
-    Click a hitbox to zoom (uses the region’s extent). Click outside or press Esc to reset.
-    Use the rotate button to rotate the background.
-  </div>
-
   <!-- External SVG -->
   <object id="svgObj" type="image/svg+xml" data="image.svg"></object>
 
   <script>
+    // Request fullscreen on first user interaction (mobile browsers)
+    function requestFullscreenIfPossible() {
+      const el = document.documentElement;
+      if (el.requestFullscreen) el.requestFullscreen();
+      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+      else if (el.msRequestFullscreen) el.msRequestFullscreen();
+    }
+    window.addEventListener('touchstart', requestFullscreenIfPossible, { once: true });
+    window.addEventListener('click', requestFullscreenIfPossible, { once: true });
+
     // --- Main SVG interaction logic ---
     const svgObj = document.getElementById('svgObj');
 
