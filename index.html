@@ -265,6 +265,7 @@
       }
 
       const imgBack = doc.getElementById('img_back');
+      const whiteWheel = doc.getElementById('white-wheel'); // <-- Add this line
       const rotateHitBox = doc.querySelector('.HitBoxRotate');
 
       // --- Text objects and state groups ---
@@ -386,6 +387,12 @@
         if (imgBack) {
           imgBack.setAttribute('transform', `${withoutRotate} rotate(${deg},800,450)`);
         }
+        // --- Rotate white-wheel together ---
+        if (whiteWheel) {
+          const existingWheel = whiteWheel.getAttribute('transform') || '';
+          const wheelWithoutRotate = existingWheel.replace(/rotate\([^)]*\)\s*/g, '');
+          whiteWheel.setAttribute('transform', `${wheelWithoutRotate} rotate(${deg},800,450)`);
+        }
         currentState = getStateFromRotation(deg);
         setStateText(currentState);
       }
@@ -434,7 +441,7 @@
           height: bbox.height + 2 * py
         };
         const target = fitBBoxToView(padded);
-        animateCameraTo(target, 450, () => {
+        animateCameraTo(target, 600, () => {
           zoomedIn = true;
           setTextObjectsVisible(true);
           setRegionTextVisible(regionName);
@@ -444,7 +451,7 @@
       function resetZoom() {
         setTextObjectsVisible(false);
         setRegionTextVisible(null);
-        animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 450, () => {
+        animateCameraTo({ scale: 1, tx: 0, ty: 0 }, 600, () => {
           zoomedIn = false;
           current = null;
         });
