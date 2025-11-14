@@ -240,6 +240,7 @@
         rotateHitBox.style.cursor = 'pointer';
         rotateHitBox.addEventListener('click', (e) => {
           e.stopPropagation();
+          if (zoomedIn) return; // Disable rotation when zoomed in
           animateRotation(rotation + 90);
         });
       }
@@ -295,6 +296,29 @@
           current = name;
           const bbox = region.getBBox();
           zoomToBBox(bbox, name); // Pass region name for text visibility
+        });
+      });
+
+      // Highlight hover effect for region HitBoxes
+      const highlightRects = Array.from(doc.querySelectorAll('.highlight'));
+      groups.forEach(group => {
+        const hit = group.querySelector('.HitBox');
+        if (!hit) return;
+        hit.addEventListener('mouseover', () => {
+          const region = hit.getAttribute('data-region');
+          highlightRects.forEach(rect => {
+            if (rect.getAttribute('data-region') === region) {
+              rect.style.opacity = '0.2'; // or your desired hover opacity
+            }
+          });
+        });
+        hit.addEventListener('mouseout', () => {
+          const region = hit.getAttribute('data-region');
+          highlightRects.forEach(rect => {
+            if (rect.getAttribute('data-region') === region) {
+              rect.style.opacity = ''; // reset to CSS default
+            }
+          });
         });
       });
 

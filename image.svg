@@ -27,15 +27,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="0.7477654"
-     inkscape:cx="645.25585"
-     inkscape:cy="646.59317"
+     inkscape:zoom="1.4955308"
+     inkscape:cx="681.0291"
+     inkscape:cy="535.26146"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg"
+     inkscape:current-layer="highlights"
      showguides="true">
     <sodipodi:guide
        position="51.486736,373.09678"
@@ -59,9 +59,19 @@
        inkscape:locked="false" />
   </sodipodi:namedview>
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="swatch452"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#1abc9c;stop-opacity:1;"
+         offset="0"
+         id="stop452" />
+    </linearGradient>
+  </defs>
   <style
      id="style1">
+    .highlight { opacity: 0; pointer-events: none; }
     .region { opacity: 0; pointer-events: none; }
     .HitBox { opacity: 0; }
     .HitBoxRotate { opacity: 0; cursor: pointer; transition: opacity 0; }
@@ -478,7 +488,7 @@
                sodipodi:role="line"
                id="tspan103"
                x="29.089855"
-               y="581.67078"></tspan><tspan
+               y="581.67078" /><tspan
                sodipodi:role="line"
                id="tspan104"
                x="29.089855"
@@ -3085,6 +3095,50 @@
     </g>
     <g
        id="Graphics">
+      <g
+         id="highlights"
+         inkscape:label="highlights"
+         class="highlights-group"
+         style="display:inline;stroke-width:0.890807;fill:#ffffff;fill-opacity:1">
+        <rect
+           class="highlight"
+           x="509"
+           y="180"
+           width="185.18216"
+           height="210.68527"
+           data-region="forst"
+           id="region-first-highlight"
+           inkscape:label="region-first-highlight" />
+        <rect
+           class="highlight"
+           x="918"
+           y="452.45279"
+           width="205.8804"
+           height="143.23248"
+           data-region="efter"
+           id="region-efter-highlight"
+           inkscape:label="region-efter-highlight"
+           style="display:inline;opacity:0;fill:#ffffff;fill-opacity:1;stroke-width:0.774453" />
+        <rect
+           class="highlight"
+           x="432.4834"
+           y="439.52335"
+           width="246.69878"
+           height="169.16193"
+           data-region="hela"
+           id="region-hela-highlight"
+           inkscape:label="region-hela-highlight"
+           style="display:inline;opacity:0;fill:#ffffff;fill-opacity:1;stroke-width:0.921301" />
+        <rect
+           class="highlight"
+           x="788.85114"
+           y="315.44772"
+           width="152.33102"
+           height="139.23755"
+           data-region="sen"
+           id="region-sen-highlight"
+           inkscape:label="region-sen-highlight" />
+      </g>
       <image
          width="850"
          height="850"
