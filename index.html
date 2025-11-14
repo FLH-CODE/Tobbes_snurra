@@ -78,22 +78,41 @@
 
       // --- Text objects and state groups ---
       const textObjects = doc.getElementById('Text-objects');
-      // Individual region text groups by class
-      const regionTextGroups = {
-        forst: doc.querySelector('.forst'),
-        sen: doc.querySelector('.sen'),
-        hela: doc.querySelector('.hela'),
-        efter: doc.querySelector('.efter')
-      };
       const Forstudie = doc.getElementById('Text-forstudie');
       const Forvaltning = doc.getElementById('Text-forvaltning');
       const Projektering = doc.getElementById('Text-projektering');
       const Bygglov = doc.getElementById('Text-bygglov');
 
-      // Show/hide all region text groups
+      // Show/hide all region text groups for the CURRENT state only
       function setRegionTextVisible(regionName) {
-        Object.entries(regionTextGroups).forEach(([key, el]) => {
-          if (el) el.style.display = (key === regionName) ? 'inline' : 'none';
+        const stateIdMap = {
+          Forstudie: 'Text-forstudie',
+          Forvaltning: 'Text-forvaltning',
+          Projektering: 'Text-projektering',
+          Bygglov: 'Text-bygglov'
+        };
+
+        const stateGroupId = stateIdMap[currentState];
+        const stateGroup = stateGroupId ? doc.getElementById(stateGroupId) : null;
+        if (!stateGroup) return;
+
+        const classes = ['forst', 'sen', 'hela', 'efter'];
+
+        // If regionName is null -> hide all region texts for this state
+        if (!regionName) {
+          classes.forEach(cls => {
+            stateGroup.querySelectorAll('.' + cls).forEach(el => {
+              el.style.display = 'none';
+            });
+          });
+          return;
+        }
+
+        // Show only the requested region's texts in this state
+        classes.forEach(cls => {
+          stateGroup.querySelectorAll('.' + cls).forEach(el => {
+            el.style.display = (cls === regionName) ? 'inline' : 'none';
+          });
         });
       }
 
