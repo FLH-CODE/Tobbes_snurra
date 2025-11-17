@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="1.0575"
-     inkscape:cx="807.56503"
-     inkscape:cy="602.8369"
+     inkscape:zoom="1.4955308"
+     inkscape:cx="516.20467"
+     inkscape:cy="540.61072"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
@@ -3165,12 +3165,12 @@
          sodipodi:insensitive="true" />
       <image
          width="800"
-         height="754.40179"
+         height="800"
          preserveAspectRatio="none"
-         xlink:href="VAD%20framsida.png"
+         xlink:href="VAD%20framsida.svg"
          id="img_front"
          x="400"
-         y="96"
+         y="50"
          style="display:inline"
          sodipodi:insensitive="true" />
       <circle
@@ -3187,7 +3187,8 @@
          xlink:href="Rivet.png"
          id="image1"
          x="778.92206"
-         y="429.51096" />
+         y="429.51096"
+         style="display:inline" />
     </g>
     <g
        class="region-group"

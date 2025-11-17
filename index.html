@@ -249,6 +249,12 @@
           opacity: 1 !important;
           pointer-events: auto;
         }
+        /* Remove blue tap highlight and outline on mobile for clickable SVG elements */
+        .HitBox, .HitBoxRotate {
+          outline: none !important;
+          -webkit-tap-highlight-color: transparent !important;
+          tap-highlight-color: transparent !important;
+        }
       `;
       doc.documentElement.appendChild(svgStyle);
 
@@ -385,13 +391,13 @@
         const existing = imgBack?.getAttribute('transform') || '';
         const withoutRotate = existing.replace(/rotate\([^)]*\)\s*/g, '');
         if (imgBack) {
-          imgBack.setAttribute('transform', `${withoutRotate} rotate(${deg},800,450)`);
+          imgBack.setAttribute('transform', `${withoutRotate} rotate(${-deg},800,450)`);
         }
         // --- Rotate white-wheel together ---
         if (whiteWheel) {
           const existingWheel = whiteWheel.getAttribute('transform') || '';
           const wheelWithoutRotate = existingWheel.replace(/rotate\([^)]*\)\s*/g, '');
-          whiteWheel.setAttribute('transform', `${wheelWithoutRotate} rotate(${deg},800,450)`);
+          whiteWheel.setAttribute('transform', `${wheelWithoutRotate} rotate(${-deg},800,450)`);
         }
         currentState = getStateFromRotation(deg);
         setStateText(currentState);
