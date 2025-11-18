@@ -328,7 +328,8 @@
         setRegionTextVisible(null);
       }
 
-      const states = ['Forstudie', 'Forvaltning', 'Projektering', 'Bygglov'];
+      // Change order to match clockwise rotation
+      const states = ['Forstudie', 'Bygglov', 'Projektering', 'Forvaltning'];
       let rotation = 0;
       let currentState = states[0];
       let rotAnimating = false;
@@ -336,6 +337,7 @@
       let zoomedIn = false;
 
       function getStateFromRotation(deg) {
+        // Map rotation to state in clockwise order
         const idx = Math.round(((deg % 360) + 360) % 360 / 90) % 4;
         return states[idx];
       }
