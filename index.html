@@ -13,6 +13,11 @@
       height: 100svh;
     }
 
+    /* Fullscreen background should be white */
+    body:fullscreen, body:-webkit-full-screen, body.ios-faux-fullscreen {
+      background: #fff !important;
+    }
+
     #svgObj {
       position: fixed;
       inset: 0;
