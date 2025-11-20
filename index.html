@@ -13,7 +13,10 @@
       height: 100svh;
     }
 
-    /* Fullscreen background should be white */
+    /* Fullscreen background should be white for all contexts (iframe, standalone) */
+    :fullscreen, :-webkit-full-screen {
+      background: #fff !important;
+    }
     body:fullscreen, body:-webkit-full-screen, body.ios-faux-fullscreen {
       background: #fff !important;
     }
