@@ -245,7 +245,7 @@
       const doc = svgObj.contentDocument;
       if (!doc) return;
 
-      // Inject fade CSS into SVG for smooth transitions
+      // Inject fade CSS and font override into SVG for smooth transitions and font fix
       const svgStyle = doc.createElementNS("http://www.w3.org/2000/svg", "style");
       svgStyle.textContent = `
         #Text-objects {
@@ -262,6 +262,10 @@
           outline: none !important;
           -webkit-tap-highlight-color: transparent !important;
           tap-highlight-color: transparent !important;
+        }
+        /* Override PostScript font name with human-readable family name */
+        [style*="font-family:CircularStd-Bold"] {
+          font-family: 'Circular Std Bold', sans-serif !important;
         }
       `;
       doc.documentElement.appendChild(svgStyle);
@@ -301,21 +305,21 @@
         const stateGroup = stateGroupId ? doc.getElementById(stateGroupId) : null;
         if (!stateGroup) return;
 
-        const classes = ['forst', 'sen', 'hela', 'efter'];
-
         if (!regionName) {
-          classes.forEach(cls => {
-            stateGroup.querySelectorAll('.' + cls).forEach(el => {
-              el.style.display = 'none';
-            });
+          // Hide all children of the state group
+          Array.from(stateGroup.children).forEach(child => {
+            child.style.display = 'none';
           });
           return;
         }
 
-        classes.forEach(cls => {
-          stateGroup.querySelectorAll('.' + cls).forEach(el => {
-            el.style.display = (cls === regionName) ? 'inline' : 'none';
-          });
+        // Hide all sibling subgroups, show only the target region
+        Array.from(stateGroup.children).forEach(child => {
+          // Check if this child's ID or classes contain the regionName
+          const childId = child.id || '';
+          const isTarget = childId.includes(regionName) || 
+                          child.classList.contains(regionName);
+          child.style.display = isTarget ? 'inline' : 'none';
         });
       }
 
