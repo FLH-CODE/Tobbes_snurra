@@ -28,28 +28,28 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:zoom="0.74776542"
-     inkscape:cx="657.29169"
-     inkscape:cy="404.53863"
+     inkscape:zoom="0.37388271"
+     inkscape:cx="296.88455"
+     inkscape:cy="900.01487"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="Text-objects"
+     inkscape:current-layer="fs-hela"
      showguides="true">
     <sodipodi:guide
-       position="51.486736,373.09678"
+       position="27.186761,616.31206"
        orientation="1,0"
        id="guide447"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="37.444899,716.78746"
+       position="19.385343,613.71158"
        orientation="1,0"
        id="guide448"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="1242.5532,935.93381"
+       position="1225,638.53428"
        orientation="1,0"
        id="guide450"
        inkscape:locked="false" />
@@ -209,7 +209,8 @@
          inkscape:label="Text-forstudie">
         <g
            id="fs-forst"
-           inkscape:label="fs-forst">
+           inkscape:label="fs-forst"
+           style="display:inline">
           <path
              id="path2-0"
              d="M 19.815,85.004 H 388.246"
@@ -450,7 +451,8 @@
           </g>
         </g>
         <g
-           id="fs-efter">
+           id="fs-efter"
+           style="display:inline">
           <g
              id="text5-7-0">
             <g
@@ -784,7 +786,8 @@
         </g>
         <g
            id="fs-hela"
-           inkscape:label="fs-hela">
+           inkscape:label="fs-hela"
+           style="display:inline">
           <path
              id="path2-8-6"
              d="M 19.815,494.564 H 388.246"
@@ -940,7 +943,7 @@
           </g>
           <g
              id="text1-7-1-8-0-2-36"
-             transform="translate(-32,-14)">
+             transform="translate(-30.161188,-14)">
             <g
                transform="translate(57.089855,633.73077)"
                id="g100-3">
@@ -1019,7 +1022,7 @@
           </g>
           <g
              id="text1-7-1-8-0-2-3-7"
-             transform="translate(-26,-14)">
+             transform="translate(-24.161188,-14)">
             <g
                transform="translate(0,-3)"
                id="g119-9">
@@ -1080,7 +1083,7 @@
           </g>
           <g
              id="text1-7-1-8-0-2-3-9-2"
-             transform="translate(-26,-18)">
+             transform="translate(-24.161188,-18)">
             <g
                transform="translate(51.889854,724.14075)"
                id="g121-5">
@@ -1181,9 +1184,40 @@
                  id="text132">Tekniskt skick och historik utvärderas.</text>
             </g>
           </g>
+          <g
+             id="path447-1-5-5-7-9-5"
+             transform="translate(-1221.1676,419.33415)"
+             style="display:inline;opacity:1">
+            <circle
+               cx="1242.553"
+               cy="197.985"
+               r="2"
+               id="circle532-1" />
+          </g>
+          <g
+             id="path447-1-5-5-7-9-5-5"
+             transform="translate(-1221.1676,461.93108)"
+             style="display:inline;opacity:1">
+            <circle
+               cx="1242.553"
+               cy="197.985"
+               r="2"
+               id="circle532-1-2" />
+          </g>
+          <g
+             id="path447-1-5-5-7-9-5-4"
+             transform="translate(-1221.1676,505.75529)"
+             style="display:inline;opacity:1">
+            <circle
+               cx="1242.553"
+               cy="197.985"
+               r="2"
+               id="circle532-1-23" />
+          </g>
         </g>
         <g
-           id="fs-sen">
+           id="fs-sen"
+           style="display:inline">
           <g
              id="text5-3">
             <g
@@ -3925,7 +3959,8 @@
         </g>
         <g
            id="pr-sen-2"
-           inkscape:label="pr-sen">
+           inkscape:label="pr-sen"
+           style="display:inline">
           <g
              id="text5-73-6-2-3">
             <g
@@ -4264,486 +4299,376 @@
            transform="matrix(0.859748,0,0,0.835944,2.452207,5.041174)"
            style="clip-rule:evenodd;display:inline;opacity:1;fill-rule:evenodd"
            inkscape:label="bl-forst">
-                    <g
-   id="path2-7-7"
-   transform="matrix(0.911604,0,0,1,1.751576,0)">
-                        <path
-   d="M 19.815,59.004 H 388.246"
-   style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
-   id="path555-9" />
-
-                    </g>
-
-                    <g
-   transform="translate(2.326262,56.22384)"
-   id="g562-8">
-                        <g
-   id="g561-3">
-                            <g
-   id="path2-3-87-0"
-   transform="matrix(0.504353,0,0,1,9.024344,4.785008)">
-                                <path
-   d="M 18.207,357.503 H 386.638"
-   style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
-   id="path556-8" />
-
-                            </g>
-
-                            <g
-   transform="translate(17.410339,349.8131)"
-   id="g556-6">
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:21.533px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text556-9">Hur gör man?</text>
-
-                            </g>
-
-                            <g
-   id="text1-7-2-5-7"
-   transform="translate(0,8.373763)">
-                                <g
-   transform="translate(16.412521,376.08792)"
-   id="g558-8">
-                                    <g
-   transform="matrix(7.979,0,0,7.979,178.04341,0)"
-   id="g557-6">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text557-6">FOJAB inventerar i dialog med miljösakkunniga.</text>
-
-                                </g>
-
-                                <g
-   transform="translate(16.412521,389.99916)"
-   id="g560-2">
-                                    <g
-   transform="matrix(7.979,0,0,7.979,134.70946,0)"
-   id="g559-3">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text559-8">Resultat blir grund för vidare arbete.</text>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-3-3">
-                        <g
-   transform="translate(19.018326,48.392433)"
-   id="g564-2">
-                            <g
-   transform="matrix(21.532535,0,0,21.532535,287.39474,0)"
-   id="g563-6">
-                            </g>
-
-                            <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:21.533px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text563-2">Inventering i bygglovsskedet</text>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-7-82-3"
-   transform="matrix(1,0,0,1.028476,1.163131,-3.654869)">
-                        <g
-   transform="translate(0,3.489393)"
-   id="g574-7">
-                            <g
-   transform="translate(18.020508,99.060189)"
-   id="g570-5">
-                                <g
-   transform="scale(1.028476,1)"
-   id="g569-7">
-                                    <g
-   transform="matrix(7.758085,0,0,7.758085,45.125317,0)"
-   id="g565-8">
-                                        <path
-   d="M 0.427,-0.378 V 0 H 0.559 V -0.492 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 Z M 0.411,-0.654 c 0,0.045 0.037,0.081 0.082,0.081 0.045,0 0.082,-0.036 0.082,-0.081 0,-0.046 -0.037,-0.083 -0.082,-0.083 -0.045,0 -0.082,0.037 -0.082,0.083 z"
-   style="fill-rule:nonzero"
-   id="path564-2" />
-
-                                    </g>
-
-                                    <g
-   transform="matrix(7.758085,0,0,7.758085,45.125317,0)"
-   id="g566-7">
-                                    </g>
-
-                                    <g
-   transform="matrix(7.758085,0,0,7.758085,47.887195,0)"
-   id="g567-8">
-                                    </g>
-
-                                    <g
-   transform="matrix(7.758085,0,0,7.758085,112.85501,0)"
-   id="g568-0">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:7.758px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text568-2">Inventera be<tspan
+          <g
+             id="path2-7-7"
+             transform="matrix(0.911604,0,0,1,1.751576,0)">
+            <path
+               d="M 19.815,59.004 H 388.246"
+               style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
+               id="path555-9" />
+          </g>
+          <g
+             transform="translate(2.326262,56.22384)"
+             id="g562-8">
+            <g
+               id="g561-3">
+              <g
+                 id="path2-3-87-0"
+                 transform="matrix(0.504353,0,0,1,9.024344,4.785008)">
+                <path
+                   d="M 18.207,357.503 H 386.638"
+                   style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
+                   id="path556-8" />
+              </g>
+              <g
+                 transform="translate(17.410339,349.8131)"
+                 id="g556-6">
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:21.533px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text556-9">Hur gör man?</text>
+              </g>
+              <g
+                 id="text1-7-2-5-7"
+                 transform="translate(0,8.373763)">
+                <g
+                   transform="translate(16.412521,376.08792)"
+                   id="g558-8">
+                  <g
+                     transform="matrix(7.979,0,0,7.979,178.04341,0)"
+                     id="g557-6" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text557-6">FOJAB inventerar i dialog med miljösakkunniga.</text>
+                </g>
+                <g
+                   transform="translate(16.412521,389.99916)"
+                   id="g560-2">
+                  <g
+                     transform="matrix(7.979,0,0,7.979,134.70946,0)"
+                     id="g559-3" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text559-8">Resultat blir grund för vidare arbete.</text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-3-3">
+            <g
+               transform="translate(19.018326,48.392433)"
+               id="g564-2">
+              <g
+                 transform="matrix(21.532535,0,0,21.532535,287.39474,0)"
+                 id="g563-6" />
+              <text
+                 x="0"
+                 y="0"
+                 style="font-weight:700;font-size:21.533px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                 id="text563-2">Inventering i bygglovsskedet</text>
+            </g>
+          </g>
+          <g
+             id="text1-7-82-3"
+             transform="matrix(1,0,0,1.028476,1.163131,-3.654869)">
+            <g
+               transform="translate(0,3.489393)"
+               id="g574-7">
+              <g
+                 transform="translate(18.020508,99.060189)"
+                 id="g570-5">
+                <g
+                   transform="scale(1.028476,1)"
+                   id="g569-7">
+                  <g
+                     transform="matrix(7.758085,0,0,7.758085,45.125317,0)"
+                     id="g565-8">
+                    <path
+                       d="M 0.427,-0.378 V 0 H 0.559 V -0.492 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 Z M 0.411,-0.654 c 0,0.045 0.037,0.081 0.082,0.081 0.045,0 0.082,-0.036 0.082,-0.081 0,-0.046 -0.037,-0.083 -0.082,-0.083 -0.045,0 -0.082,0.037 -0.082,0.083 z"
+                       style="fill-rule:nonzero"
+                       id="path564-2" />
+                  </g>
+                  <g
+                     transform="matrix(7.758085,0,0,7.758085,45.125317,0)"
+                     id="g566-7" />
+                  <g
+                     transform="matrix(7.758085,0,0,7.758085,47.887195,0)"
+                     id="g567-8" />
+                  <g
+                     transform="matrix(7.758085,0,0,7.758085,112.85501,0)"
+                     id="g568-0" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:7.758px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text568-2">Inventera be<tspan
    x="50.021"
    y="0"
    id="tspan568-0">n</tspan>tliga byggnader.</text>
-
-                                </g>
-
-                            </g>
-
-                            <g
-   transform="translate(18.020508,113.0708)"
-   id="g573-8">
-                                <g
-   transform="scale(1.028476,1)"
-   id="g572-9">
-                                    <g
-   transform="matrix(7.758085,0,0,7.758085,157.7442,0)"
-   id="g571-2">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:7.758px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text571-8">Vad kan bevaras och vad bör återanvändas?</text>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-7-1-3-5"
-   transform="translate(2.326262,0.177512)">
-                        <g
-   transform="translate(16.924328,80.935517)"
-   id="g579-2">
-                            <g
-   transform="matrix(7.979,0,0,7.979,19.628341,0)"
-   id="g575-0">
-                                <path
-   d="M 0.427,-0.378 V 0 H 0.559 V -0.492 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 Z M 0.411,-0.654 c 0,0.045 0.037,0.081 0.082,0.081 0.045,0 0.082,-0.036 0.082,-0.081 0,-0.046 -0.037,-0.083 -0.082,-0.083 -0.045,0 -0.082,0.037 -0.082,0.083 z"
-   style="fill-rule:nonzero"
-   id="path574-5" />
-
-                            </g>
-
-                            <g
-   transform="matrix(7.979,0,0,7.979,19.628341,0)"
-   id="g576-5">
-                            </g>
-
-                            <g
-   transform="matrix(7.979,0,0,7.979,22.468865,0)"
-   id="g577-2">
-                            </g>
-
-                            <g
-   transform="matrix(7.979,0,0,7.979,95.125642,0)"
-   id="g578-7">
-                            </g>
-
-                            <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text578-6">”Vad <tspan
+                </g>
+              </g>
+              <g
+                 transform="translate(18.020508,113.0708)"
+                 id="g573-8">
+                <g
+                   transform="scale(1.028476,1)"
+                   id="g572-9">
+                  <g
+                     transform="matrix(7.758085,0,0,7.758085,157.7442,0)"
+                     id="g571-2" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:7.758px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text571-8">Vad kan bevaras och vad bör återanvändas?</text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-7-1-3-5"
+             transform="translate(2.326262,0.177512)">
+            <g
+               transform="translate(16.924328,80.935517)"
+               id="g579-2">
+              <g
+                 transform="matrix(7.979,0,0,7.979,19.628341,0)"
+                 id="g575-0">
+                <path
+                   d="M 0.427,-0.378 V 0 H 0.559 V -0.492 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 Z M 0.411,-0.654 c 0,0.045 0.037,0.081 0.082,0.081 0.045,0 0.082,-0.036 0.082,-0.081 0,-0.046 -0.037,-0.083 -0.082,-0.083 -0.045,0 -0.082,0.037 -0.082,0.083 z"
+                   style="fill-rule:nonzero"
+                   id="path574-5" />
+              </g>
+              <g
+                 transform="matrix(7.979,0,0,7.979,19.628341,0)"
+                 id="g576-5" />
+              <g
+                 transform="matrix(7.979,0,0,7.979,22.468865,0)"
+                 id="g577-2" />
+              <g
+                 transform="matrix(7.979,0,0,7.979,95.125642,0)"
+                 id="g578-7" />
+              <text
+                 x="0"
+                 y="0"
+                 style="font-weight:700;font-size:7.979px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                 id="text578-6">”Vad <tspan
    x="24.663"
    y="0"
    id="tspan578-7">n</tspan>ns att utgå ifrån?”</text>
-
-                        </g>
-
-                    </g>
-
+            </g>
+          </g>
+          <g
+             transform="translate(0,-14.355023)"
+             id="g607-8">
+            <g
+               id="text1-7-1-8-2-7"
+               transform="translate(-22)">
+              <g
+                 transform="translate(0,8.373763)"
+                 id="g606-7">
+                <g
+                   transform="translate(-8.141918)"
+                   id="g605-8">
+                  <g
+                     transform="translate(49.089855,151.6807)"
+                     id="g581-1">
                     <g
-   transform="translate(0,-14.355023)"
-   id="g607-8">
-                        <g
-   id="text1-7-1-8-2-7"
-   transform="translate(-22)">
-                            <g
-   transform="translate(0,8.373763)"
-   id="g606-7">
-                                <g
-   transform="translate(-8.141918)"
-   id="g605-8">
-                                    <g
-   transform="translate(49.089855,151.6807)"
-   id="g581-1">
-                                        <g
-   transform="matrix(7.979,0,0,7.979,265.31772,0)"
-   id="g580-6">
-                                        </g>
-
-                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text580-0">Inventering inför framtagning av ett bygglov handlar det till stor del om att</text>
-
-                                    </g>
-
-                                    <g
-   transform="translate(49.089855,165.37696)"
-   id="g582-9">
-                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text581-5">fastslå vilka delar som är möjliga att bevara. Ett tätt samarbete med</text>
-
-                                    </g>
-
-                                    <g
-   transform="translate(49.089855,179.07321)"
-   id="g583-8">
-                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text582-9">miljökonsult kan vara nödvändigt beroende på vilka förutsättningar som</text>
-
-                                    </g>
-
-                                    <g
-   transform="translate(49.089855,192.76946)"
-   id="g587-0">
-                                        <g
-   transform="scale(7.979)"
-   id="g584-0">
-                                            <path
-   d="m 0.267,-0.727 c -0.087,0 -0.158,0.058 -0.158,0.165 v 0.081 H 0.02 v 0.085 H 0.109 V 0 H 0.206 V -0.396 H 0.431 V 0 H 0.524 V -0.481 H 0.206 v -0.077 c 0,-0.066 0.043,-0.081 0.076,-0.081 0.024,0 0.036,0.004 0.041,0.006 V -0.717 C 0.319,-0.72 0.299,-0.727 0.267,-0.727 Z m 0.143,0.062 c 0,0.037 0.03,0.067 0.067,0.067 0.038,0 0.068,-0.03 0.068,-0.067 0,-0.038 -0.03,-0.068 -0.068,-0.068 -0.037,0 -0.067,0.03 -0.067,0.068 z"
-   style="fill-rule:nonzero"
-   id="path583-0" />
-
-                                        </g>
-
-                                        <g
-   transform="scale(7.979)"
-   id="g585-7">
-                                        </g>
-
-                                        <g
-   transform="matrix(7.979,0,0,7.979,2.773533,0)"
-   id="g586-2">
-                                        </g>
-
-                                        <text
-   x="4.8189998"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text586-5"><tspan
+                       transform="matrix(7.979,0,0,7.979,265.31772,0)"
+                       id="g580-6" />
+                    <text
+                       x="0"
+                       y="0"
+                       style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                       id="text580-0">Inventering inför framtagning av ett bygglov handlar det till stor del om att</text>
+                  </g>
+                  <g
+                     transform="translate(49.089855,165.37696)"
+                     id="g582-9">
+                    <text
+                       x="0"
+                       y="0"
+                       style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                       id="text581-5">fastslå vilka delar som är möjliga att bevara. Ett tätt samarbete med</text>
+                  </g>
+                  <g
+                     transform="translate(49.089855,179.07321)"
+                     id="g583-8">
+                    <text
+                       x="0"
+                       y="0"
+                       style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                       id="text582-9">miljökonsult kan vara nödvändigt beroende på vilka förutsättningar som</text>
+                  </g>
+                  <g
+                     transform="translate(49.089855,192.76946)"
+                     id="g587-0">
+                    <g
+                       transform="scale(7.979)"
+                       id="g584-0">
+                      <path
+                         d="m 0.267,-0.727 c -0.087,0 -0.158,0.058 -0.158,0.165 v 0.081 H 0.02 v 0.085 H 0.109 V 0 H 0.206 V -0.396 H 0.431 V 0 H 0.524 V -0.481 H 0.206 v -0.077 c 0,-0.066 0.043,-0.081 0.076,-0.081 0.024,0 0.036,0.004 0.041,0.006 V -0.717 C 0.319,-0.72 0.299,-0.727 0.267,-0.727 Z m 0.143,0.062 c 0,0.037 0.03,0.067 0.067,0.067 0.038,0 0.068,-0.03 0.068,-0.067 0,-0.038 -0.03,-0.068 -0.068,-0.068 -0.037,0 -0.067,0.03 -0.067,0.068 z"
+                         style="fill-rule:nonzero"
+                         id="path583-0" />
+                    </g>
+                    <g
+                       transform="scale(7.979)"
+                       id="g585-7" />
+                    <g
+                       transform="matrix(7.979,0,0,7.979,2.773533,0)"
+                       id="g586-2" />
+                    <text
+                       x="4.8189998"
+                       y="0"
+                       style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                       id="text586-5"><tspan
    x="4.8189998"
    y="0"
    id="tspan586-5">n</tspan>ns i projektet.</text>
-
-                                    </g>
-
-                                    <g
-   transform="translate(0,7.177512)"
-   id="g596-2">
-                                        <g
-   id="g594-1">
-                                            <g
-   transform="translate(49.089855,211.1332)"
-   id="g591-4">
-                                                <g
-   transform="matrix(7.979,0,0,7.979,160.27418,0)"
-   id="g588-8">
-                                                    <path
-   d="m 0.267,-0.727 c -0.087,0 -0.158,0.058 -0.158,0.165 v 0.081 H 0.02 v 0.085 H 0.109 V 0 H 0.206 V -0.396 H 0.431 V 0 H 0.524 V -0.481 H 0.206 v -0.077 c 0,-0.066 0.043,-0.081 0.076,-0.081 0.024,0 0.036,0.004 0.041,0.006 V -0.717 C 0.319,-0.72 0.299,-0.727 0.267,-0.727 Z m 0.143,0.062 c 0,0.037 0.03,0.067 0.067,0.067 0.038,0 0.068,-0.03 0.068,-0.067 0,-0.038 -0.03,-0.068 -0.068,-0.068 -0.037,0 -0.067,0.03 -0.067,0.068 z"
-   style="fill-rule:nonzero"
-   id="path587-6" />
-
-                                                </g>
-
-                                                <g
-   transform="matrix(7.979,0,0,7.979,160.27418,0)"
-   id="g589-4">
-                                                </g>
-
-                                                <g
-   transform="matrix(7.979,0,0,7.979,163.04771,0)"
-   id="g590-6">
-                                                </g>
-
-                                                <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text590-8">Är projektområdet från 1960-talet eller äldre <tspan
+                  </g>
+                  <g
+                     transform="translate(0,7.177512)"
+                     id="g596-2">
+                    <g
+                       id="g594-1">
+                      <g
+                         transform="translate(49.089855,211.1332)"
+                         id="g591-4">
+                        <g
+                           transform="matrix(7.979,0,0,7.979,160.27418,0)"
+                           id="g588-8">
+                          <path
+                             d="m 0.267,-0.727 c -0.087,0 -0.158,0.058 -0.158,0.165 v 0.081 H 0.02 v 0.085 H 0.109 V 0 H 0.206 V -0.396 H 0.431 V 0 H 0.524 V -0.481 H 0.206 v -0.077 c 0,-0.066 0.043,-0.081 0.076,-0.081 0.024,0 0.036,0.004 0.041,0.006 V -0.717 C 0.319,-0.72 0.299,-0.727 0.267,-0.727 Z m 0.143,0.062 c 0,0.037 0.03,0.067 0.067,0.067 0.038,0 0.068,-0.03 0.068,-0.067 0,-0.038 -0.03,-0.068 -0.068,-0.068 -0.037,0 -0.067,0.03 -0.067,0.068 z"
+                             style="fill-rule:nonzero"
+                             id="path587-6" />
+                        </g>
+                        <g
+                           transform="matrix(7.979,0,0,7.979,160.27418,0)"
+                           id="g589-4" />
+                        <g
+                           transform="matrix(7.979,0,0,7.979,163.04771,0)"
+                           id="g590-6" />
+                        <text
+                           x="0"
+                           y="0"
+                           style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                           id="text590-8">Är projektområdet från 1960-talet eller äldre <tspan
    x="165.093"
    y="0"
    id="tspan590-9">n</tspan>ns goda förutsättningar för</text>
-
-                                            </g>
-
-                                            <g
-   transform="translate(49.089855,224.82945)"
-   id="g593-8">
-                                                <g
-   transform="matrix(7.979,0,0,7.979,268.59709,0)"
-   id="g592-3">
-                                                </g>
-
-                                                <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text592-5">återanvändning. För yngre byggnader är det mer begränsat vad som går att</text>
-
-                                            </g>
-
-                                        </g>
-
-                                        <g
-   transform="translate(49.089855,238.5257)"
-   id="g595-5">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text594-1">återbruka/återanvända.</text>
-
-                                        </g>
-
-                                    </g>
-
-                                    <g
-   transform="translate(0,25.12129)"
-   id="g600-5">
-                                        <g
-   transform="translate(49.089855,245.17068)"
-   id="g597-5">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text596-8">Fundera kring återvinning av material till nya produkter i projektet. Planglas</text>
-
-                                        </g>
-
-                                        <g
-   transform="translate(49.089855,258.86693)"
-   id="g598-4">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text597-0">kan exempelvis återvinnas och monteras i nya energifönster som kan</text>
-
-                                        </g>
-
-                                        <g
-   transform="translate(49.089855,272.56318)"
-   id="g599-5">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text598-4">återmonteras i ert projekt.</text>
-
-                                        </g>
-
-                                    </g>
-
-                                    <g
-   transform="translate(0,19.140031)"
-   id="g604-7">
-                                        <g
-   transform="translate(49.589848,305.77195)"
-   id="g601-2">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text600-1">I detta skede ska projektägare gärna ha gjort en intern genomgång av</text>
-
-                                        </g>
-
-                                        <g
-   transform="translate(49.589848,319.4682)"
-   id="g602-4">
-                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text601-9">projektets hållbarhetsambitioner. Var kan vi använda återbruk och hur sk<tspan
+                      </g>
+                      <g
+                         transform="translate(49.089855,224.82945)"
+                         id="g593-8">
+                        <g
+                           transform="matrix(7.979,0,0,7.979,268.59709,0)"
+                           id="g592-3" />
+                        <text
+                           x="0"
+                           y="0"
+                           style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                           id="text592-5">återanvändning. För yngre byggnader är det mer begränsat vad som går att</text>
+                      </g>
+                    </g>
+                    <g
+                       transform="translate(49.089855,238.5257)"
+                       id="g595-5">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text594-1">återbruka/återanvända.</text>
+                    </g>
+                  </g>
+                  <g
+                     transform="translate(0,25.12129)"
+                     id="g600-5">
+                    <g
+                       transform="translate(49.089855,245.17068)"
+                       id="g597-5">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text596-8">Fundera kring återvinning av material till nya produkter i projektet. Planglas</text>
+                    </g>
+                    <g
+                       transform="translate(49.089855,258.86693)"
+                       id="g598-4">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text597-0">kan exempelvis återvinnas och monteras i nya energifönster som kan</text>
+                    </g>
+                    <g
+                       transform="translate(49.089855,272.56318)"
+                       id="g599-5">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text598-4">återmonteras i ert projekt.</text>
+                    </g>
+                  </g>
+                  <g
+                     transform="translate(0,19.140031)"
+                     id="g604-7">
+                    <g
+                       transform="translate(49.589848,305.77195)"
+                       id="g601-2">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text600-1">I detta skede ska projektägare gärna ha gjort en intern genomgång av</text>
+                    </g>
+                    <g
+                       transform="translate(49.589848,319.4682)"
+                       id="g602-4">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text601-9">projektets hållbarhetsambitioner. Var kan vi använda återbruk och hur sk<tspan
    x="258.67099"
    y="0"
    id="tspan601-9">a</tspan></text>
-
-                                        </g>
-
-                                        <g
-   transform="translate(49.589848,333.16445)"
-   id="g603-0">
-                                            <text
-   x="0"
-   y="0"
-   style="font-size:7.979px;font-family:ArialMT, Arial, sans-serif"
-   id="text602-3">v</text>
-
-                                            <text
-   x="3.99"
-   y="0"
-   style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text603-0">i arbeta med jungfruliga byggdelar i olika byggnadslager?</text>
-
-                                        </g>
-
-                                    </g>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                        <g
-   id="text1-7-1-8-2-6-9">
-                        </g>
-
-                        <g
-   id="text1-7-1-8-2-6-5-8">
-                        </g>
-
-                        <g
-   id="text1-7-1-8-2-6-5-8-8">
-                        </g>
-
                     </g>
-
                     <g
-   id="text1-1-3-0-3">
+                       transform="translate(49.589848,333.16445)"
+                       id="g603-0">
+                      <text
+                         x="0"
+                         y="0"
+                         style="font-size:7.979px;font-family:ArialMT, Arial, sans-serif"
+                         id="text602-3">v</text>
+                      <text
+                         x="3.99"
+                         y="0"
+                         style="font-weight:450;font-size:7.979px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                         id="text603-0">i arbeta med jungfruliga byggdelar i olika byggnadslager?</text>
                     </g>
-
+                  </g>
                 </g>
+              </g>
+            </g>
+            <g
+               id="text1-7-1-8-2-6-9" />
+            <g
+               id="text1-7-1-8-2-6-5-8" />
+            <g
+               id="text1-7-1-8-2-6-5-8-8" />
+          </g>
+          <g
+             id="text1-1-3-0-3" />
+        </g>
         <g
            id="bl-efter"
            inkscape:label="bl-efter"
@@ -5540,392 +5465,310 @@
            id="bl-hela"
            transform="matrix(0.846337,0,0,0.820452,4.659171,79.488707)"
            style="clip-rule:evenodd;display:inline;fill-rule:evenodd">
+          <path
+             id="path2-8-4-6"
+             d="M 19.815,466.564 H 388.246"
+             style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px" />
+          <g
+             id="path2-3-8-9-6"
+             transform="matrix(0.47405,0,0,1,9.576078,-7.313044)">
+            <path
+               d="M 18.207,717.063 H 386.638"
+               style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
+               id="path659" />
+          </g>
+          <g
+             id="text1-0-2-3">
+            <g
+               transform="translate(19.018322,457.95242)"
+               id="g661">
+              <g
+                 transform="scale(0.99702,1)"
+                 id="g660">
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:21.939px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text659">Processledning i bygglovsskedet</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-7-8-6-6"
+             transform="translate(-1.181563,58.504349)">
+            <g
+               transform="translate(0,-6.094203)"
+               id="g668">
+              <g
+                 transform="translate(18.020519,461.1156)"
+                 id="g664">
+                <g
+                   transform="scale(0.99702,1)"
+                   id="g663">
+                  <g
+                     transform="matrix(8.129667,0,0,8.129667,265.9114,0)"
+                     id="g662" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text662">Ta fram en robust designidé som tål att förändras under arbetets gång.</text>
+                </g>
+              </g>
+              <g
+                 transform="translate(18.020519,474.95907)"
+                 id="g667">
+                <g
+                   transform="scale(0.99702,1)"
+                   id="g666">
+                  <g
+                     transform="matrix(8.129667,0,0,8.129667,301.72176,0)"
+                     id="g665" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text665">Beakta konsultval då dialog med stadsbyggnadskontoret är viktigt i detta skede.</text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-7-1-7-6-6">
+            <g
+               id="g674">
+              <g
+                 transform="translate(16.924328,487.46745)"
+                 id="g673">
+                <g
+                   transform="scale(0.99702,1)"
+                   id="g672">
+                  <g
+                     transform="matrix(8.129667,0,0,8.129667,185.84309,0)"
+                     id="g669">
                     <path
-   id="path2-8-4-6"
-   d="M 19.815,466.564 H 388.246"
-   style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px" />
-
-                    <g
-   id="path2-3-8-9-6"
-   transform="matrix(0.47405,0,0,1,9.576078,-7.313044)">
-                        <path
-   d="M 18.207,717.063 H 386.638"
-   style="fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:0.5px"
-   id="path659" />
-
-                    </g>
-
-                    <g
-   id="text1-0-2-3">
-                        <g
-   transform="translate(19.018322,457.95242)"
-   id="g661">
-                            <g
-   transform="scale(0.99702,1)"
-   id="g660">
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:21.939px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text659">Processledning i bygglovsskedet</text>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-7-8-6-6"
-   transform="translate(-1.181563,58.504349)">
-                        <g
-   transform="translate(0,-6.094203)"
-   id="g668">
-                            <g
-   transform="translate(18.020519,461.1156)"
-   id="g664">
-                                <g
-   transform="scale(0.99702,1)"
-   id="g663">
-                                    <g
-   transform="matrix(8.129667,0,0,8.129667,265.9114,0)"
-   id="g662">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text662">Ta fram en robust designidé som tål att förändras under arbetets gång.</text>
-
-                                </g>
-
-                            </g>
-
-                            <g
-   transform="translate(18.020519,474.95907)"
-   id="g667">
-                                <g
-   transform="scale(0.99702,1)"
-   id="g666">
-                                    <g
-   transform="matrix(8.129667,0,0,8.129667,301.72176,0)"
-   id="g665">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text665">Beakta konsultval då dialog med stadsbyggnadskontoret är viktigt i detta skede.</text>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-7-1-7-6-6">
-                        <g
-   id="g674">
-                            <g
-   transform="translate(16.924328,487.46745)"
-   id="g673">
-                                <g
-   transform="scale(0.99702,1)"
-   id="g672">
-                                    <g
-   transform="matrix(8.129667,0,0,8.129667,185.84309,0)"
-   id="g669">
-                                        <path
-   d="m 0.299,-0.614 c 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 H 0.426 V 0 H 0.559 V -0.724 H 0.426 v 0.232 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 z"
-   style="fill-rule:nonzero"
-   id="path668" />
-
-                                    </g>
-
-                                    <g
-   transform="matrix(8.129667,0,0,8.129667,185.84309,0)"
-   id="g670">
-                                    </g>
-
-                                    <g
-   transform="matrix(8.129667,0,0,8.129667,188.73266,0)"
-   id="g671">
-                                    </g>
-
-                                    <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text671">”Hur skapas förutsättningar för att kunna behålla <tspan
+                       d="m 0.299,-0.614 c 0.022,0 0.035,0.003 0.042,0.005 v -0.112 c -0.011,-0.005 -0.038,-0.01 -0.066,-0.01 -0.109,0 -0.179,0.072 -0.179,0.183 v 0.056 H 0.014 v 0.114 H 0.096 V 0 H 0.23 V -0.378 H 0.426 V 0 H 0.559 V -0.724 H 0.426 v 0.232 H 0.23 v -0.054 c 0,-0.055 0.04,-0.068 0.069,-0.068 z"
+                       style="fill-rule:nonzero"
+                       id="path668" />
+                  </g>
+                  <g
+                     transform="matrix(8.129667,0,0,8.129667,185.84309,0)"
+                     id="g670" />
+                  <g
+                     transform="matrix(8.129667,0,0,8.129667,188.73266,0)"
+                     id="g671" />
+                  <text
+                     x="0"
+                     y="0"
+                     style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                     id="text671">”Hur skapas förutsättningar för att kunna behålla <tspan
    x="190.965"
    y="0"
    id="tspan671">e</tspan>xibilitet i produktionsskedet?”</text>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   transform="translate(0,6.094203)"
-   id="g695">
-                        <g
-   transform="translate(0,-46.315943)"
-   id="g694">
-                            <g
-   id="text1-7-1-8-0-2-7-2"
-   transform="translate(-33.083756,21.939131)">
-                                <g
-   transform="translate(0,-8.531884)"
-   id="g693">
-                                    <g
-   transform="translate(0,2.437681)"
-   id="g692">
-                                        <g
-   transform="translate(0,-4.875362)"
-   id="g691">
-                                            <g
-   transform="translate(49.908292,586.35686)"
-   id="g676">
-                                                <g
-   transform="scale(0.99702,1)"
-   id="g675">
-                                                    <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text674">Cirkulär gestaltning handlar om att designa system som hanterar</text>
-
-                                                </g>
-
-                                            </g>
-
-                                            <g
-   transform="translate(49.908292,600.0757)"
-   id="g678">
-                                                <g
-   transform="scale(0.99702,1)"
-   id="g677">
-                                                    <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text676">och minimerar risken med osäkerheter i projektet.</text>
-
-                                                </g>
-
-                                            </g>
-
-                                            <g
-   id="text1-7-1-8-0-2-7-2-2"
-   transform="translate(-1.181563,17.063768)">
-                                                <g
-   transform="translate(51.089855,606.37192)"
-   id="g680">
-                                                    <g
-   transform="scale(0.99702,1)"
-   id="g679">
-                                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text678">Smarta BIM-modeller och agila metoder gör att vi kan hantera</text>
-
-                                                    </g>
-
-                                                </g>
-
-                                                <g
-   transform="translate(51.089855,620.09076)"
-   id="g682">
-                                                    <g
-   transform="scale(0.99702,1)"
-   id="g681">
-                                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text680">förändringar avseende material och produkter sent i processen</text>
-
-                                                    </g>
-
-                                                </g>
-
-                                                <g
-   transform="translate(51.089855,633.8096)"
-   id="g685">
-                                                    <g
-   transform="scale(0.99702,1)"
-   id="g684">
-                                                        <g
-   transform="matrix(8.129667,0,0,8.129667,68.328999,0)"
-   id="g683">
-                                                        </g>
-
-                                                        <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text683">utan merkonstnad.</text>
-
-                                                    </g>
-
-                                                </g>
-
-                                            </g>
-
-                                            <g
-   id="text1-7-1-8-0-2-3-8-1"
-   transform="translate(-1.181563,21.939131)">
-                                                <g
-   transform="translate(0,-2.437681)"
-   id="g690">
-                                                    <g
-   transform="translate(51.089855,652.43424)"
-   id="g687">
-                                                        <g
-   transform="scale(0.99702,1)"
-   id="g686">
-                                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text685">Att etablera dialog med projektkritiska aktörer och bygga förtroende</text>
-
-                                                        </g>
-
-                                                    </g>
-
-                                                    <g
-   transform="translate(51.089855,666.15308)"
-   id="g689">
-                                                        <g
-   transform="scale(0.99702,1)"
-   id="g688">
-                                                            <text
-   x="0"
-   y="0"
-   style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
-   id="text687">är en framgångsfaktor.</text>
-
-                                                        </g>
-
-                                                    </g>
-
-                                                </g>
-
-                                            </g>
-
-                                        </g>
-
-                                    </g>
-
-                                </g>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-1-9-2-0"
-   transform="translate(0,52.410146)">
-                        <g
-   transform="translate(17.410351,648.45369)"
-   id="g697">
-                            <g
-   transform="scale(0.99702,1)"
-   id="g696">
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:21.939px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text695">Hur gör man?</text>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
-                    <g
-   id="text1-7-2-8-0-2"
-   transform="translate(0,-7.313044)">
-                        <g
-   transform="translate(16.412487,739.30447)"
-   id="g700">
-                            <g
-   transform="scale(0.99702,1)"
-   id="g699">
-                                <g
-   transform="matrix(8.129667,0,0,8.129667,197.65392,0)"
-   id="g698">
-                                </g>
-
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text698">FOJAB för dialog med stadsbyggnadskontoret kring</text>
-
-                            </g>
-
-                        </g>
-
-                        <g
-   transform="translate(16.412487,753.58418)"
-   id="g703">
-                            <g
-   transform="scale(0.99702,1)"
-   id="g702">
-                                <g
-   transform="matrix(8.129667,0,0,8.129667,171.20158,0)"
-   id="g701">
-                                </g>
-
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text701">hur återbruksprocessen påverkar gestaltning</text>
-
-                            </g>
-
-                        </g>
-
-                        <g
-   transform="translate(16.412487,767.67465)"
-   id="g706">
-                            <g
-   transform="scale(0.99702,1)"
-   id="g705">
-                                <g
-   transform="matrix(8.129667,0,0,8.129667,114.12249,0)"
-   id="g704">
-                                </g>
-
-                                <text
-   x="0"
-   y="0"
-   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
-   id="text704">och hur bygglov bör utformas.</text>
-
-                            </g>
-
-                        </g>
-
-                    </g>
-
                 </g>
+              </g>
+            </g>
+          </g>
+          <g
+             transform="translate(0,6.094203)"
+             id="g695">
+            <g
+               transform="translate(0,-46.315943)"
+               id="g694">
+              <g
+                 id="text1-7-1-8-0-2-7-2"
+                 transform="translate(-33.083756,21.939131)">
+                <g
+                   transform="translate(0,-8.531884)"
+                   id="g693">
+                  <g
+                     transform="translate(0,2.437681)"
+                     id="g692">
+                    <g
+                       transform="translate(0,-4.875362)"
+                       id="g691">
+                      <g
+                         transform="translate(49.908292,586.35686)"
+                         id="g676">
+                        <g
+                           transform="scale(0.99702,1)"
+                           id="g675">
+                          <text
+                             x="0"
+                             y="0"
+                             style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                             id="text674">Cirkulär gestaltning handlar om att designa system som hanterar</text>
+                        </g>
+                      </g>
+                      <g
+                         transform="translate(49.908292,600.0757)"
+                         id="g678">
+                        <g
+                           transform="scale(0.99702,1)"
+                           id="g677">
+                          <text
+                             x="0"
+                             y="0"
+                             style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                             id="text676">och minimerar risken med osäkerheter i projektet.</text>
+                        </g>
+                      </g>
+                      <g
+                         id="text1-7-1-8-0-2-7-2-2"
+                         transform="translate(-1.181563,17.063768)">
+                        <g
+                           transform="translate(51.089855,606.37192)"
+                           id="g680">
+                          <g
+                             transform="scale(0.99702,1)"
+                             id="g679">
+                            <text
+                               x="0"
+                               y="0"
+                               style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                               id="text678">Smarta BIM-modeller och agila metoder gör att vi kan hantera</text>
+                          </g>
+                        </g>
+                        <g
+                           transform="translate(51.089855,620.09076)"
+                           id="g682">
+                          <g
+                             transform="scale(0.99702,1)"
+                             id="g681">
+                            <text
+                               x="0"
+                               y="0"
+                               style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                               id="text680">förändringar avseende material och produkter sent i processen</text>
+                          </g>
+                        </g>
+                        <g
+                           transform="translate(51.089855,633.8096)"
+                           id="g685">
+                          <g
+                             transform="scale(0.99702,1)"
+                             id="g684">
+                            <g
+                               transform="matrix(8.129667,0,0,8.129667,68.328999,0)"
+                               id="g683" />
+                            <text
+                               x="0"
+                               y="0"
+                               style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                               id="text683">utan merkonstnad.</text>
+                          </g>
+                        </g>
+                      </g>
+                      <g
+                         id="text1-7-1-8-0-2-3-8-1"
+                         transform="translate(-1.181563,21.939131)">
+                        <g
+                           transform="translate(0,-2.437681)"
+                           id="g690">
+                          <g
+                             transform="translate(51.089855,652.43424)"
+                             id="g687">
+                            <g
+                               transform="scale(0.99702,1)"
+                               id="g686">
+                              <text
+                                 x="0"
+                                 y="0"
+                                 style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                                 id="text685">Att etablera dialog med projektkritiska aktörer och bygga förtroende</text>
+                            </g>
+                          </g>
+                          <g
+                             transform="translate(51.089855,666.15308)"
+                             id="g689">
+                            <g
+                               transform="scale(0.99702,1)"
+                               id="g688">
+                              <text
+                                 x="0"
+                                 y="0"
+                                 style="font-weight:450;font-size:8.13px;font-family:CircularStd-Book, 'Circular Std', sans-serif"
+                                 id="text687">är en framgångsfaktor.</text>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-1-9-2-0"
+             transform="translate(0,52.410146)">
+            <g
+               transform="translate(17.410351,648.45369)"
+               id="g697">
+              <g
+                 transform="scale(0.99702,1)"
+                 id="g696">
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:21.939px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text695">Hur gör man?</text>
+              </g>
+            </g>
+          </g>
+          <g
+             id="text1-7-2-8-0-2"
+             transform="translate(0,-7.313044)">
+            <g
+               transform="translate(16.412487,739.30447)"
+               id="g700">
+              <g
+                 transform="scale(0.99702,1)"
+                 id="g699">
+                <g
+                   transform="matrix(8.129667,0,0,8.129667,197.65392,0)"
+                   id="g698" />
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text698">FOJAB för dialog med stadsbyggnadskontoret kring</text>
+              </g>
+            </g>
+            <g
+               transform="translate(16.412487,753.58418)"
+               id="g703">
+              <g
+                 transform="scale(0.99702,1)"
+                 id="g702">
+                <g
+                   transform="matrix(8.129667,0,0,8.129667,171.20158,0)"
+                   id="g701" />
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text701">hur återbruksprocessen påverkar gestaltning</text>
+              </g>
+            </g>
+            <g
+               transform="translate(16.412487,767.67465)"
+               id="g706">
+              <g
+                 transform="scale(0.99702,1)"
+                 id="g705">
+                <g
+                   transform="matrix(8.129667,0,0,8.129667,114.12249,0)"
+                   id="g704" />
+                <text
+                   x="0"
+                   y="0"
+                   style="font-weight:700;font-size:8.13px;font-family:CircularStd-Bold, 'Circular Std', sans-serif"
+                   id="text704">och hur bygglov bör utformas.</text>
+              </g>
+            </g>
+          </g>
+        </g>
       </g>
     </g>
     <g
